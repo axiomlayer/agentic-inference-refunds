@@ -1,0 +1,19 @@
+{
+  "id": "github-copilot-units-2026-10-unverified",
+  "provider": "github-copilot",
+  "currency": "USD",
+  "as_of": "2026-10-06",
+  "verified": false,
+  "sources": [
+    "Third-party summaries of GitHub's June 2026 move to AI Credits (1 AI Credit = $0.01); legacy premium-request overage $0.04. Verify at docs.github.com before filing.",
+    "https://news.baeke.info/articles/github-lays-out-copilot-billing-pooled-credits-overage-taps-and-a-critical-on-off-switch",
+    "https://tech-insider.org/au/github-copilot-usage-based-billing-2026/"
+  ],
+  "notes": [
+    "Copilot session records report cost in premium-request units. The token-based API-equivalent price (the underlying model's list rate) is the primary figure; the premium-request figure is reported alongside it."
+  ],
+  "units": {
+    "premium_requests": {"usd": 0.04, "label": "legacy premium-request overage price"}
+  },
+  "models": {}
+}

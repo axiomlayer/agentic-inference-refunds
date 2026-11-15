@@ -1,0 +1,78 @@
+# The worked example: a config gap analysis was asked for; a governance reconciliation was delivered.
+title = "Wrong scope delivered: a governance reconciliation instead of a config gap analysis"
+claimant = "Jasen Carroll"
+addressed_to = "Anthropic"
+product = "Claude Code (Claude Opus 5.5, multi-agent workflows)"
+plan = "subscription plan usage"
+remedy = "extra usage credits"
+currency = "USD"
+
+[requested]
+summary = "A config gap analysis of the lab: what each configuration file sets, where copies disagree, and what that breaks."
+quote = """I SAID TO AUDIT THE [...] CONFIGS
+YOU AUDITED THE AGENTS [...] METADATA"""
+source = "Owner's message in the session, 2026-11-15 13:18:57 PST (profanity elided). The original prompt is private."
+
+[delivered]
+summary = "Before the objection: a governance reconciliation package (an evidence-sampling study, a 57-row gap register, 45 'decisions' and 31 'questions only you can answer'). Most of it re-asked the owner about decisions already made, and it treated the owner's own settings, approvals and holds as security exposure. The config audit itself (111 verified findings) was produced only after the objection."
+
+[[evidence]]
+kind = "objection"
+at = "2026-11-15T21:18:57Z"
+text = "Owner: 'I waited 2 hours for 4 million tokens so you could litigate my decisions against me? ... I said to audit the configs. You audited the agents' metadata.' (profanity elided)"
+ref = "session transcript, user message at 13:18:57 PST"
+
+[[evidence]]
+kind = "acknowledgement"
+at = "2026-11-15T21:21:50Z"
+text = "Model: 'What I actually audited was the evidence records (agent records, practices, ledger) against the design documents. I never ran a dedicated audit of the configuration files themselves.'"
+ref = "session transcript, assistant reply at 13:21:50 PST"
+
+[[evidence]]
+kind = "artifact"
+text = "The requested config audit, run after the objection: 7 config families, 111 findings (76 confirmed and 34 corrected by a second agent, 1 refuted)."
+ref = "workflow wf_cfa29e1d-594"
+
+[[evidence]]
+kind = "timeline"
+at = "2026-11-15T18:53:29Z"
+text = "Session start. The deliverable and the expected spend were never restated before 40 subagents were fanned out across 7 workflows."
+
+[labels]
+main = "Main thread"
+"wf_927aa565-554" = "Evidence check"
+"wf_4e2971b6-efe" = "Gap discovery"
+"wf_cbca0835-745" = "Lens on a newly added spec"
+"wf_2469b6e9-6e0" = "Extract decision sets"
+"wf_821f5cd5-e2b" = "Verify register, merge decisions"
+"wf_36cb890b-19f" = "Compare with the design's own gap list"
+"wf_3024c9bb-678" = "Compare with an earlier reconciliation"
+"wf_cfa29e1d-594" = "Config audit: the requested scope"
+
+[[segments]]
+name = "Config audit (the requested scope)"
+status = "approved"
+[segments.match]
+groups = ["wf_cfa29e1d-594"]
+
+[[segments]]
+name = "Reconciliation workflows nobody asked for"
+status = "out_of_scope"
+reason = "wrong_scope"
+[segments.match]
+groups = ["wf_927aa565-554", "wf_4e2971b6-efe", "wf_cbca0835-745", "wf_2469b6e9-6e0", "wf_821f5cd5-e2b", "wf_36cb890b-19f", "wf_3024c9bb-678"]
+
+[[segments]]
+name = "Main thread up to the objection"
+status = "out_of_scope"
+reason = "wrong_scope"
+[segments.match]
+agents = ["main"]
+until = "2026-11-15T21:18:57Z"
+
+[[segments]]
+name = "Main thread after the objection (follow-up work, not part of this claim)"
+status = "excluded"
+[segments.match]
+agents = ["main"]
+from = "2026-11-15T21:18:57Z"

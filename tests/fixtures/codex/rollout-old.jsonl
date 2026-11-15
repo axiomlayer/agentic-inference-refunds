@@ -1,0 +1,5 @@
+{"type": "session_meta", "timestamp": "2026-01-03T09:00:00Z", "payload": {"id": "sess-old"}}
+{"type": "turn_context", "timestamp": "2026-01-03T09:00:01Z", "payload": {"model": "gpt-6.1-terra"}}
+{"type": "event_msg", "timestamp": "2026-01-03T09:00:05Z", "payload": {"type": "token_count", "info": {"total_token_usage": {"input_tokens": 1000, "cached_input_tokens": 0, "output_tokens": 100, "reasoning_output_tokens": 0, "total_tokens": 1100}}}}
+{"type": "event_msg", "timestamp": "2026-01-03T09:00:06Z", "payload": {"type": "token_count", "info": {"total_token_usage": {"input_tokens": 1000, "cached_input_tokens": 0, "output_tokens": 100, "reasoning_output_tokens": 0, "total_tokens": 1100}}}}
+{"type": "event_msg", "timestamp": "2026-01-03T09:01:00Z", "payload": {"type": "token_count", "info": {"total_token_usage": {"input_tokens": 3000, "cached_input_tokens": 1500, "output_tokens": 300, "reasoning_output_tokens": 50, "total_tokens": 3300}}}}

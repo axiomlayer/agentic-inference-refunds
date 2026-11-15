@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/axiomlayer/agentic-inference-refunds/schemas/scope.schema.json",
+  "title": "scope-refund scope file",
+  "description": "What was requested, what was delivered, and which usage belongs to which segment. Records go to the first segment they match.",
+  "type": "object",
+  "required": ["requested", "segments"],
+  "properties": {
+    "title": {"type": "string"},
+    "claimant": {"type": "string"},
+    "addressed_to": {"type": "string", "description": "Provider the claim is addressed to, e.g. Anthropic, OpenAI, GitHub"},
+    "product": {"type": "string", "description": "Claude Code, Codex, GitHub Copilot, ..."},
+    "plan": {"type": "string", "description": "Where the usage was billed, e.g. subscription plan usage, API key"},
+    "remedy": {"type": "string", "description": "extra usage credits, refund, ..."},
+    "currency": {"type": "string", "default": "USD"},
+    "requested": {
+      "type": "object",
+      "required": ["summary"],
+      "properties": {"summary": {"type": "string"}, "quote": {"type": "string"}, "source": {"type": "string"}}
+    },
+    "delivered": {"type": "object", "properties": {"summary": {"type": "string"}}},
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["kind", "text"],
+        "properties": {
+          "kind": {"enum": ["objection", "acknowledgement", "artifact", "timeline", "note"]},
+          "at": {"type": "string", "format": "date-time"},
+          "text": {"type": "string"},
+          "ref": {"type": "string"}
+        }
+      }
+    },
+    "labels": {"type": "object", "additionalProperties": {"type": "string"}, "description": "Readable names for group or agent IDs"},
+    "segments": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["status"],
+        "properties": {
+          "name": {"type": "string"},
+          "status": {"enum": ["approved", "out_of_scope", "unrequested_change", "remediation", "excluded"]},
+          "reason": {"type": "string", "description": "wrong_scope, unrequested_change, relitigated_decisions, regression, rework, other"},
+          "refundable": {"type": "boolean", "description": "Override the default (out_of_scope, unrequested_change and remediation are refundable)"},
+          "match": {
+            "type": "object",
+            "properties": {
+              "tools": {"type": ["string", "array"], "items": {"type": "string"}},
+              "groups": {"type": ["string", "array"], "items": {"type": "string"}},
+              "agents": {"type": ["string", "array"], "items": {"type": "string"}},
+              "models": {"type": ["string", "array"], "items": {"type": "string"}},
+              "sessions": {"type": ["string", "array"], "items": {"type": "string"}},
+              "from": {"type": "string", "format": "date-time"},
+              "until": {"type": "string", "format": "date-time"}
+            },
+            "additionalProperties": false
+          }
+        }
+      }
+    }
+  }
+}

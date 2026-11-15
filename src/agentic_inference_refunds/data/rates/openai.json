@@ -1,0 +1,23 @@
+{
+  "id": "openai-api-list-2026-10-unverified",
+  "provider": "openai",
+  "currency": "USD",
+  "unit": "per_million_tokens",
+  "as_of": "2026-10-22",
+  "verified": false,
+  "sources": [
+    "Third-party aggregators citing developers.openai.com/api/docs/pricing; they disagree in places. Verify against OpenAI's rate sheet and override with --rates before filing.",
+    "https://aicybr.com/blog/openai-gpt-6-1-sol-pricing-benchmarks-api",
+    "https://yourstory.com/ai-story/gpt-6-1-terra-lower-api-pricing-developers",
+    "https://benchlm.ai/openai/api-pricing"
+  ],
+  "notes": [
+    "Reasoning tokens are billed as output.",
+    "OpenAI does not publish a separate cache-write price; cache writes are priced at the input rate."
+  ],
+  "models": {
+    "gpt-6-1-sol":   {"aliases": ["gpt-6.1-sol"],   "input": 2.00,  "output": 10.00, "cache_read": 0.10, "cache_write_5m": 2.00,  "cache_write_1h": 2.00},
+    "gpt-6-1-terra": {"aliases": ["gpt-6.1-terra"], "input": 1.00,  "output": 5.00,  "cache_read": 0.05, "cache_write_5m": 1.00,  "cache_write_1h": 1.00},
+    "gpt-6-astra":   {"aliases": ["gpt-6-astra"],   "input": 10.00, "output": 50.00, "cache_read": 1.00, "cache_write_5m": 10.00, "cache_write_1h": 10.00}
+  }
+}

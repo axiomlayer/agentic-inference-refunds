@@ -1,0 +1,624 @@
+{
+  "schema": "agentic-inference-refunds/claim@1",
+  "generated_at": "2026-11-15T22:02:22Z",
+  "tool": {
+    "name": "scope-refund",
+    "version": "0.1.0"
+  },
+  "title": "Wrong scope delivered: a governance reconciliation instead of a config gap analysis",
+  "claimant": "Jasen Carroll",
+  "addressed_to": "Anthropic",
+  "product": "Claude Code (Claude Opus 5.5, multi-agent workflows)",
+  "plan": "subscription plan usage",
+  "currency": "USD",
+  "requested": {
+    "summary": "A config gap analysis of the lab: what each configuration file sets, where copies disagree, and what that breaks.",
+    "quote": "I SAID TO AUDIT THE [...] CONFIGS\nYOU AUDITED THE AGENTS [...] METADATA",
+    "source": "Owner's message in the session, 2026-11-15 13:18:57 PST (profanity elided). The original prompt is private."
+  },
+  "delivered": {
+    "summary": "Before the objection: a governance reconciliation package (an evidence-sampling study, a 57-row gap register, 45 'decisions' and 31 'questions only you can answer'). Most of it re-asked the owner about decisions already made, and it treated the owner's own settings, approvals and holds as security exposure. The config audit itself (111 verified findings) was produced only after the objection."
+  },
+  "evidence": [
+    {
+      "kind": "objection",
+      "at": "2026-11-15T21:18:57Z",
+      "text": "Owner: 'I waited 2 hours for 4 million tokens so you could litigate my decisions against me? ... I said to audit the configs. You audited the agents' metadata.' (profanity elided)",
+      "ref": "session transcript, user message at 13:18:57 PST"
+    },
+    {
+      "kind": "acknowledgement",
+      "at": "2026-11-15T21:21:50Z",
+      "text": "Model: 'What I actually audited was the evidence records (agent records, practices, ledger) against the design documents. I never ran a dedicated audit of the configuration files themselves.'",
+      "ref": "session transcript, assistant reply at 13:21:50 PST"
+    },
+    {
+      "kind": "artifact",
+      "text": "The requested config audit, run after the objection: 7 config families, 111 findings (76 confirmed and 34 corrected by a second agent, 1 refuted).",
+      "ref": "workflow wf_cfa29e1d-594"
+    },
+    {
+      "kind": "timeline",
+      "at": "2026-11-15T18:53:29Z",
+      "text": "Session start. The deliverable and the expected spend were never restated before 40 subagents were fanned out across 7 workflows."
+    }
+  ],
+  "remedy_request": {
+    "form": "extra usage credits",
+    "amount_usd": 211.69,
+    "basis": "API-equivalent cost of the refundable segments: each request's recorded tokens, priced at the provider's published per-token list rates.",
+    "refundable_statuses": [
+      "out_of_scope"
+    ]
+  },
+  "comparison": {
+    "cost_of_approved_scope_usd": 37.07,
+    "cost_of_unapproved_scope_usd": 211.69,
+    "unapproved_share_of_classified": 0.851,
+    "unapproved_dollars_per_approved_dollar": 5.71
+  },
+  "totals": {
+    "all": {
+      "requests": 3167,
+      "tokens": 598946128,
+      "input_tokens": 6380,
+      "cache_read_tokens": 582831236,
+      "cache_write_tokens": 11984710,
+      "output_tokens": 4123802,
+      "reasoning_tokens": 2237365,
+      "cost_usd": 261.17,
+      "cost_parts": {
+        "input": 0.03,
+        "cache_read": 116.57,
+        "cache_write": 62.1,
+        "output": 82.48
+      },
+      "unpriced_requests": 0,
+      "provider_units": {}
+    },
+    "approved": {
+      "requests": 637,
+      "tokens": 94218764,
+      "input_tokens": 1276,
+      "cache_read_tokens": 91998699,
+      "cache_write_tokens": 1713978,
+      "output_tokens": 504811,
+      "reasoning_tokens": 179055,
+      "cost_usd": 37.07,
+      "cost_parts": {
+        "input": 0.01,
+        "cache_read": 18.4,
+        "cache_write": 8.57,
+        "output": 10.1
+      },
+      "unpriced_requests": 0,
+      "provider_units": {}
+    },
+    "not_approved": {
+      "requests": 2469,
+      "tokens": 465411283,
+      "input_tokens": 4962,
+      "cache_read_tokens": 451892402,
+      "cache_write_tokens": 10029433,
+      "output_tokens": 3484486,
+      "reasoning_tokens": 2004889,
+      "cost_usd": 211.69,
+      "cost_parts": {
+        "input": 0.02,
+        "cache_read": 90.38,
+        "cache_write": 51.6,
+        "output": 69.69
+      },
+      "unpriced_requests": 0,
+      "provider_units": {}
+    },
+    "refundable": {
+      "requests": 2469,
+      "tokens": 465411283,
+      "input_tokens": 4962,
+      "cache_read_tokens": 451892402,
+      "cache_write_tokens": 10029433,
+      "output_tokens": 3484486,
+      "reasoning_tokens": 2004889,
+      "cost_usd": 211.69,
+      "cost_parts": {
+        "input": 0.02,
+        "cache_read": 90.38,
+        "cache_write": 51.6,
+        "output": 69.69
+      },
+      "unpriced_requests": 0,
+      "provider_units": {}
+    },
+    "excluded": {
+      "requests": 61,
+      "tokens": 39316081,
+      "input_tokens": 142,
+      "cache_read_tokens": 38940135,
+      "cache_write_tokens": 241299,
+      "output_tokens": 134505,
+      "reasoning_tokens": 53421,
+      "cost_usd": 12.41,
+      "cost_parts": {
+        "input": 0.0,
+        "cache_read": 7.79,
+        "cache_write": 1.93,
+        "output": 2.69
+      },
+      "unpriced_requests": 0,
+      "provider_units": {}
+    },
+    "unclassified": {
+      "requests": 0,
+      "tokens": 0,
+      "input_tokens": 0,
+      "cache_read_tokens": 0,
+      "cache_write_tokens": 0,
+      "output_tokens": 0,
+      "reasoning_tokens": 0,
+      "cost_usd": 0.0,
+      "cost_parts": {
+        "input": 0.0,
+        "cache_read": 0.0,
+        "cache_write": 0.0,
+        "output": 0.0
+      },
+      "unpriced_requests": 0,
+      "provider_units": {}
+    }
+  },
+  "segments": [
+    {
+      "requests": 637,
+      "tokens": 94218764,
+      "input_tokens": 1276,
+      "cache_read_tokens": 91998699,
+      "cache_write_tokens": 1713978,
+      "output_tokens": 504811,
+      "reasoning_tokens": 179055,
+      "cost_usd": 37.07,
+      "cost_parts": {
+        "input": 0.01,
+        "cache_read": 18.4,
+        "cache_write": 8.57,
+        "output": 10.1
+      },
+      "unpriced_requests": 0,
+      "provider_units": {},
+      "name": "Config audit (the requested scope)",
+      "status": "approved",
+      "status_meaning": "Delivered the requested scope",
+      "reason": "",
+      "refundable": false,
+      "groups": [
+        {
+          "requests": 637,
+          "tokens": 94218764,
+          "input_tokens": 1276,
+          "cache_read_tokens": 91998699,
+          "cache_write_tokens": 1713978,
+          "output_tokens": 504811,
+          "reasoning_tokens": 179055,
+          "cost_usd": 37.07,
+          "cost_parts": {
+            "input": 0.01,
+            "cache_read": 18.4,
+            "cache_write": 8.57,
+            "output": 10.1
+          },
+          "unpriced_requests": 0,
+          "provider_units": {},
+          "group": "wf_cfa29e1d-594",
+          "label": "Config audit: the requested scope",
+          "subagents": 9
+        }
+      ]
+    },
+    {
+      "requests": 2339,
+      "tokens": 426984102,
+      "input_tokens": 4682,
+      "cache_read_tokens": 414141202,
+      "cache_write_tokens": 9545234,
+      "output_tokens": 3292984,
+      "reasoning_tokens": 1920765,
+      "cost_usd": 196.43,
+      "cost_parts": {
+        "input": 0.02,
+        "cache_read": 82.83,
+        "cache_write": 47.73,
+        "output": 65.86
+      },
+      "unpriced_requests": 0,
+      "provider_units": {},
+      "name": "Reconciliation workflows nobody asked for",
+      "status": "out_of_scope",
+      "status_meaning": "Work outside the requested scope",
+      "reason": "wrong_scope",
+      "refundable": true,
+      "groups": [
+        {
+          "requests": 593,
+          "tokens": 138111503,
+          "input_tokens": 1186,
+          "cache_read_tokens": 134357880,
+          "cache_write_tokens": 2805495,
+          "output_tokens": 946942,
+          "reasoning_tokens": 583222,
+          "cost_usd": 59.84,
+          "cost_parts": {
+            "input": 0.0,
+            "cache_read": 26.87,
+            "cache_write": 14.03,
+            "output": 18.94
+          },
+          "unpriced_requests": 0,
+          "provider_units": {},
+          "group": "wf_4e2971b6-efe",
+          "label": "Gap discovery",
+          "subagents": 9
+        },
+        {
+          "requests": 614,
+          "tokens": 113173466,
+          "input_tokens": 1228,
+          "cache_read_tokens": 109548473,
+          "cache_write_tokens": 2665778,
+          "output_tokens": 957987,
+          "reasoning_tokens": 580249,
+          "cost_usd": 54.4,
+          "cost_parts": {
+            "input": 0.0,
+            "cache_read": 21.91,
+            "cache_write": 13.33,
+            "output": 19.16
+          },
+          "unpriced_requests": 0,
+          "provider_units": {},
+          "group": "wf_821f5cd5-e2b",
+          "label": "Verify register, merge decisions",
+          "subagents": 8
+        },
+        {
+          "requests": 504,
+          "tokens": 108118737,
+          "input_tokens": 1010,
+          "cache_read_tokens": 106002748,
+          "cache_write_tokens": 1564005,
+          "output_tokens": 550974,
+          "reasoning_tokens": 308332,
+          "cost_usd": 40.04,
+          "cost_parts": {
+            "input": 0.0,
+            "cache_read": 21.2,
+            "cache_write": 7.82,
+            "output": 11.02
+          },
+          "unpriced_requests": 0,
+          "provider_units": {},
+          "group": "wf_3024c9bb-678",
+          "label": "Compare with an earlier reconciliation",
+          "subagents": 5
+        },
+        {
+          "requests": 267,
+          "tokens": 34191610,
+          "input_tokens": 534,
+          "cache_read_tokens": 32492808,
+          "cache_write_tokens": 1242591,
+          "output_tokens": 455677,
+          "reasoning_tokens": 258471,
+          "cost_usd": 21.83,
+          "cost_parts": {
+            "input": 0.0,
+            "cache_read": 6.5,
+            "cache_write": 6.21,
+            "output": 9.11
+          },
+          "unpriced_requests": 0,
+          "provider_units": {},
+          "group": "wf_2469b6e9-6e0",
+          "label": "Extract decision sets",
+          "subagents": 7
+        },
+        {
+          "requests": 309,
+          "tokens": 25034070,
+          "input_tokens": 620,
+          "cache_read_tokens": 24021521,
+          "cache_write_tokens": 796817,
+          "output_tokens": 215112,
+          "reasoning_tokens": 81150,
+          "cost_usd": 13.09,
+          "cost_parts": {
+            "input": 0.0,
+            "cache_read": 4.8,
+            "cache_write": 3.98,
+            "output": 4.3
+          },
+          "unpriced_requests": 0,
+          "provider_units": {},
+          "group": "wf_927aa565-554",
+          "label": "Evidence check",
+          "subagents": 9
+        },
+        {
+          "requests": 32,
+          "tokens": 6049625,
+          "input_tokens": 64,
+          "cache_read_tokens": 5663126,
+          "cache_write_tokens": 297502,
+          "output_tokens": 88933,
+          "reasoning_tokens": 55437,
+          "cost_usd": 4.4,
+          "cost_parts": {
+            "input": 0.0,
+            "cache_read": 1.13,
+            "cache_write": 1.49,
+            "output": 1.78
+          },
+          "unpriced_requests": 0,
+          "provider_units": {},
+          "group": "wf_cbca0835-745",
+          "label": "Lens on a newly added spec",
+          "subagents": 1
+        },
+        {
+          "requests": 20,
+          "tokens": 2305091,
+          "input_tokens": 40,
+          "cache_read_tokens": 2054646,
+          "cache_write_tokens": 173046,
+          "output_tokens": 77359,
+          "reasoning_tokens": 53904,
+          "cost_usd": 2.82,
+          "cost_parts": {
+            "input": 0.0,
+            "cache_read": 0.41,
+            "cache_write": 0.87,
+            "output": 1.55
+          },
+          "unpriced_requests": 0,
+          "provider_units": {},
+          "group": "wf_36cb890b-19f",
+          "label": "Compare with the design's own gap list",
+          "subagents": 1
+        }
+      ]
+    },
+    {
+      "requests": 130,
+      "tokens": 38427181,
+      "input_tokens": 280,
+      "cache_read_tokens": 37751200,
+      "cache_write_tokens": 484199,
+      "output_tokens": 191502,
+      "reasoning_tokens": 84124,
+      "cost_usd": 15.25,
+      "cost_parts": {
+        "input": 0.0,
+        "cache_read": 7.55,
+        "cache_write": 3.87,
+        "output": 3.83
+      },
+      "unpriced_requests": 0,
+      "provider_units": {},
+      "name": "Main thread up to the objection",
+      "status": "out_of_scope",
+      "status_meaning": "Work outside the requested scope",
+      "reason": "wrong_scope",
+      "refundable": true,
+      "groups": [
+        {
+          "requests": 130,
+          "tokens": 38427181,
+          "input_tokens": 280,
+          "cache_read_tokens": 37751200,
+          "cache_write_tokens": 484199,
+          "output_tokens": 191502,
+          "reasoning_tokens": 84124,
+          "cost_usd": 15.25,
+          "cost_parts": {
+            "input": 0.0,
+            "cache_read": 7.55,
+            "cache_write": 3.87,
+            "output": 3.83
+          },
+          "unpriced_requests": 0,
+          "provider_units": {},
+          "group": "main",
+          "label": "Main thread",
+          "subagents": 0
+        }
+      ]
+    },
+    {
+      "requests": 61,
+      "tokens": 39316081,
+      "input_tokens": 142,
+      "cache_read_tokens": 38940135,
+      "cache_write_tokens": 241299,
+      "output_tokens": 134505,
+      "reasoning_tokens": 53421,
+      "cost_usd": 12.41,
+      "cost_parts": {
+        "input": 0.0,
+        "cache_read": 7.79,
+        "cache_write": 1.93,
+        "output": 2.69
+      },
+      "unpriced_requests": 0,
+      "provider_units": {},
+      "name": "Main thread after the objection (follow-up work, not part of this claim)",
+      "status": "excluded",
+      "status_meaning": "Left out of the claim by the claimant",
+      "reason": "",
+      "refundable": false,
+      "groups": [
+        {
+          "requests": 61,
+          "tokens": 39316081,
+          "input_tokens": 142,
+          "cache_read_tokens": 38940135,
+          "cache_write_tokens": 241299,
+          "output_tokens": 134505,
+          "reasoning_tokens": 53421,
+          "cost_usd": 12.41,
+          "cost_parts": {
+            "input": 0.0,
+            "cache_read": 7.79,
+            "cache_write": 1.93,
+            "output": 2.69
+          },
+          "unpriced_requests": 0,
+          "provider_units": {},
+          "group": "main",
+          "label": "Main thread",
+          "subagents": 0
+        }
+      ]
+    }
+  ],
+  "by_model": [
+    {
+      "requests": 3167,
+      "tokens": 598946128,
+      "input_tokens": 6380,
+      "cache_read_tokens": 582831236,
+      "cache_write_tokens": 11984710,
+      "output_tokens": 4123802,
+      "reasoning_tokens": 2237365,
+      "cost_usd": 261.17,
+      "cost_parts": {
+        "input": 0.03,
+        "cache_read": 116.57,
+        "cache_write": 62.1,
+        "output": 82.48
+      },
+      "unpriced_requests": 0,
+      "provider_units": {},
+      "model": "claude-opus-5-5",
+      "rate": "claude-opus-5-5"
+    }
+  ],
+  "provider_units": {},
+  "behavior": {
+    "subagents_total": 49,
+    "subagents_in_unapproved_work": 40,
+    "reasoning_share_of_output_tokens": 0.5425,
+    "cache_read_share_of_tokens": 0.9731,
+    "human_turns": 13,
+    "largest_spend_between_human_messages": {
+      "from": "2026-11-15T19:07:36Z",
+      "until": "2026-11-15T20:20:04Z",
+      "minutes": 72.5,
+      "requests": 1338,
+      "cost_usd": 132.02
+    },
+    "before_first_objection": {
+      "objection_at": "2026-11-15T21:18:57Z",
+      "minutes_from_first_request": 145.2,
+      "requests": 2469,
+      "cost_usd": 211.69,
+      "unapproved_cost_usd": 211.69
+    }
+  },
+  "unpriced_models": [],
+  "provider_reported_totals": [],
+  "method": {
+    "classification": "Each usage record is assigned to the first segment in the scope file whose match rules it satisfies; unmatched records are listed as unclassified and are never refundable.",
+    "pricing": "cost = uncached input x input rate + cache reads x cache-read rate + cache writes x write rate (5-minute or 1-hour, per the recorded TTL) + output (including reasoning) x output rate.",
+    "deduplication": "Claude Code: by message id. Codex: by response id. Copilot: by event id.",
+    "rate_cards": [
+      {
+        "id": "anthropic-api-list-2026-11-03",
+        "provider": "anthropic",
+        "as_of": "2026-11-03",
+        "verified": true,
+        "origin": "bundled/anthropic.json",
+        "sources": [
+          "Anthropic Claude API pricing (Claude API reference, cached 2026-11-03): https://platform.claude.com/docs/en/about-claude/pricing"
+        ],
+        "models": {
+          "claude-opus-5-5": {
+            "input": 4.0,
+            "output": 20.0,
+            "cache_read": 0.2,
+            "cache_write_5m": 5.0,
+            "cache_write_1h": 8.0
+          },
+          "claude-fable-5-2": {
+            "input": 8.0,
+            "output": 40.0,
+            "cache_read": 0.2,
+            "cache_write_5m": 10.0,
+            "cache_write_1h": 16.0
+          },
+          "claude-mythos-5-2": {
+            "input": 8.0,
+            "output": 40.0,
+            "cache_read": 0.2,
+            "cache_write_5m": 10.0,
+            "cache_write_1h": 16.0
+          },
+          "claude-fable-5-1": {
+            "input": 10.0,
+            "output": 50.0,
+            "cache_read": 0.25,
+            "cache_write_5m": 12.5,
+            "cache_write_1h": 20.0
+          },
+          "claude-sonnet-5-5": {
+            "input": 2.0,
+            "output": 10.0,
+            "cache_read": 0.1,
+            "cache_write_5m": 2.5,
+            "cache_write_1h": 4.0
+          },
+          "claude-opus-5": {
+            "input": 5.0,
+            "output": 25.0,
+            "cache_read": 0.5,
+            "cache_write_5m": 6.25,
+            "cache_write_1h": 10.0
+          },
+          "claude-sonnet-5": {
+            "input": 2.0,
+            "output": 10.0,
+            "cache_read": 0.2,
+            "cache_write_5m": 2.5,
+            "cache_write_1h": 4.0
+          },
+          "claude-opus-4-8": {
+            "input": 5.0,
+            "output": 25.0,
+            "cache_read": 0.5,
+            "cache_write_5m": 6.25,
+            "cache_write_1h": 10.0
+          },
+          "claude-haiku-5-5": {
+            "input": 0.1,
+            "output": 0.5,
+            "cache_read": 0.01,
+            "cache_write_5m": 0.125,
+            "cache_write_1h": 0.2
+          }
+        },
+        "units": {}
+      }
+    ]
+  },
+  "integrity": {
+    "files": [
+      {
+        "path": "examples/2026-11-15-wrong-scope-config-gap-analysis/usage.jsonl",
+        "sha256": "fd06a272e1e7469a969c27d720c379c1673ea984dc34ff27447f4bc7c81d526d",
+        "bytes": 1579143
+      }
+    ],
+    "records": 3167,
+    "first_record": "2026-11-15T18:53:46.623Z",
+    "last_record": "2026-11-15T21:59:49.798Z"
+  },
+  "warnings": []
+}

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentic-inference-refunds"
+version = "0.1.0"
+description = "Measure what Claude Code, Codex or GitHub Copilot spent on work you did not approve, and build a refund claim from the provider's own usage records."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+authors = [{ name = "Jasen Carroll" }]
+dependencies = []
+
+[project.scripts]
+scope-refund = "agentic_inference_refunds.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+agentic_inference_refunds = ["data/rates/*.json", "data/schemas/*.json"]

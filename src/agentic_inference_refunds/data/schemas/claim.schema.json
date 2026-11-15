@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/axiomlayer/agentic-inference-refunds/schemas/claim.schema.json",
+  "title": "scope-refund claim",
+  "description": "Output of `scope-refund claim --format json`. Amounts are USD at the provider's published API list rates.",
+  "type": "object",
+  "required": ["schema", "remedy_request", "comparison", "totals", "segments", "method", "integrity", "warnings"],
+  "$defs": {
+    "bucket": {
+      "type": "object",
+      "required": ["requests", "tokens", "output_tokens", "cost_usd", "cost_parts"],
+      "properties": {
+        "requests": {"type": "integer"},
+        "tokens": {"type": "integer"},
+        "input_tokens": {"type": "integer"},
+        "cache_read_tokens": {"type": "integer"},
+        "cache_write_tokens": {"type": "integer"},
+        "output_tokens": {"type": "integer"},
+        "reasoning_tokens": {"type": "integer"},
+        "cost_usd": {"type": "number"},
+        "cost_parts": {"type": "object", "properties": {"input": {"type": "number"}, "cache_read": {"type": "number"}, "cache_write": {"type": "number"}, "output": {"type": "number"}}},
+        "unpriced_requests": {"type": "integer"},
+        "provider_units": {"type": "object", "additionalProperties": {"type": "number"}}
+      }
+    }
+  },
+  "properties": {
+    "schema": {"const": "agentic-inference-refunds/claim@1"},
+    "remedy_request": {
+      "type": "object",
+      "required": ["form", "amount_usd", "basis"],
+      "properties": {"form": {"type": "string"}, "amount_usd": {"type": "number"}, "basis": {"type": "string"}, "refundable_statuses": {"type": "array", "items": {"type": "string"}}}
+    },
+    "comparison": {
+      "type": "object",
+      "properties": {
+        "cost_of_approved_scope_usd": {"type": "number"},
+        "cost_of_unapproved_scope_usd": {"type": "number"},
+        "unapproved_share_of_classified": {"type": ["number", "null"]},
+        "unapproved_dollars_per_approved_dollar": {"type": ["number", "null"]}
+      }
+    },
+    "totals": {
+      "type": "object",
+      "properties": {
+        "all": {"$ref": "#/$defs/bucket"}, "approved": {"$ref": "#/$defs/bucket"}, "not_approved": {"$ref": "#/$defs/bucket"},
+        "refundable": {"$ref": "#/$defs/bucket"}, "excluded": {"$ref": "#/$defs/bucket"}, "unclassified": {"$ref": "#/$defs/bucket"}
+      }
+    },
+    "segments": {"type": "array"},
+    "by_model": {"type": "array"},
+    "provider_units": {"type": "object"},
+    "behavior": {"type": "object"},
+    "unpriced_models": {"type": "array"},
+    "provider_reported_totals": {"type": "array"},
+    "method": {"type": "object"},
+    "integrity": {"type": "object", "properties": {"files": {"type": "array"}, "records": {"type": "integer"}}},
+    "warnings": {"type": "array", "items": {"type": "string"}}
+  }
+}

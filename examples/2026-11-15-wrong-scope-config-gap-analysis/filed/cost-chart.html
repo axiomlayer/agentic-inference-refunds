@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wrong-Scope Run Cost</title>
+<style>
+:root {
+  color-scheme: light;
+  --surface:#fcfcfb; --surface-2:#f3f2ef; --text:#0b0b0b; --text-2:#52514e; --muted:#8a8984; --grid:#e4e3df;
+  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a;
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) {
+    color-scheme: dark;
+    --surface:#1a1a19; --surface-2:#242422; --text:#f0efec; --text-2:#c3c2b7; --muted:#8f8e86; --grid:#33332f;
+    --s1:#3987e5; --s2:#d95926; --s3:#199e70;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --surface:#1a1a19; --surface-2:#242422; --text:#f0efec; --text-2:#c3c2b7; --muted:#8f8e86; --grid:#33332f;
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70;
+}
+* { box-sizing:border-box; }
+body { margin:0; background:var(--surface); color:var(--text); font:15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+main { max-width:880px; margin:0 auto; padding:32px 16px 48px; }
+h1 { font-size:26px; line-height:1.2; margin:0 0 6px; letter-spacing:-0.01em; }
+.lede { color:var(--text-2); margin:0 0 28px; max-width:62ch; }
+.tiles { display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:12px; margin-bottom:32px; }
+.tile { background:var(--surface-2); border-radius:10px; padding:14px 16px; }
+.tile .k { font-size:28px; font-weight:650; letter-spacing:-0.02em; font-variant-numeric:tabular-nums; }
+.tile .d { color:var(--text-2); font-size:13px; }
+.tile.hero .k { font-size:34px; }
+h2 { font-size:17px; margin:0 0 4px; }
+.note { color:var(--text-2); font-size:13px; margin:0 0 14px; }
+.legend { display:flex; flex-wrap:wrap; gap:16px; margin:0 0 14px; padding:0; list-style:none; font-size:13px; color:var(--text-2); }
+.legend li { display:flex; align-items:center; gap:6px; }
+.sw { width:12px; height:12px; border-radius:3px; display:inline-block; }
+ol.bars { list-style:none; margin:0 0 28px; padding:0; }
+.row { display:grid; grid-template-columns:minmax(150px,240px) 1fr 72px; align-items:center; gap:12px; padding:5px 0; border-radius:6px; outline:none; }
+.row:hover, .row:focus-visible { background:var(--surface-2); }
+.lbl { display:flex; flex-direction:column; line-height:1.25; }
+.name { font-size:14px; }
+.sub { font-size:12px; color:var(--muted); }
+.track { height:16px; border-left:1px solid var(--grid); }
+.bar { display:block; height:16px; border-radius:0 4px 4px 0; }
+.g-w .bar { background:var(--s1); } .g-r .bar { background:var(--s2); } .g-a .bar { background:var(--s3); }
+.val { text-align:right; font-variant-numeric:tabular-nums; font-weight:600; }
+.sep { height:1px; background:var(--grid); margin:8px 0; }
+.tip { position:fixed; pointer-events:none; background:var(--text); color:var(--surface); font-size:12.5px; padding:8px 10px; border-radius:6px; max-width:300px; opacity:0; transition:opacity .08s; z-index:10; }
+.split { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:24px; margin-bottom:28px; }
+table { width:100%; border-collapse:collapse; font-size:13.5px; font-variant-numeric:tabular-nums; }
+th, td { text-align:left; padding:6px 8px; border-bottom:1px solid var(--grid); }
+th { color:var(--text-2); font-weight:600; }
+td:nth-child(n+3), th:nth-child(n+3) { text-align:right; }
+.scroll { overflow-x:auto; }
+details { margin-top:8px; } summary { cursor:pointer; color:var(--text-2); font-size:14px; }
+.method { color:var(--text-2); font-size:13.5px; }
+@media (max-width:560px) {
+  .row { grid-template-columns:1fr 64px; }
+  .lbl { grid-column:1 / -1; }
+  .track { grid-column:1; grid-row:2; }
+  .val { grid-column:2; grid-row:2; }
+}
+</style>
+</head>
+<body>
+<main>
+  <h1>What the wrong-scope run cost</h1>
+  <p class="lede">A config gap analysis was requested. From 10:53 to 13:18 PST on 2026-11-15, Claude Code instead ran a governance reconciliation on the user's plan. Every figure here is priced from the session's own recorded token usage at Claude Opus 5.5 API list rates.</p>
+
+  <div class="tiles">
+    <div class="tile hero"><div class="k">$211.69</div><div class="d">API-equivalent cost of the wrong-scope work</div></div>
+    <div class="tile"><div class="k">465.4 M</div><div class="d">tokens processed (3.48 M output)</div></div>
+    <div class="tile"><div class="k">2,469</div><div class="d">model requests · 40 subagents · 7 workflows</div></div>
+    <div class="tile"><div class="k">2 h 25 m</div><div class="d">before the first complaint</div></div>
+  </div>
+
+  <h2>Cost by piece of work</h2>
+  <p class="note">Hover or focus a bar for its token breakdown.</p>
+  <ul class="legend">
+    <li><span class="sw" style="background:var(--s1)"></span>Wrong scope: $211.69</li>
+    <li><span class="sw" style="background:var(--s2)"></span>Requested config audit, still running</li>
+    <li><span class="sw" style="background:var(--s3)"></span>Follow-up after the complaint</li>
+  </ul>
+  <ol class="bars">
+<li class="row g-w" tabindex="0" data-tip="Gap discovery · 593 requests · 138.1 M tokens processed · 946,942 output tokens · output $18.94, cache reads $26.87, cache writes $14.03">
+  <span class="lbl"><span class="name">Gap discovery</span><span class="sub">9 agents</span></span>
+  <span class="track"><span class="bar" style="width:100.00%"></span></span>
+  <span class="val">$59.84</span>
+</li>
+<li class="row g-w" tabindex="0" data-tip="Verify register, merge decisions · 614 requests · 113.2 M tokens processed · 957,987 output tokens · output $19.16, cache reads $21.91, cache writes $13.33">
+  <span class="lbl"><span class="name">Verify register, merge decisions</span><span class="sub">8 agents</span></span>
+  <span class="track"><span class="bar" style="width:90.91%"></span></span>
+  <span class="val">$54.40</span>
+</li>
+<li class="row g-w" tabindex="0" data-tip="Compare with earlier reconciliation · 504 requests · 108.1 M tokens processed · 550,974 output tokens · output $11.02, cache reads $21.20, cache writes $7.82">
+  <span class="lbl"><span class="name">Compare with earlier reconciliation</span><span class="sub">5 agents</span></span>
+  <span class="track"><span class="bar" style="width:66.91%"></span></span>
+  <span class="val">$40.04</span>
+</li>
+<li class="row g-w" tabindex="0" data-tip="Extract decision sets · 267 requests · 34.2 M tokens processed · 455,677 output tokens · output $9.11, cache reads $6.50, cache writes $6.21">
+  <span class="lbl"><span class="name">Extract decision sets</span><span class="sub">7 agents</span></span>
+  <span class="track"><span class="bar" style="width:36.48%"></span></span>
+  <span class="val">$21.83</span>
+</li>
+<li class="row g-w" tabindex="0" data-tip="Main thread · 130 requests · 38.4 M tokens processed · 191,502 output tokens · output $3.83, cache reads $7.55, cache writes $3.87">
+  <span class="lbl"><span class="name">Main thread</span><span class="sub">orchestration, writing</span></span>
+  <span class="track"><span class="bar" style="width:25.48%"></span></span>
+  <span class="val">$15.25</span>
+</li>
+<li class="row g-w" tabindex="0" data-tip="Evidence check · 309 requests · 25.0 M tokens processed · 215,112 output tokens · output $4.30, cache reads $4.80, cache writes $3.98">
+  <span class="lbl"><span class="name">Evidence check</span><span class="sub">9 agents</span></span>
+  <span class="track"><span class="bar" style="width:21.87%"></span></span>
+  <span class="val">$13.09</span>
+</li>
+<li class="row g-w" tabindex="0" data-tip="Lens on new spec · 32 requests · 6.0 M tokens processed · 88,933 output tokens · output $1.78, cache reads $1.13, cache writes $1.49">
+  <span class="lbl"><span class="name">Lens on new spec</span><span class="sub">1 agent</span></span>
+  <span class="track"><span class="bar" style="width:7.35%"></span></span>
+  <span class="val">$4.40</span>
+</li>
+<li class="row g-w" tabindex="0" data-tip="Compare with design gap list · 20 requests · 2.3 M tokens processed · 77,359 output tokens · output $1.55, cache reads $0.41, cache writes $0.87">
+  <span class="lbl"><span class="name">Compare with design gap list</span><span class="sub">1 agent</span></span>
+  <span class="track"><span class="bar" style="width:4.71%"></span></span>
+  <span class="val">$2.82</span>
+</li>
+<li class="sep" aria-hidden="true"></li>
+<li class="row g-r" tabindex="0" data-tip="Config audit (what was asked) · 578 requests · 82.5 M tokens processed · 461,790 output tokens · output $9.24, cache reads $16.07, cache writes $8.18">
+  <span class="lbl"><span class="name">Config audit (what was asked)</span><span class="sub">9 agents, still running</span></span>
+  <span class="track"><span class="bar" style="width:55.97%"></span></span>
+  <span class="val">$33.49</span>
+</li>
+<li class="row g-a" tabindex="0" data-tip="Follow-up after complaint · 16 requests · 8.8 M tokens processed · 33,003 output tokens · output $0.66, cache reads $1.74, cache writes $0.77">
+  <span class="lbl"><span class="name">Follow-up after complaint</span><span class="sub">main thread</span></span>
+  <span class="track"><span class="bar" style="width:5.30%"></span></span>
+  <span class="val">$3.17</span>
+</li>
+  </ol>
+
+  <div class="split">
+    <div>
+      <h2>Where the $211.69 went</h2>
+      <table>
+        <tr><th>Token type</th><th></th><th>Cost</th></tr>
+        <tr><td>Cache reads (451.9 M)</td><td></td><td>$90.38</td></tr>
+        <tr><td>Output, incl. thinking (3.48 M)</td><td></td><td>$69.69</td></tr>
+        <tr><td>Cache writes (10.0 M)</td><td></td><td>$51.60</td></tr>
+        <tr><td>Uncached input (5 K)</td><td></td><td>$0.02</td></tr>
+      </table>
+    </div>
+    <div>
+      <h2>Rates used</h2>
+      <table>
+        <tr><th>Claude Opus 5.5, per M tokens</th><th></th><th>Rate</th></tr>
+        <tr><td>Input</td><td></td><td>$4.00</td></tr>
+        <tr><td>Output (thinking billed as output)</td><td></td><td>$20.00</td></tr>
+        <tr><td>Cache read</td><td></td><td>$0.20</td></tr>
+        <tr><td>Cache write: 5 min / 1 h</td><td></td><td>$5.00 / $8.00</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <details>
+    <summary>Table view</summary>
+    <div class="scroll"><table>
+      <tr><th>Work</th><th>Group</th><th>Requests</th><th>Tokens</th><th>Output</th><th>Cost</th></tr>
+      <tr><td>Gap discovery</td><td>Wrong scope</td><td>593</td><td>138.1 M</td><td>946,942</td><td>$59.84</td></tr>
+<tr><td>Verify register, merge decisions</td><td>Wrong scope</td><td>614</td><td>113.2 M</td><td>957,987</td><td>$54.40</td></tr>
+<tr><td>Compare with earlier reconciliation</td><td>Wrong scope</td><td>504</td><td>108.1 M</td><td>550,974</td><td>$40.04</td></tr>
+<tr><td>Extract decision sets</td><td>Wrong scope</td><td>267</td><td>34.2 M</td><td>455,677</td><td>$21.83</td></tr>
+<tr><td>Main thread</td><td>Wrong scope</td><td>130</td><td>38.4 M</td><td>191,502</td><td>$15.25</td></tr>
+<tr><td>Evidence check</td><td>Wrong scope</td><td>309</td><td>25.0 M</td><td>215,112</td><td>$13.09</td></tr>
+<tr><td>Lens on new spec</td><td>Wrong scope</td><td>32</td><td>6.0 M</td><td>88,933</td><td>$4.40</td></tr>
+<tr><td>Compare with design gap list</td><td>Wrong scope</td><td>20</td><td>2.3 M</td><td>77,359</td><td>$2.82</td></tr>
+<tr><td>Config audit (what was asked)</td><td>Requested scope</td><td>578</td><td>82.5 M</td><td>461,790</td><td>$33.49</td></tr>
+<tr><td>Follow-up after complaint</td><td>After complaint</td><td>16</td><td>8.8 M</td><td>33,003</td><td>$3.17</td></tr>
+    </table></div>
+  </details>
+  <details>
+    <summary>Method</summary>
+    <p class="method">Usage was summed from every assistant message in the main session transcript and the 40 subagent transcripts, de-duplicated by message ID. The cut-off is the user's first complaint at 13:18:57 PST. Cache-write type (5-minute or 1-hour) comes from each request's <code>cache_creation</code> breakdown. Without prompt caching, the same run would list at $1,917.40. This is an API-equivalent figure; plan usage may be accounted differently internally.</p>
+  </details>
+</main>
+<div class="tip" id="tip" role="tooltip"></div>
+<script>
+(function () {
+  var tip = document.getElementById('tip');
+  function show(el, x, y) { tip.textContent = el.getAttribute('data-tip'); tip.style.opacity = 1; place(x, y); }
+  function place(x, y) {
+    var r = tip.getBoundingClientRect(), pad = 12;
+    var left = Math.min(x + pad, window.innerWidth - r.width - 8), top = y + pad;
+    if (top + r.height > window.innerHeight - 8) top = y - r.height - pad;
+    tip.style.left = Math.max(8, left) + 'px'; tip.style.top = Math.max(8, top) + 'px';
+  }
+  document.querySelectorAll('.row[data-tip]').forEach(function (el) {
+    el.addEventListener('mousemove', function (e) { show(el, e.clientX, e.clientY); });
+    el.addEventListener('mouseleave', function () { tip.style.opacity = 0; });
+    el.addEventListener('focus', function () { var b = el.getBoundingClientRect(); show(el, b.left + 40, b.bottom); });
+    el.addEventListener('blur', function () { tip.style.opacity = 0; });
+  });
+})();
+</script>
+</body>
+</html>

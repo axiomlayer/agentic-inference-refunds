@@ -1,0 +1,38 @@
+title = "Fixture claim"
+claimant = "Test"
+addressed_to = "Anthropic"
+product = "Claude Code"
+plan = "plan usage"
+remedy = "extra usage credits"
+
+[requested]
+summary = "Audit the configs."
+
+[[evidence]]
+kind = "objection"
+at = "2026-01-01T11:00:00Z"
+text = "That is not what I asked for."
+
+[labels]
+wf_test = "Test lens"
+
+[[segments]]
+name = "Lens work"
+status = "out_of_scope"
+reason = "wrong_scope"
+[segments.match]
+groups = ["wf_*"]
+
+[[segments]]
+name = "Main thread before the objection"
+status = "out_of_scope"
+reason = "wrong_scope"
+[segments.match]
+agents = ["main"]
+until = "2026-01-01T11:00:00Z"
+
+[[segments]]
+name = "After the objection"
+status = "approved"
+[segments.match]
+from = "2026-01-01T11:00:00Z"
