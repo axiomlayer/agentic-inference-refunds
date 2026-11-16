@@ -39,6 +39,13 @@ scope-refund price --claude-code SESSION.jsonl --by group   # 2. see where the m
 scope-refund claim --scope scope.toml --claude-code SESSION.jsonl --format both --out-dir claim/   # 3. the claim
 ```
 
+Two procedures cover running this locally:
+
+- **[Operator procedure](docs/operator.md):** the full local sequence from an authorized usage export to a claim, and how to correct a claim without losing the earlier version.
+- **[Distribution](docs/distribution.md):** what the source distribution contains, and why private usage exports, scope settings and generated claims stay out of it.
+
+Generating a claim does not submit it to any provider and does not guarantee a refund. Submitting is a separate decision a person makes and carries out.
+
 ### Where each tool keeps its usage
 
 | Tool | Flag | Location | What is read |
