@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="1195.2pt" viewBox="0 0 864 1195.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-15T20:11:13.264835</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 1195.2 
+L 864 1195.2 
+L 864 0 
+L 0 0 
+z
+" style="fill: #191a18"/>
+  </g>
+  <g id="patch_2">
+   <path d="M 50.976 213.9408 
+L 222.048 213.9408 
+Q 229.824 213.9408 229.824 203.184 
+L 229.824 137.448 
+Q 229.824 126.6912 222.048 126.6912 
+L 50.976 126.6912 
+Q 43.2 126.6912 43.2 137.448 
+L 43.2 203.184 
+Q 43.2 213.9408 50.976 213.9408 
+z
+" style="fill: #242621"/>
+  </g>
+  <g id="patch_3">
+   <path d="M 247.968 213.9408 
+L 419.04 213.9408 
+Q 426.816 213.9408 426.816 203.184 
+L 426.816 137.448 
+Q 426.816 126.6912 419.04 126.6912 
+L 247.968 126.6912 
+Q 240.192 126.6912 240.192 137.448 
+L 240.192 203.184 
+Q 240.192 213.9408 247.968 213.9408 
+z
+" style="fill: #242621"/>
+  </g>
+  <g id="patch_4">
+   <path d="M 444.96 213.9408 
+L 616.032 213.9408 
+Q 623.808 213.9408 623.808 203.184 
+L 623.808 137.448 
+Q 623.808 126.6912 616.032 126.6912 
+L 444.96 126.6912 
+Q 437.184 126.6912 437.184 137.448 
+L 437.184 203.184 
+Q 437.184 213.9408 444.96 213.9408 
+z
+" style="fill: #242621"/>
+  </g>
+  <g id="patch_5">
+   <path d="M 641.952 213.9408 
+L 813.024 213.9408 
+Q 820.8 213.9408 820.8 203.184 
+L 820.8 137.448 
+Q 820.8 126.6912 813.024 126.6912 
+L 641.952 126.6912 
+Q 634.176 126.6912 634.176 137.448 
+L 634.176 203.184 
+Q 634.176 213.9408 641.952 213.9408 
+z
+" style="fill: #242621"/>
+  </g>
+  <g id="patch_6">
+   <path d="M 50.976 402.7824 
+L 813.024 402.7824 
+Q 820.8 402.7824 820.8 392.0256 
+L 820.8 347.8032 
+Q 820.8 337.0464 813.024 337.0464 
+L 50.976 337.0464 
+Q 43.2 337.0464 43.2 347.8032 
+L 43.2 392.0256 
+Q 43.2 402.7824 50.976 402.7824 
+z
+" style="fill: #242621"/>
+  </g>
+  <g id="patch_7">
+   <path d="M 43.2 750.5856 
+L 820.8 750.5856 
+L 820.8 749.3904 
+L 43.2 749.3904 
+z
+" style="fill: #3b3e35; stroke: #3b3e35; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_8">
+   <path d="M 43.2 910.7424 
+L 820.8 910.7424 
+L 820.8 909.5472 
+L 43.2 909.5472 
+z
+" style="fill: #3b3e35; stroke: #3b3e35; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_9">
+   <path d="M 43.2 1122.2928 
+L 820.8 1122.2928 
+L 820.8 1121.0976 
+L 43.2 1121.0976 
+z
+" style="fill: #3b3e35; stroke: #3b3e35; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_10">
+   <path d="M 43.2 308.3616 
+L 524.387041 308.3616 
+L 524.387041 286.848 
+L 43.2 286.848 
+z
+" style="fill: #59c8a5; stroke: #59c8a5; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_11">
+   <path d="M 524.387041 308.3616 
+L 820.8 308.3616 
+L 820.8 286.848 
+L 524.387041 286.848 
+z
+" style="fill: #599af3; stroke: #599af3; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_12">
+   <path d="M 306.72 496.008 
+L 312.089254 496.008 
+L 312.089254 485.2512 
+L 306.72 485.2512 
+z
+" style="fill: #599af3; stroke: #599af3; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_13">
+   <path d="M 306.72 533.0592 
+L 417.721529 533.0592 
+L 417.721529 522.3024 
+L 306.72 522.3024 
+z
+" style="fill: #599af3; stroke: #599af3; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_14">
+   <path d="M 306.72 570.1104 
+L 445.940957 570.1104 
+L 445.940957 559.3536 
+L 306.72 559.3536 
+z
+" style="fill: #599af3; stroke: #599af3; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_15">
+   <path d="M 306.72 607.1616 
+L 479.52 607.1616 
+L 479.52 596.4048 
+L 306.72 596.4048 
+z
+" style="fill: #599af3; stroke: #599af3; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_16">
+   <path d="M 306.72 644.2128 
+L 342.447614 644.2128 
+L 342.447614 633.456 
+L 306.72 633.456 
+z
+" style="fill: #599af3; stroke: #599af3; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_17">
+   <path d="M 306.72 681.264 
+L 326.3863 681.264 
+L 326.3863 670.5072 
+L 306.72 670.5072 
+z
+" style="fill: #b1a0ec; stroke: #b1a0ec; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_18">
+   <path d="M 596.16 503.1792 
+L 773.28 503.1792 
+L 773.28 493.6176 
+L 596.16 493.6176 
+z
+" style="fill: #3b3e35; stroke: #3b3e35; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_19">
+   <path d="M 596.16 503.1792 
+L 773.28 503.1792 
+L 773.28 493.6176 
+L 596.16 493.6176 
+z
+" style="fill: #b1a0ec; stroke: #b1a0ec; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_20">
+   <path d="M 596.16 549.792 
+L 773.28 549.792 
+L 773.28 540.2304 
+L 596.16 540.2304 
+z
+" style="fill: #3b3e35; stroke: #3b3e35; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_21">
+   <path d="M 596.16 549.792 
+L 773.28 549.792 
+L 773.28 540.2304 
+L 596.16 540.2304 
+z
+" style="fill: #b1a0ec; stroke: #b1a0ec; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_22">
+   <path d="M 596.16 596.4048 
+L 773.28 596.4048 
+L 773.28 586.8432 
+L 596.16 586.8432 
+z
+" style="fill: #3b3e35; stroke: #3b3e35; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_23">
+   <path d="M 596.16 596.4048 
+L 773.28 596.4048 
+L 773.28 586.8432 
+L 596.16 586.8432 
+z
+" style="fill: #b1a0ec; stroke: #b1a0ec; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_24">
+   <path d="M 596.16 643.0176 
+L 773.28 643.0176 
+L 773.28 633.456 
+L 596.16 633.456 
+z
+" style="fill: #3b3e35; stroke: #3b3e35; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_25">
+   <path d="M 596.16 643.0176 
+L 675.864 643.0176 
+L 675.864 633.456 
+L 596.16 633.456 
+z
+" style="fill: #b1a0ec; stroke: #b1a0ec; stroke-linejoin: miter"/>
+  </g>
+  <g id="text_1">
+   <text style="font-weight: 700; font-size: 27px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f4f3ed" x="43.2" y="53.981381" transform="rotate(-0 43.2 53.981381)">What the failed Codex session cost</text>
+  </g>
+  <g id="text_2">
+   <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #c0c2b7" x="43.2" y="82.785169" transform="rotate(-0 43.2 82.785169)">Credit loss, consumed plan allowance, and the cost of correcting the refund claim.</text>
+  </g>
+  <g id="text_3">
+   <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #c0c2b7" x="43.2" y="104.788739" transform="rotate(-0 43.2 104.788739)">FIXED SNAPSHOT  Nov 15, 2026 · 8:05:16 PM PST</text>
+  </g>
+  <g id="text_4">
+   <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #f0c362" x="820.8" y="105.983939" transform="rotate(-0 820.8 105.983939)">FILED · OPEN · NOT REFUNDED</text>
+  </g>
+  <g id="text_5">
+   <text style="font-weight: 700; font-size: 27px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #599af3" x="53.568" y="165.134981" transform="rotate(-0 53.568 165.134981)">$4,364.57</text>
+  </g>
+  <g id="text_6">
+   <text style="font-size: 9.6px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #c0c2b7" x="53.568" y="198.5265" transform="rotate(-0 53.568 198.5265)">Calculated compensation request</text>
+  </g>
+  <g id="text_7">
+   <text style="font-weight: 700; font-size: 27px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #59c8a5" x="250.56" y="165.134981" transform="rotate(-0 250.56 165.134981)">$2,700.84</text>
+  </g>
+  <g id="text_8">
+   <text style="font-size: 9.6px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #c0c2b7" x="250.56" y="198.5265" transform="rotate(-0 250.56 198.5265)">Confirmed credit-loss value</text>
+  </g>
+  <g id="text_9">
+   <text style="font-weight: 700; font-size: 27px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #b1a0ec" x="447.552" y="165.132872" transform="rotate(-0 447.552 165.132872)">3</text>
+  </g>
+  <g id="text_10">
+   <text style="font-size: 9.6px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #c0c2b7" x="447.552" y="198.5265" transform="rotate(-0 447.552 198.5265)">Observed weekly reset transitions</text>
+  </g>
+  <g id="text_11">
+   <text style="font-weight: 700; font-size: 27px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f0c362" x="644.544" y="165.134981" transform="rotate(-0 644.544 165.134981)">$59.87</text>
+  </g>
+  <g id="text_12">
+   <text style="font-size: 9.6px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #c0c2b7" x="644.544" y="198.5265" transform="rotate(-0 644.544 198.5265)">Correction overage · included</text>
+  </g>
+  <g id="text_13">
+   <text style="font-weight: 700; font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f4f3ed" x="43.2" y="253.912387" transform="rotate(-0 43.2 253.912387)">How the request adds up</text>
+  </g>
+  <g id="text_14">
+   <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f4f3ed" x="43.2" y="279.557812" transform="rotate(-0 43.2 279.557812)">$2,700.84 credit component  +  $1,663.73 plan replacement estimate  =  $4,364.57</text>
+  </g>
+  <g id="text_15">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #59c8a5" x="43.2" y="326.281481" transform="rotate(-0 43.2 326.281481)">Credit decrease × $0.04</text>
+  </g>
+  <g id="text_16">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #599af3" x="820.8" y="326.281481" transform="rotate(-0 820.8 326.281481)">Plan estimate includes the $59.87 correction overage</text>
+  </g>
+  <g id="text_17">
+   <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f0c362" x="54.432" y="358.551022" transform="rotate(-0 54.432 358.551022)">ESTIMATE, NOT A VERIFIED BILL</text>
+  </g>
+  <g id="text_18">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #c0c2b7" transform="translate(54.432 382.072313)">Per-response funding and speed are unverified; overlap with credit deductions is possible.</text>
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #c0c2b7" transform="translate(54.432 399.122313)">OpenAI must reconcile the allocation. Restoring plan capacity is an alternative to its dollar estimate.</text>
+  </g>
+  <g id="text_19">
+   <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f4f3ed" x="43.2" y="441.994144" transform="rotate(-0 43.2 441.994144)">Plan-period replacement estimates</text>
+  </g>
+  <g id="text_20">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #c0c2b7" x="43.2" y="463.729481" transform="rotate(-0 43.2 463.729481)">Model-specific rates applied to recorded responses in active-allowance periods.</text>
+  </g>
+  <g id="text_21">
+   <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f4f3ed" x="43.2" y="489.208603" transform="rotate(-0 43.2 489.208603)">Prior pro allowance</text>
+  </g>
+  <g id="text_22">
+   <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #f4f3ed" x="548.64" y="489.588525" transform="rotate(-0 548.64 489.588525)">$18.46</text>
+  </g>
+  <g id="text_23">
+   <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f4f3ed" x="43.2" y="526.259803" transform="rotate(-0 43.2 526.259803)">Initial promax allowance</text>
+  </g>
+  <g id="text_24">
+   <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #f4f3ed" x="548.64" y="526.639725" transform="rotate(-0 548.64 526.639725)">$381.73</text>
+  </g>
+  <g id="text_25">
+   <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f4f3ed" x="43.2" y="563.311003" transform="rotate(-0 43.2 563.311003)">After reset 1</text>
+  </g>
+  <g id="text_26">
+   <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #f4f3ed" x="548.64" y="563.690925" transform="rotate(-0 548.64 563.690925)">$478.78</text>
+  </g>
+  <g id="text_27">
+   <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f4f3ed" x="43.2" y="600.362203" transform="rotate(-0 43.2 600.362203)">After reset 2</text>
+  </g>
+  <g id="text_28">
+   <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #f4f3ed" x="548.64" y="600.742125" transform="rotate(-0 548.64 600.742125)">$594.25</text>
+  </g>
+  <g id="text_29">
+   <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f4f3ed" x="43.2" y="637.413403" transform="rotate(-0 43.2 637.413403)">After reset 3 · original window</text>
+  </g>
+  <g id="text_30">
+   <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #f4f3ed" x="548.64" y="637.793325" transform="rotate(-0 548.64 637.793325)">$122.87</text>
+  </g>
+  <g id="text_31">
+   <text style="font-size: 11.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f4f3ed" x="43.2" y="674.464603" transform="rotate(-0 43.2 674.464603)">Supplement after original cutoff</text>
+  </g>
+  <g id="text_32">
+   <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #f4f3ed" x="548.64" y="674.844525" transform="rotate(-0 548.64 674.844525)">$67.63</text>
+  </g>
+  <g id="text_33">
+   <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #c0c2b7" x="43.2" y="722.707959" transform="rotate(-0 43.2 722.707959)">11,970 recorded responses; 5 internal reviews remain unpriced.</text>
+  </g>
+  <g id="text_34">
+   <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #599af3" x="548.64" y="725.042925" transform="rotate(-0 548.64 725.042925)">$1,663.73 total</text>
+  </g>
+  <g id="text_35">
+   <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f4f3ed" x="596.16" y="440.0391" transform="rotate(-0 596.16 440.0391)">Allowance consumed</text>
+  </g>
+  <g id="text_36">
+   <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #c0c2b7" x="596.16" y="465.739959" transform="rotate(-0 596.16 465.739959)">promax · across weekly cycles</text>
+  </g>
+  <g id="text_37">
+   <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #c0c2b7" x="596.16" y="488.448759" transform="rotate(-0 596.16 488.448759)">Initial</text>
+  </g>
+  <g id="text_38">
+   <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #b1a0ec" x="816.48" y="493.608622" transform="rotate(-0 816.48 493.608622)">100%</text>
+  </g>
+  <g id="text_39">
+   <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #c0c2b7" x="596.16" y="535.060739" transform="rotate(-0 596.16 535.060739)">Reset 1</text>
+  </g>
+  <g id="text_40">
+   <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #b1a0ec" x="816.48" y="540.221422" transform="rotate(-0 816.48 540.221422)">100%</text>
+  </g>
+  <g id="text_41">
+   <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #c0c2b7" x="596.16" y="581.673539" transform="rotate(-0 596.16 581.673539)">Reset 2</text>
+  </g>
+  <g id="text_42">
+   <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #b1a0ec" x="816.48" y="586.834222" transform="rotate(-0 816.48 586.834222)">100%</text>
+  </g>
+  <g id="text_43">
+   <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #c0c2b7" x="596.16" y="628.286339" transform="rotate(-0 596.16 628.286339)">Reset 3</text>
+  </g>
+  <g id="text_44">
+   <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #b1a0ec" x="816.48" y="633.447022" transform="rotate(-0 816.48 633.447022)">45%</text>
+  </g>
+  <g id="text_45">
+   <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #b1a0ec" x="596.16" y="699.508369" transform="rotate(-0 596.16 699.508369)">345 percentage points</text>
+  </g>
+  <g id="text_46">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #c0c2b7" x="596.16" y="718.742438" transform="rotate(-0 596.16 718.742438)">+ 5 points of prior pro, separately</text>
+  </g>
+  <g id="text_47">
+   <text style="font-size: 9.4px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #c0c2b7" x="596.16" y="737.409731" transform="rotate(-0 596.16 737.409731)">Rounded observations; not equal plan sizes.</text>
+  </g>
+  <g id="text_48">
+   <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f4f3ed" x="43.2" y="783.821344" transform="rotate(-0 43.2 783.821344)">The measured credit loss</text>
+  </g>
+  <g id="text_49">
+   <text style="font-weight: 700; font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #59c8a5" x="43.2" y="815.654981" transform="rotate(-0 43.2 815.654981)">76,766.74925  −  9,245.7732105</text>
+  </g>
+  <g id="text_50">
+   <text style="font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f4f3ed" x="43.2" y="844.887412" transform="rotate(-0 43.2 844.887412)">= 67,520.9760395 credits × $0.04</text>
+  </g>
+  <g id="text_51">
+   <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #c0c2b7" x="43.2" y="869.662125" transform="rotate(-0 43.2 869.662125)">= $2700.83904158 before rounding</text>
+  </g>
+  <g id="text_52">
+   <text style="font-size: 10.6px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #c0c2b7" x="43.2" y="894.892744" transform="rotate(-0 43.2 894.892744)">Owner confirmed this decrease; the earlier 75,000 estimate is superseded.</text>
+  </g>
+  <g id="text_53">
+   <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f4f3ed" x="552.96" y="783.821344" transform="rotate(-0 552.96 783.821344)">The correction itself cost</text>
+  </g>
+  <g id="text_54">
+   <text style="font-weight: 700; font-size: 25px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f0c362" x="552.96" y="820.975294" transform="rotate(-0 552.96 820.975294)">$59.87</text>
+  </g>
+  <g id="text_55">
+   <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #c0c2b7" x="552.96" y="846.953325" transform="rotate(-0 552.96 846.953325)">295 responses · 42.01 M tokens</text>
+  </g>
+  <g id="text_56">
+   <text style="font-size: 10.4px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #c0c2b7" x="552.96" y="870.836775" transform="rotate(-0 552.96 870.836775)">Refund audit, incorrect filings, repeated corrections.</text>
+  </g>
+  <g id="text_57">
+   <text style="font-size: 10.4px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f0c362" x="552.96" y="892.350375" transform="rotate(-0 552.96 892.350375)">Already included in the plan estimate. Counted once.</text>
+  </g>
+  <g id="text_58">
+   <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f4f3ed" x="43.2" y="942.782944" transform="rotate(-0 43.2 942.782944)">Full recorded usage · a separate cross-check</text>
+  </g>
+  <g id="text_59">
+   <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #c0c2b7" x="43.2" y="968.863725" transform="rotate(-0 43.2 968.863725)">15,203 responses  ·  2.697 B processed tokens  ·  9.07 M output tokens</text>
+  </g>
+  <g id="text_60">
+   <text style="font-weight: 700; font-size: 21px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #599af3" x="820.8" y="945.822319" transform="rotate(-0 820.8 945.822319)">$2,246.64</text>
+  </g>
+  <g id="text_61">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #f0c362" x="820.8" y="968.103881" transform="rotate(-0 820.8 968.103881)">Do not add this to the request.</text>
+  </g>
+  <g id="text_62">
+   <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #c0c2b7" x="43.2" y="1000.808856" transform="rotate(-0 43.2 1000.808856)">MODEL</text>
+  </g>
+  <g id="text_63">
+   <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #c0c2b7" x="345.6" y="1000.808856" transform="rotate(-0 345.6 1000.808856)">RESPONSES</text>
+  </g>
+  <g id="text_64">
+   <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #c0c2b7" x="622.08" y="1000.808856" transform="rotate(-0 622.08 1000.808856)">INPUT / CACHED / OUTPUT · PER 1M</text>
+  </g>
+  <g id="text_65">
+   <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #c0c2b7" x="820.8" y="1000.808856" transform="rotate(-0 820.8 1000.808856)">API VALUE</text>
+  </g>
+  <g id="text_66">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f4f3ed" x="43.2" y="1026.667822" transform="rotate(-0 43.2 1026.667822)">Astra</text>
+  </g>
+  <g id="text_67">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #f4f3ed" x="345.6" y="1026.667822" transform="rotate(-0 345.6 1026.667822)">10,067</text>
+  </g>
+  <g id="text_68">
+   <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #c0c2b7" x="622.08" y="1026.288759" transform="rotate(-0 622.08 1026.288759)">$10 / $1 / $50</text>
+  </g>
+  <g id="text_69">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #f4f3ed" x="820.8" y="1026.668681" transform="rotate(-0 820.8 1026.668681)">$2,126.75</text>
+  </g>
+  <g id="text_70">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f4f3ed" x="43.2" y="1050.571822" transform="rotate(-0 43.2 1050.571822)">Terra 6.1</text>
+  </g>
+  <g id="text_71">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #f4f3ed" x="345.6" y="1050.571822" transform="rotate(-0 345.6 1050.571822)">3,679</text>
+  </g>
+  <g id="text_72">
+   <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #c0c2b7" x="622.08" y="1050.192759" transform="rotate(-0 622.08 1050.192759)">$1 / $0.05 / $5</text>
+  </g>
+  <g id="text_73">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #f4f3ed" x="820.8" y="1050.572681" transform="rotate(-0 820.8 1050.572681)">$61.87</text>
+  </g>
+  <g id="text_74">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f4f3ed" x="43.2" y="1074.476681" transform="rotate(-0 43.2 1074.476681)">Sol 6.1</text>
+  </g>
+  <g id="text_75">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #f4f3ed" x="345.6" y="1074.475822" transform="rotate(-0 345.6 1074.475822)">1,451</text>
+  </g>
+  <g id="text_76">
+   <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #c0c2b7" x="622.08" y="1074.096759" transform="rotate(-0 622.08 1074.096759)">$2 / $0.1 / $10</text>
+  </g>
+  <g id="text_77">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #f4f3ed" x="820.8" y="1074.476681" transform="rotate(-0 820.8 1074.476681)">$58.02</text>
+  </g>
+  <g id="text_78">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #f4f3ed" x="43.2" y="1098.380681" transform="rotate(-0 43.2 1098.380681)">Internal auto-review</text>
+  </g>
+  <g id="text_79">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #f4f3ed" x="345.6" y="1098.379822" transform="rotate(-0 345.6 1098.379822)">6</text>
+  </g>
+  <g id="text_80">
+   <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #c0c2b7" x="622.08" y="1098.000759" transform="rotate(-0 622.08 1098.000759)">No verified rate</text>
+  </g>
+  <g id="text_81">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #f4f3ed" x="820.8" y="1098.380681" transform="rotate(-0 820.8 1098.380681)">Unpriced</text>
+  </g>
+  <g id="text_82">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #c0c2b7" x="43.2" y="1145.428838" transform="rotate(-0 43.2 1145.428838)">Original window: Nov 15, 11:40:23 AM–7:40:23 PM PST. Supplement ends 8:05:16 PM.</text>
+  </g>
+  <g id="text_83">
+   <text style="font-size: 9.6px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #c0c2b7" x="43.2" y="1164.2481" transform="rotate(-0 43.2 1164.2481)">Cached input is included; reasoning is already in output. Whole-session dispute ≠ every response proved unauthorized.</text>
+  </g>
+  <g id="text_84">
+   <text style="font-size: 9.4px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #c0c2b7" x="43.2" y="1183.219331" transform="rotate(-0 43.2 1183.219331)">OpenAI issue #61739  ·  axiomlayer/agentic-inference-refunds  ·  sources and calculator available on main</text>
+  </g>
+ </g>
+</svg>

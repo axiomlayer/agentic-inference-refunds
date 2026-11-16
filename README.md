@@ -9,7 +9,17 @@ You would not pay a contractor's invoice for the wrong scope. The same applies w
 
 The [worked example](examples/2026-11-15-wrong-scope-config-gap-analysis/) is the case that started this repo. A config gap analysis was requested and a governance reconciliation was delivered: **$211.69** of unapproved work against **$37.07** of approved work, or **$5.71 for every $1** of what was actually asked for.
 
-A second [Codex lab-remediation example](examples/2026-11-15-codex-lab-remediation-drift/) reviews eight hours of local transcripts for repeated ZIP misdelivery, lost execution order, duplicate assembly ownership and avoidable repair work. It separates the full observed usage from bounded refund candidates, with an every-file inventory and source-linked evidence.
+A second [Codex lab-remediation example](examples/2026-11-15-codex-lab-remediation-drift/) documents repeated ZIP misdelivery, lost execution order, duplicate assembly ownership, and the cost of correcting the refund claim itself. Its **$4,364.57 calculated compensation request** combines **$2,700.84 in confirmed credit-loss value** with **$1,663.73 in provisional plan-usage replacement**, including **$59.87 in correction overage**. The evidence records three weekly reset transitions. Funding allocation remains an estimate requiring billing reconciliation; no refund approval is claimed.
+
+## Codex refund dashboard
+
+Snapshot: **November 15, 2026, 8:05:16 p.m. Pacific**. The dashboard and its exports are generated from the filed calculation data.
+
+[![Codex refund dashboard: calculated request, confirmed credit loss, three reset transitions, plan usage and correction overage](examples/2026-11-15-codex-lab-remediation-drift/filed/cost-chart.png)](examples/2026-11-15-codex-lab-remediation-drift/filed/cost-chart.svg)
+
+[Offline HTML dashboard](examples/2026-11-15-codex-lab-remediation-drift/filed/cost-chart.html) · [Full-size SVG](examples/2026-11-15-codex-lab-remediation-drift/filed/cost-chart.svg) · [Itemized calculation](examples/2026-11-15-codex-lab-remediation-drift/remedy-calculation.md) · [Filed OpenAI bug report](https://github.com/openai/codex/issues/61739)
+
+The HTML file can be downloaded and opened locally; it has keyboard-accessible bar details, exact data tables, and source links. To regenerate the images and HTML from the calculation, run `uv run examples/2026-11-15-codex-lab-remediation-drift/build-dashboard.py`. Matplotlib is an optional dashboard-build dependency; the `scope-refund` CLI remains standard-library-only.
 
 ## Install
 

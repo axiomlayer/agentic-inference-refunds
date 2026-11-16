@@ -2,6 +2,12 @@
 
 This case reviews the locally available JSONL evidence for an eight-hour lab-remediation session on November 15, 2026. Agents repeatedly lost the requested product handoff, execution order and assembly ownership; the eventual coordinator added unwanted archives and HTML pages and then spent further inference repairing those decisions.
 
+[![Codex refund dashboard: credit loss, plan consumption, reset transitions and correction overage](filed/cost-chart.png)](filed/cost-chart.svg)
+
+[Offline HTML dashboard](filed/cost-chart.html) · [Full-size SVG](filed/cost-chart.svg) · [PNG](filed/cost-chart.png) · [Dashboard generator](build-dashboard.py)
+
+The dashboard is generated from `remedy-calculation.json`, `remedy-inputs.json`, and `rates-openai.json`; its fixed snapshot ends November 15 at 8:05:16 p.m. Pacific. The HTML includes keyboard-accessible bar details, exact period tables, and source links. Regenerate it with `uv run build-dashboard.py` after regenerating the calculation. The optional plotting dependency does not change the CLI's standard-library-only installation.
+
 **Filed:** [OpenAI Codex #61739](https://github.com/openai/codex/issues/61739). The calculated compensation request is **$4,364.57**: **$2,700.83904158 in confirmed credit-balance loss plus $1,663.7266254 in estimated plan-usage replacement**, including the refund-audit and repeated-correction overage. [Itemized math and limits](remedy-calculation.md) · [reproducible calculator](calculate-remedy.py) · [source-linked inputs](remedy-inputs.json). No refund has been approved or processed. [Corrected submitted body](filed/corrected-issue.md) · [original superseded body](filed/issue.md) · [submission receipt](filed/receipt.json).
 
 The inventory covers **4,133 local JSONL paths**. Globally deduplicated records contain **14,777 OpenAI responses / 2,618,064,476 processed tokens**, including cached input. The full OpenAI population remains within the disputed session for reimbursement review. Its standard API benchmark is **$2,179.01**, plus six unpriced internal responses. Actual credit restoration requires provider billing records.
