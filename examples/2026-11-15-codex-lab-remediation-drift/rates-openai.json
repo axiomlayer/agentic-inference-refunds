@@ -1,0 +1,41 @@
+{
+  "as_of": "2026-11-16",
+  "currency": "USD",
+  "id": "openai-standard-api-2026-11-16-verified",
+  "models": {
+    "gpt-6-astra": {
+      "cache_read": 1,
+      "cache_write_1h": 25,
+      "cache_write_5m": 12.5,
+      "input": 10,
+      "output": 50
+    },
+    "gpt-6.1-sol": {
+      "cache_read": 0.1,
+      "cache_write_1h": 5,
+      "cache_write_5m": 2.5,
+      "input": 2,
+      "output": 10
+    },
+    "gpt-6.1-terra": {
+      "cache_read": 0.05,
+      "cache_write_1h": 2.5,
+      "cache_write_5m": 1.25,
+      "input": 1,
+      "output": 5
+    }
+  },
+  "notes": [
+    "Standard API benchmark only. Actual Codex subscription/credit debits require provider reconciliation. No service-tier multiplier is guessed.",
+    "The current official cache-write columns are 30m and 12h. Legacy schema fields cache_write_5m and cache_write_1h carry those respective prices for compatibility only.",
+    "Every OpenAI cache-write count in this example is zero, so the legacy field-name mapping has no monetary effect. Do not reuse this mapping for nonzero write counts without updating the schema.",
+    "Internal codex-auto-review has no verified public model rate and is intentionally absent."
+  ],
+  "provider": "openai",
+  "retrieved_at": "2026-11-16",
+  "sources": [
+    "https://developers.openai.com/api/docs/pricing"
+  ],
+  "unit": "per_million_tokens",
+  "verified": true
+}

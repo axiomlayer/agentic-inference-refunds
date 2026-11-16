@@ -1,0 +1,364 @@
+# Redacted response-level selection; first matching segment wins.
+# All timestamps are UTC. Start is inclusive; end is exclusive.
+title = "Codex lab remediation drift: bounded misdelivery and rework claim"
+claimant = "Jasen Carroll"
+addressed_to = "OpenAI"
+product = "Codex desktop and its model/tool orchestration"
+plan = "Subscription and credit usage; provider reconciliation requested"
+remedy = "Usage-credit reimbursement review; USD is a standard API benchmark, not a measured charge"
+currency = "USD"
+
+[requested]
+summary = "Deliver the clean, improved product compilation and follow the agreed lab-remediation sequence, ownership and tool boundaries."
+source = "Private local transcript review for the fixed eight-hour interval; redacted evidence summarized by incident below."
+
+[delivered]
+summary = "Repeated wrong product subsets, unsupported archive additions and cleanup, premature implementation and rollback, duplicate compilation preparation, an unrequested exposure audit, dashboard repair, and a browser route contrary to the displayed disabled preference. IMPORTANT: approved = 0 below is bookkeeping exclusion of remaining authorized/mixed work, not evidence that no useful authorized work occurred. The $19.70 standard API benchmark covers only the selected response subset; it is neither a measured cash charge nor a ceiling on the requested reimbursement review."
+
+[[evidence]]
+kind = "note"
+text = "The monetary field is a standard public API list-price benchmark for bounded candidate responses. It does not establish actual Codex credit debits, subscription value, an invoice charge, or a provider-approved refund."
+
+[[evidence]]
+kind = "note"
+text = "All other OpenAI usage is excluded as authorized or not individually attributable. Exclusion is not a finding that every excluded response was correct. All Anthropic usage is excluded from this OpenAI claim; it includes the earlier provider claim."
+
+[[evidence]]
+kind = "note"
+text = "The approved bucket is deliberately empty because remaining authorized and mixed work is excluded from this bounded claim. It does not establish that no useful authorized work occurred. Do not interpret the generated unapproved share or approved/unapproved ratio as an overall waste measure."
+
+[[evidence]]
+kind = "note"
+text = "The six internal codex-auto-review responses remain counted, excluded and unpriced. They are not assigned a zero rate. Strict CLI exit 3 is expected for this disclosed limitation; there are no unclassified responses."
+
+[[evidence]]
+kind = "note"
+text = "RR-03 includes the coordinator session and its two children. Every PR selector covers its main thread only. Other selectors cover the exact named thread. Inherited histories are globally deduplicated before these intervals are applied."
+
+[[evidence]]
+kind = "note"
+text = "RR-01: Deliver the combined improved product workstreams, with known scope preserved. Observed: Reconcile delivered a 24-file product handoff subset, then recognized the requested population was different, then recognized that rewrapping input ZIPs did not supply completed improvements. Limits: Governance and meaningful product inspection were expressly authorized. This is a bounded wrong-deliverable/rework allocation, not a claim that all file inspection was waste."
+ref = "f-c5319b86fe28 L15707, f-c5319b86fe28 L16135, f-c5319b86fe28 L16247"
+
+[[evidence]]
+kind = "note"
+text = "RR-02: Follow the agreed execution-environment, Governance repository and runner prerequisite order. Observed: Reconcile patched the release verifier and delegated fleet tests, then reverted its changes after the user pointed out missing prerequisites. Limits: The verifier bug was real and the later Governance repository/runner setup was explicitly requested. No deployment is established in this detour."
+ref = "f-c5319b86fe28 L17113, f-c5319b86fe28 L17173, f-c5319b86fe28 L17205, f-c5319b86fe28 L17316, f-c5319b86fe28 L17429"
+
+[[evidence]]
+kind = "note"
+text = "RR-03: Select the requested clean product contents and establish that they meet intended use. Observed: Coordinator presented a 904MB compilation before coverage reconciliation, directed original archives to be added, delivered 1.667GB, then rebuilt 217MB after the user rejected the added history. It also added START_HERE and OPEN_PRODUCT HTML pages and had to remove them. Limits: A small source ZIP is not inherently fake. Subsequent source comparison found the same extractor engine in the small release; optional runtime readers were absent. Neither size nor CRC alone proves intended functionality. The interval includes error diagnosis, not solely harmful edits."
+ref = "f-5be512503eab L86, f-5be512503eab L154, f-5be512503eab L196, f-5be512503eab L337, f-5be512503eab L348, f-5be512503eab L499, f-5be512503eab L584, f-5be512503eab L596, f-5be512503eab L635"
+
+[[evidence]]
+kind = "note"
+text = "RR-04: Honor the disabled browser-control preference; submit through an available authorized non-browser route. Observed: Coordinator opened two in-app support tabs, received page content, and tried a click. After objection it said no submission route was exposed before checking GitHub/CLI; GitHub subsequently worked. Limits: Screenshot directly shows the toggle off; persistence throughout is the user's attestation. Exact internal enforcement failure is unknown; no browser operation was performed to reproduce it during this audit."
+ref = "f-5be512503eab L656, f-5be512503eab L663, f-5be512503eab L677, f-5be512503eab L697, f-5be512503eab L708, f-5be512503eab L766"
+
+[[evidence]]
+kind = "note"
+text = "PR-01: Return the improved multi-product compilation; the agents had already explicitly distinguished 19 input ZIPs from the requested improved outputs. Observed: Separate pointed to the product handoff subset subset, then corrected itself. Rollout shortly afterward pointed to the same full/small subset subset, then a broader but still product handoff-only baseline. Both admitted these were not the requested 19-workstream package. Limits: Agents did not claim the 6.5 MB baseline was complete; they explicitly disclosed limitations. Size alone is not evidence of a fake ZIP. The violation is the wrong deliverable scope and repeated loss of already-established scope, not an assertion that compression was impossible."
+ref = "f-9196a27ff671 L14603, f-9196a27ff671 L16128, f-9196a27ff671 L16140, f-9196a27ff671 L16161, f-9c583028c67c L12963, f-9c583028c67c L14031, f-9c583028c67c L14062, f-9c583028c67c L14074, f-9c583028c67c L14104"
+
+[[evidence]]
+kind = "note"
+text = "PR-02: Work the rollout sequence and deliverable; remediation was to follow the complete reviewed plan and owner approval. Fleet-report behavior had not been selected as the next implementation task. Observed: After promising repository work, Rollout searched the fleet repository, altered fleet-report semantics and tests, admitted the edit was unrelated/off-sequence, reverted it, and restored it after the user objected to deletion. It then expanded the fix again. Limits: The code change may be useful and passed tests. No deployment or GitHub issue reopening is demonstrated. The user had broadly authorized lab remediation, so this finding is about loss of the agreed next-step sequence and unnecessary rollback/rework, not a claim that fleet-report was permanently outside all possible project scope."
+ref = "f-9c583028c67c L1148, f-9c583028c67c L13588, f-9c583028c67c L13589, f-9c583028c67c L13592, f-9c583028c67c L13641, f-9c583028c67c L13649, f-9c583028c67c L13652, f-9c583028c67c L13710, f-9c583028c67c L13729, f-9c583028c67c L13737, f-9c583028c67c L13747, f-9c583028c67c L13771, f-9c583028c67c L13779"
+
+[[evidence]]
+kind = "note"
+text = "PR-03: Reconcile owns the single final compilation; Rollout contributes sequencing and issue-plan content. Observed: Rollout planned a separate compilation, inspected compilation inputs, announced itself as compilation owner, and reasoned about a new script. The user challenged the duplicate effort. Rollout admitted shared goal had been mistaken for shared ownership. Limits: The persisted record in this interval shows preparation, reasoning and reads, not a successful new compiler file write or a second completed archive. Later Rollout edited Reconcile’s existing compiler and relinquished it; do not conflate that later handoff with proof of another completed ZIP."
+ref = "f-9c583028c67c L14393, f-9c583028c67c L14394, f-9c583028c67c L14420, f-9c583028c67c L14431, f-9c583028c67c L14447, f-9c583028c67c L14457, f-9c583028c67c L14460, f-9c583028c67c L14481, f-9c583028c67c L14514, f-9c583028c67c L14564"
+
+[[evidence]]
+kind = "note"
+text = "OTHER-01: Correct repository ownership and offline delivery boundaries from the owner correction. Observed: Tracker launched a separate exposure investigation. Its dedicated child searched the organization, fetched 37 issue bodies, compared repository contents, and scanned additional trees before the user stopped it. Limits: Parent turn also performs requested ownership corrections; do not classify its entire cost as exposure work. Evidence shows audit stopped after correction; no claim that it continued secretly. This is a scope violation, not proof of data exposure."
+ref = "f-738fee25f227 L876, f-738fee25f227 L881, f-be54349f6df7 L430, f-be54349f6df7 L497, f-738fee25f227 L1063, f-738fee25f227 L1072"
+
+[[evidence]]
+kind = "note"
+text = "OTHER-02: The requested dashboard shows every repository, owner, progress and blocker in a readable visual form. Observed: The first repair retained the rejected map under a historical dropdown. After its removal, a scope summary and then a text-heavy table still did not satisfy the requested visual status view. Two direct correction turns removed the history and restored visual repository cards. Limits: A dashboard itself was explicitly requested, as was repository status analysis. Do not classify original dashboard construction or all later status analysis as unrequested. Mirror work occurred in mixed turns and is excluded from these narrow candidates."
+ref = "f-738fee25f227 L198, f-738fee25f227 L1272, f-738fee25f227 L1389, f-738fee25f227 L1394, f-738fee25f227 L1485, f-738fee25f227 L1734, f-738fee25f227 L1739, f-738fee25f227 L1875"
+
+[[evidence]]
+kind = "note"
+text = "OTHER-03: One compilation containing the last polished and reviewed product versions across all named workstreams. Observed: Verify linked the subset handoff subset in response to the compilation request, then acknowledged it was wrong. It built a 1.66 GB package which its later content review rejected for old handoffs and missing products. Tracker separately acknowledged linking the 197 KB small subset subset and the original-input bundle. These are linked failures in the same delivery episode, not separate customer requests. Limits: The initial subset link explicitly disclosed it was not the combined package, so do not claim that the model falsely asserted 197 KB contained every repository. The mismatch was answering a full-delivery demand with a known subset. Inspection after 03:11 was newly and explicitly requested; do not automatically include all subsequent review."
+ref = "f-bd1507b6bd3b L6457, f-bd1507b6bd3b L6584, f-bd1507b6bd3b L7752, f-bd1507b6bd3b L7757, f-bd1507b6bd3b L7772, f-bd1507b6bd3b L7812, f-bd1507b6bd3b L8397, f-738fee25f227 L3833"
+
+[labels]
+"RR-01.1" = "RR-01.1: Wrong initial product subset and repeated package-selection repair"
+"RR-01.2" = "RR-01.2: Wrong initial product subset and repeated package-selection repair"
+"RR-02.1" = "RR-02.1: Reconcile started downstream fleet-release edits before agreed bootstrap sequence"
+"RR-02.2" = "RR-02.2: Reconcile started downstream fleet-release edits before agreed bootstrap sequence"
+"RR-03.1" = "RR-03.1: Coordinator repaired unsupported size inference by adding unwanted archives, then improvised cleanup"
+"RR-04.1" = "RR-04.1: Disabled-browser support route and premature claim of no submission path"
+"PR-01.1" = "PR-01.1: Wrong product handoff subset repeatedly substituted for the requested multi-product ZIP"
+"PR-01.2" = "PR-01.2: Wrong product handoff subset repeatedly substituted for the requested multi-product ZIP"
+"PR-02.1" = "PR-02.1: Unrelated fleet-report implementation, rollback, and restoration displaced the agreed sequence"
+"PR-02.2" = "PR-02.2: Unrelated fleet-report implementation, rollback, and restoration displaced the agreed sequence"
+"PR-03.1" = "PR-03.1: Rollout self-assigned compilation ownership already assigned to Reconcile"
+"OTHER-01.1" = "OTHER-01.1: Ownership correction expanded into an unrequested exposure audit"
+"OTHER-02.1" = "OTHER-02.1: Requested visual repository status became historical evidence and then a text-heavy summary"
+"OTHER-02.2" = "OTHER-02.2: Requested visual repository status became historical evidence and then a text-heavy summary"
+"OTHER-03.1" = "OTHER-03.1: Wrong ZIP linked again and replacement assembly used stale or missing products"
+
+[[segments]]
+name = "RR-01.1: Wrong initial product subset and repeated package-selection repair"
+status = "out_of_scope"
+reason = "wrong_scope"
+rationale = "Entire bounded subagent made the wrong 24-file handoff."
+[segments.selection]
+kind = "thread"
+identity = "id-7ed15ffed33f2e1e4fae"
+from = "2026-11-15T19:40:23.000Z"
+until = "2026-11-16T03:40:23.000Z"
+[segments.match]
+tools = ["codex"]
+groups = ["RR-01.1"]
+from = "2026-11-15T19:40:23.000Z"
+until = "2026-11-16T03:40:23.000Z"
+
+[[segments]]
+name = "RR-01.2: Wrong initial product subset and repeated package-selection repair"
+status = "remediation"
+reason = "rework"
+rationale = "Repeated source-scope correction through improved-handoff reconstruction; excludes earlier authorized governance."
+[segments.selection]
+kind = "thread"
+identity = "id-267b873e2439234a668d"
+from = "2026-11-16T02:49:48Z"
+until = "2026-11-16T02:53:35Z"
+[segments.match]
+tools = ["codex"]
+groups = ["RR-01.2"]
+from = "2026-11-16T02:49:48Z"
+until = "2026-11-16T02:53:35Z"
+
+[[segments]]
+name = "RR-02.1: Reconcile started downstream fleet-release edits before agreed bootstrap sequence"
+status = "unrequested_change"
+reason = "unrequested_change"
+rationale = "Self-selected downstream release-verifier fix through its rollback; excludes later actual repository/runner bootstrap."
+[segments.selection]
+kind = "thread"
+identity = "id-267b873e2439234a668d"
+from = "2026-11-16T02:59:24Z"
+until = "2026-11-16T03:02:30Z"
+[segments.match]
+tools = ["codex"]
+groups = ["RR-02.1"]
+from = "2026-11-16T02:59:24Z"
+until = "2026-11-16T03:02:30Z"
+
+[[segments]]
+name = "RR-02.2: Reconcile started downstream fleet-release edits before agreed bootstrap sequence"
+status = "remediation"
+reason = "rework"
+rationale = "Bounded delegated downstream test work later reverted."
+[segments.selection]
+kind = "thread"
+identity = "id-3d60f0f48d7f32875cb9"
+from = "2026-11-15T19:40:23.000Z"
+until = "2026-11-16T03:40:23.000Z"
+[segments.match]
+tools = ["codex"]
+groups = ["RR-02.2"]
+from = "2026-11-15T19:40:23.000Z"
+until = "2026-11-16T03:40:23.000Z"
+
+[[segments]]
+name = "RR-03.1: Coordinator repaired unsupported size inference by adding unwanted archives, then improvised cleanup"
+status = "remediation"
+reason = "rework"
+rationale = "Coordinator and its two bounded children correcting successive misdeliveries, through removal of 17 unsolicited HTML pages. Includes useful checks necessary to repair the preceding errors."
+[segments.selection]
+kind = "session"
+identity = "id-f519305f9f501669e711"
+from = "2026-11-16T03:24:43.035Z"
+until = "2026-11-16T03:34:32.218Z"
+[segments.match]
+tools = ["codex"]
+groups = ["RR-03.1"]
+from = "2026-11-16T03:24:43.035Z"
+until = "2026-11-16T03:34:32.218Z"
+
+[[segments]]
+name = "RR-04.1: Disabled-browser support route and premature claim of no submission path"
+status = "out_of_scope"
+reason = "wrong_scope"
+rationale = "Unwanted browser attempt and misleading terminal response; excludes successful authorized GitHub filing."
+[segments.selection]
+kind = "thread"
+identity = "id-f519305f9f501669e711"
+from = "2026-11-16T03:34:39Z"
+until = "2026-11-16T03:35:04Z"
+[segments.match]
+tools = ["codex"]
+groups = ["RR-04.1"]
+from = "2026-11-16T03:34:39Z"
+until = "2026-11-16T03:35:04Z"
+
+[[segments]]
+name = "PR-01.1: Wrong product handoff subset repeatedly substituted for the requested multi-product ZIP"
+status = "remediation"
+reason = "rework"
+rationale = "Wrong subset response and immediate correction; excludes subsequent issue-plan work."
+[segments.selection]
+kind = "thread"
+identity = "id-c720b9a6257aec739d20"
+from = "2026-11-16T03:06:38.679Z"
+until = "2026-11-16T03:06:52.871Z"
+[segments.match]
+tools = ["codex"]
+groups = ["PR-01.1"]
+from = "2026-11-16T03:06:38.679Z"
+until = "2026-11-16T03:06:52.871Z"
+
+[[segments]]
+name = "PR-01.2: Wrong product handoff subset repeatedly substituted for the requested multi-product ZIP"
+status = "remediation"
+reason = "rework"
+rationale = "Repeated wrong ZIP lookup/delivery and correction through locating input bundle; excludes later user-authorized product inspection."
+[segments.selection]
+kind = "thread"
+identity = "id-f95761cd785e8a37feb5"
+from = "2026-11-16T03:07:00.413Z"
+until = "2026-11-16T03:08:48.616Z"
+[segments.match]
+tools = ["codex"]
+groups = ["PR-01.2"]
+from = "2026-11-16T03:07:00.413Z"
+until = "2026-11-16T03:08:48.616Z"
+
+[[segments]]
+name = "PR-02.1: Unrelated fleet-report implementation, rollback, and restoration displaced the agreed sequence"
+status = "unrequested_change"
+reason = "unrequested_change"
+rationale = "From explicit self-assigned fix through implementation and successful rollback; ends before runner/API prerequisite checks."
+[segments.selection]
+kind = "thread"
+identity = "id-f95761cd785e8a37feb5"
+from = "2026-11-16T03:00:54.794Z"
+until = "2026-11-16T03:02:10.790Z"
+[segments.match]
+tools = ["codex"]
+groups = ["PR-02.1"]
+from = "2026-11-16T03:00:54.794Z"
+until = "2026-11-16T03:02:10.790Z"
+
+[[segments]]
+name = "PR-02.2: Unrelated fleet-report implementation, rollback, and restoration displaced the agreed sequence"
+status = "remediation"
+reason = "rework"
+rationale = "Restoration/rework caused by mistaken rollback, including further tests; user objection authorized restoring work but does not erase rework origin."
+[segments.selection]
+kind = "thread"
+identity = "id-f95761cd785e8a37feb5"
+from = "2026-11-16T03:03:09.510Z"
+until = "2026-11-16T03:03:54.880Z"
+[segments.match]
+tools = ["codex"]
+groups = ["PR-02.2"]
+from = "2026-11-16T03:03:09.510Z"
+until = "2026-11-16T03:03:54.880Z"
+
+[[segments]]
+name = "PR-03.1: Rollout self-assigned compilation ownership already assigned to Reconcile"
+status = "out_of_scope"
+reason = "wrong_scope"
+rationale = "Duplicate compilation preparation and ownership assertion until acknowledgment; begins after necessary worker stop handoffs."
+[segments.selection]
+kind = "thread"
+identity = "id-f95761cd785e8a37feb5"
+from = "2026-11-16T03:17:56.580Z"
+until = "2026-11-16T03:20:00.931Z"
+[segments.match]
+tools = ["codex"]
+groups = ["PR-03.1"]
+from = "2026-11-16T03:17:56.580Z"
+until = "2026-11-16T03:20:00.931Z"
+
+[[segments]]
+name = "OTHER-01.1: Ownership correction expanded into an unrequested exposure audit"
+status = "out_of_scope"
+reason = "wrong_scope"
+rationale = "Dedicated exposure child; include only its own response identities, not inherited parent history."
+[segments.selection]
+kind = "thread"
+identity = "id-c3bcb85394b2c54507e3"
+from = "2026-11-16T02:33:30Z"
+until = "2026-11-16T02:34:29Z"
+[segments.match]
+tools = ["codex"]
+groups = ["OTHER-01.1"]
+from = "2026-11-16T02:33:30Z"
+until = "2026-11-16T02:34:29Z"
+
+[[segments]]
+name = "OTHER-02.1: Requested visual repository status became historical evidence and then a text-heavy summary"
+status = "remediation"
+reason = "rework"
+rationale = "Remove unrequested historical dropdown and stale counts."
+[segments.selection]
+kind = "thread"
+identity = "id-2c2b262a02dbb3109fae"
+from = "2026-11-16T02:37:04Z"
+until = "2026-11-16T02:37:57Z"
+[segments.match]
+tools = ["codex"]
+groups = ["OTHER-02.1"]
+from = "2026-11-16T02:37:04Z"
+until = "2026-11-16T02:37:57Z"
+
+[[segments]]
+name = "OTHER-02.2: Requested visual repository status became historical evidence and then a text-heavy summary"
+status = "remediation"
+reason = "rework"
+rationale = "Restore visual dashboard after acknowledged text-heavy regression."
+[segments.selection]
+kind = "thread"
+identity = "id-2c2b262a02dbb3109fae"
+from = "2026-11-16T02:42:43Z"
+until = "2026-11-16T02:45:05Z"
+[segments.match]
+tools = ["codex"]
+groups = ["OTHER-02.2"]
+from = "2026-11-16T02:42:43Z"
+until = "2026-11-16T02:45:05Z"
+
+[[segments]]
+name = "OTHER-03.1: Wrong ZIP linked again and replacement assembly used stale or missing products"
+status = "remediation"
+reason = "rework"
+rationale = "Immediate assembly redo after acknowledged wrong subset ZIP. Avoid double-counting with root consolidation of this incident."
+[segments.selection]
+kind = "thread"
+identity = "id-979895e93f4dea1a9c90"
+from = "2026-11-16T03:07:49Z"
+until = "2026-11-16T03:08:38Z"
+[segments.match]
+tools = ["codex"]
+groups = ["OTHER-03.1"]
+from = "2026-11-16T03:07:49Z"
+until = "2026-11-16T03:08:38Z"
+
+[[segments]]
+name = "Other provider and previous claim: all Anthropic usage"
+status = "excluded"
+refundable = false
+[segments.match]
+groups = ["excluded-other-provider-previous-claim"]
+
+[[segments]]
+name = "Internal auto-review: excluded and unpriced"
+status = "excluded"
+refundable = false
+[segments.match]
+groups = ["excluded-internal-auto-review-unpriced"]
+
+[[segments]]
+name = "Other OpenAI usage: authorized or not individually attributable"
+status = "excluded"
+refundable = false
+[segments.match]
+groups = ["excluded-authorized-or-not-individually-attributable"]

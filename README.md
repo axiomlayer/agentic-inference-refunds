@@ -9,6 +9,8 @@ You would not pay a contractor's invoice for the wrong scope. The same applies w
 
 The [worked example](examples/2026-11-15-wrong-scope-config-gap-analysis/) is the case that started this repo. A config gap analysis was requested and a governance reconciliation was delivered: **$211.69** of unapproved work against **$37.07** of approved work, or **$5.71 for every $1** of what was actually asked for.
 
+A second [Codex lab-remediation example](examples/2026-11-15-codex-lab-remediation-drift/) reviews eight hours of local transcripts for repeated ZIP misdelivery, lost execution order, duplicate assembly ownership and avoidable repair work. It separates the full observed usage from bounded refund candidates, with an every-file inventory and source-linked evidence.
+
 ## Install
 
 Python 3.11 or later, standard library only.

@@ -1,0 +1,177 @@
+{
+  "candidate_interval_overlaps": 0,
+  "counter_reconciliation_sha256": "566dc193513c66c280285409e6f4ac67c4aea2a46ecc50e330e83e7cc8f8d711",
+  "interval": {
+    "end_exclusive": "2026-11-16T03:40:23.000Z",
+    "start_inclusive": "2026-11-15T19:40:23.000Z"
+  },
+  "per_segment": [
+    {
+      "cost_usd": 0.11,
+      "name": "RR-01.1: Wrong initial product subset and repeated package-selection repair",
+      "requests": 6,
+      "status": "out_of_scope",
+      "tokens": 1383730
+    },
+    {
+      "cost_usd": 0.84,
+      "name": "RR-01.2: Wrong initial product subset and repeated package-selection repair",
+      "requests": 50,
+      "status": "remediation",
+      "tokens": 12953107
+    },
+    {
+      "cost_usd": 0.6,
+      "name": "RR-02.1: Reconcile started downstream fleet-release edits before agreed bootstrap sequence",
+      "requests": 31,
+      "status": "unrequested_change",
+      "tokens": 9761854
+    },
+    {
+      "cost_usd": 1.25,
+      "name": "RR-02.2: Reconcile started downstream fleet-release edits before agreed bootstrap sequence",
+      "requests": 57,
+      "status": "remediation",
+      "tokens": 19219039
+    },
+    {
+      "cost_usd": 13.67,
+      "name": "RR-03.1: Coordinator repaired unsupported size inference by adding unwanted archives, then improvised cleanup",
+      "requests": 82,
+      "status": "remediation",
+      "tokens": 10799663
+    },
+    {
+      "cost_usd": 1.61,
+      "name": "RR-04.1: Disabled-browser support route and premature claim of no submission path",
+      "requests": 7,
+      "status": "out_of_scope",
+      "tokens": 1361260
+    },
+    {
+      "cost_usd": 0.03,
+      "name": "PR-01.1: Wrong product handoff subset repeatedly substituted for the requested multi-product ZIP",
+      "requests": 3,
+      "status": "remediation",
+      "tokens": 461601
+    },
+    {
+      "cost_usd": 0.04,
+      "name": "PR-01.2: Wrong product handoff subset repeatedly substituted for the requested multi-product ZIP",
+      "requests": 8,
+      "status": "remediation",
+      "tokens": 360099
+    },
+    {
+      "cost_usd": 0.25,
+      "name": "PR-02.1: Unrelated fleet-report implementation, rollback, and restoration displaced the agreed sequence",
+      "requests": 10,
+      "status": "unrequested_change",
+      "tokens": 4010878
+    },
+    {
+      "cost_usd": 0.2,
+      "name": "PR-02.2: Unrelated fleet-report implementation, rollback, and restoration displaced the agreed sequence",
+      "requests": 8,
+      "status": "remediation",
+      "tokens": 3388602
+    },
+    {
+      "cost_usd": 0.23,
+      "name": "PR-03.1: Rollout self-assigned compilation ownership already assigned to Reconcile",
+      "requests": 10,
+      "status": "out_of_scope",
+      "tokens": 1531146
+    },
+    {
+      "cost_usd": 0.27,
+      "name": "OTHER-01.1: Ownership correction expanded into an unrequested exposure audit",
+      "requests": 17,
+      "status": "out_of_scope",
+      "tokens": 2772845
+    },
+    {
+      "cost_usd": 0.16,
+      "name": "OTHER-02.1: Requested visual repository status became historical evidence and then a text-heavy summary",
+      "requests": 12,
+      "status": "remediation",
+      "tokens": 2353130
+    },
+    {
+      "cost_usd": 0.36,
+      "name": "OTHER-02.2: Requested visual repository status became historical evidence and then a text-heavy summary",
+      "requests": 21,
+      "status": "remediation",
+      "tokens": 5268225
+    },
+    {
+      "cost_usd": 0.08,
+      "name": "OTHER-03.1: Wrong ZIP linked again and replacement assembly used stale or missing products",
+      "requests": 6,
+      "status": "remediation",
+      "tokens": 955483
+    },
+    {
+      "cost_usd": 142.69,
+      "name": "Other provider and previous claim: all Anthropic usage",
+      "requests": 1628,
+      "status": "excluded",
+      "tokens": 360965053
+    },
+    {
+      "cost_usd": 0.0,
+      "name": "Internal auto-review: excluded and unpriced",
+      "requests": 6,
+      "status": "excluded",
+      "tokens": 284219
+    },
+    {
+      "cost_usd": 2159.3,
+      "name": "Other OpenAI usage: authorized or not individually attributable",
+      "requests": 14443,
+      "status": "excluded",
+      "tokens": 2541199595
+    }
+  ],
+  "private_accounting_validation": {
+    "matching": 90,
+    "mismatching": 0,
+    "threads": 90,
+    "unavailable": 0
+  },
+  "processed_tokens": 2979029529,
+  "records": 16405,
+  "refundable_requests": 328,
+  "refundable_tokens": 76580662,
+  "refundable_usd": 19.7,
+  "source_inventory": {
+    "bytes_read": 4055353484,
+    "changed_files": 0,
+    "errors": 0,
+    "files_with_window_usage": 115,
+    "initial_bytes": 4055353484,
+    "invalid_json": 4,
+    "overlong_lines": 0,
+    "paths": 4133,
+    "recognized_files": 3407
+  },
+  "strict_exit_code": 3,
+  "token_totals": {
+    "cache_read_tokens": 2911437980,
+    "cache_write_1h_tokens": 566907,
+    "cache_write_5m_tokens": 4746027,
+    "cache_write_tokens": 0,
+    "input_tokens": 51402745,
+    "output_tokens": 10875870,
+    "reasoning_tokens": 3426976
+  },
+  "unclassified_requests": 0,
+  "unpriced_models": [
+    {
+      "model": "codex-auto-review",
+      "requests": 6,
+      "tokens": 284219
+    }
+  ],
+  "usage_sha256": "2ac9dc319c0fc19b156ab999e86a5d8b12929ae9efba133994cc47ad83c417a9"
+}
