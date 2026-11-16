@@ -10,7 +10,7 @@ The [machine-readable evidence](evidence.json), [complete file inventory](covera
 
 - These 19 clusters describe related incidents across three disjoint transcript-review assignments. Clusters can overlap in the same episode; they are not 19 independent charges. In particular, repeated wrong-ZIP findings span several agents, and governance/review-overhead findings share context.
 - Candidate scopes preserve the reviewers’ proposed boundaries. The final scope definition and deduplicated usage decide the filed amount. Candidate intervals are not automatically additive, refundable or entitled.
-- Every excerpt is at most 400 characters. Private paths, raw thread/turn/request IDs, hostnames, addresses and the work-client label are removed or generalized. The wording “product handoff” replaces that label. Excerpts marked redacted are not unmodified verbatim quotations.
+- Every excerpt is at most 400 characters. Private paths, raw thread/turn/request IDs, hostnames, addresses and the work-client label are removed or generalized. The wording “product handoff” replaces that label; product-specific names are generalized to “research” in observations and redacted excerpts. Excerpts marked redacted are not unmodified verbatim quotations.
 - Tool events are described without publishing command bodies or source code. File IDs, raw line numbers and timestamps retain the connection to the private transcript evidence. Opaque collaboration payloads were not decoded or inferred.
 - Coverage includes inventory-only history and session-index files. Such indexes, realtime event streams and command histories are not substitutes for provider usage records; absence of usage in them does not prove no work occurred. Transcript review and usage accounting are separate layers.
 - The inventory counts raw in-window usage rows before cross-file deduplication. Those counts must not be summed as billed requests. The hash and byte count describe the prefix read during the bounded snapshot; snapshot_changed flags files that changed during reading.
@@ -126,12 +126,12 @@ No automatic token allocation is proposed for this cluster.
 
 **Requested:** Return the improved multi-product compilation; the agents had already explicitly distinguished 19 input ZIPs from the requested improved outputs.
 
-**Observed:** Separate pointed to the product handoff ReNewal subset, then corrected itself. Rollout shortly afterward pointed to the same full/Director subset, then a broader but still product handoff-only baseline. Both admitted these were not the requested 19-workstream package.
+**Observed:** Separate pointed to the product handoff research subset, then corrected itself. Rollout shortly afterward pointed to the same full/Director subset, then a broader but still product handoff-only baseline. Both admitted these were not the requested 19-workstream package.
 
 - `f-9196a27ff671` line 14603, 2026-11-16T02:51:36.705Z (assistant): “I was wrong again about the handoff: the 19 ZIPs are inputs and leads, not the finished deliverable.”
 - `f-9196a27ff671` line 16128, 2026-11-16T03:06:38.679Z (user; redacted): “WHERE IS MY MOTHER FUCKING product handoff ZIP?”
-- `f-9196a27ff671` line 16140, 2026-11-16T03:06:44.375Z (assistant; redacted): “Your product handoff ZIP is here: **[product handoff ReNewal full handoff]”
-- `f-9196a27ff671` line 16161, 2026-11-16T03:06:52.870Z (assistant; redacted): “the ZIP I linked covers **product handoff ReNewal**, not all of your product handoff pre-work.”
+- `f-9196a27ff671` line 16140, 2026-11-16T03:06:44.375Z (assistant; redacted): “Your product handoff ZIP is here: **[product handoff research full handoff]”
+- `f-9196a27ff671` line 16161, 2026-11-16T03:06:52.870Z (assistant; redacted): “the ZIP I linked covers **product handoff research**, not all of your product handoff pre-work.”
 - `f-9c583028c67c` line 12963, 2026-11-16T02:52:36.945Z (assistant): “the 19 ZIPs are inputs to the work. Your requested handoff is the improved output”
 - `f-9c583028c67c` line 14031, 2026-11-16T03:07:03.941Z (assistant; redacted): “Your product handoff ZIPs are in Downloads:”
 - `f-9c583028c67c` line 14062, 2026-11-16T03:07:53.608Z (assistant; redacted): “No. I gave you the wrong ZIP. The 192 KB file is only the product handoff Director review; it does **not** contain the 19 repos or workstreams.”
@@ -320,12 +320,12 @@ No automatic token allocation is proposed for this cluster.
 
 **Requested:** One compilation containing the last polished and reviewed product versions across all named workstreams.
 
-**Observed:** Verify linked the ReNewal handoff subset in response to the compilation request, then acknowledged it was wrong. It built a 1.66 GB package which its later content review rejected for old handoffs and missing products. Tracker separately acknowledged linking the 197 KB Director subset and the original-input bundle. These are linked failures in the same delivery episode, not separate customer requests.
+**Observed:** Verify linked the research handoff subset in response to the compilation request, then acknowledged it was wrong. It built a 1.66 GB package which its later content review rejected for old handoffs and missing products. Tracker separately acknowledged linking the 197 KB Director subset and the original-input bundle. These are linked failures in the same delivery episode, not separate customer requests.
 
 - `f-bd1507b6bd3b` line 6457, 2026-11-16T02:49:24.902Z (user): “THE ORIGINAL 16 ARE NOT THE RIGHT ONES IDIOT. THEY'VE BEEN IMPROVED”
 - `f-bd1507b6bd3b` line 6584, 2026-11-16T02:51:04.014Z (user): “YOU CAN'T BUNDLE EXACTLY WHAT I JUST FUCKING GABVE YOU AND CALL IT DONE YTOU MOTHER FUCKING PIECE OF SHIT”
 - `f-bd1507b6bd3b` line 7752, 2026-11-16T03:06:34.222Z (user; redacted): “WHERE IS MY MOTHER FUCKING product handoff ZIP?”
-- `f-bd1507b6bd3b` line 7757, 2026-11-16T03:06:38.463Z (assistant; redacted): “The improved product handoff ReNewal handoff is here: product handoff_ReNewal_Handoff_v2.zip [local artifact].  It contains the improved ReNewal handoff, **not** the complete package covering all 19 inputs and the governance and rollout plans. That combined ZIP has not been completed.”
+- `f-bd1507b6bd3b` line 7757, 2026-11-16T03:06:38.463Z (assistant; redacted): “The improved product handoff research handoff is here: product handoff_research_Handoff_v2.zip [local artifact].  It contains the improved research handoff, **not** the complete package covering all 19 inputs and the governance and rollout plans. That combined ZIP has not been completed.”
 - `f-bd1507b6bd3b` line 7772, 2026-11-16T03:07:56.365Z (assistant): “No. I gave you the wrong ZIP again. I’m assembling the larger offline package from the improved handoffs and the governance and rollout plans now.”
 - `f-bd1507b6bd3b` line 7812, 2026-11-16T03:08:36.665Z (assistant; redacted, shortened): “No. The ZIP I linked did **not** contain the 19 workstreams.  I’ve assembled a larger offline package here: Improved work and rollout package [local artifact] — **1.66 GB**. It contains 14 improved handoff ZIPs, the 19 supplied archives for source context, governance and rollout documents, and 71 readable issue packets. The package integrity check passed.  **It is still a review candidate, not ...”
 - `f-bd1507b6bd3b` line 8397, 2026-11-16T03:24:40.638Z (assistant; redacted, shortened): “**Verdict: the 1.66 GB compilation is not acceptable for delivery.**  It contains older handoffs instead of the team’s polished successors and omits Audit Backroom Kit and SME Research Aid.  The inspected Foundry candidate also has three unresolved issues: reused Python environments bypass runtime acceptance, generated projects omit generator provenance, and packaging can overwrite an earlier r...”

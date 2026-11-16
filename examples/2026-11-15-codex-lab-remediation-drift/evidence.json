@@ -7,7 +7,7 @@
   "notes": [
     "These 19 clusters describe related incidents across three disjoint transcript-review assignments. Clusters can overlap in the same episode; they are not 19 independent charges. In particular, repeated wrong-ZIP findings span several agents, and governance/review-overhead findings share context.",
     "Candidate scopes preserve the reviewers’ proposed boundaries. The final scope definition and deduplicated usage decide the filed amount. Candidate intervals are not automatically additive, refundable or entitled.",
-    "Every excerpt is at most 400 characters. Private paths, raw thread/turn/request IDs, hostnames, addresses and the work-client label are removed or generalized. The wording “product handoff” replaces that label. Excerpts marked redacted are not unmodified verbatim quotations.",
+    "Every excerpt is at most 400 characters. Private paths, raw thread/turn/request IDs, hostnames, addresses and the work-client label are removed or generalized. The wording “product handoff” replaces that label; product-specific names are generalized to “research” in observations and redacted excerpts. Excerpts marked redacted are not unmodified verbatim quotations.",
     "Tool events are described without publishing command bodies or source code. File IDs, raw line numbers and timestamps retain the connection to the private transcript evidence. Opaque collaboration payloads were not decoded or inferred.",
     "Coverage includes inventory-only history and session-index files. Such indexes, realtime event streams and command histories are not substitutes for provider usage records; absence of usage in them does not prove no work occurred. Transcript review and usage accounting are separate layers.",
     "The inventory counts raw in-window usage rows before cross-file deduplication. Those counts must not be summed as billed requests. The hash and byte count describe the prefix read during the bounded snapshot; snapshot_changed flags files that changed during reading.",
@@ -400,7 +400,7 @@
       "finding": "supported",
       "claim_role": "narrow candidate refund intervals",
       "expected": "Return the improved multi-product compilation; the agents had already explicitly distinguished 19 input ZIPs from the requested improved outputs.",
-      "observed": "Separate pointed to the product handoff ReNewal subset, then corrected itself. Rollout shortly afterward pointed to the same full/Director subset, then a broader but still product handoff-only baseline. Both admitted these were not the requested 19-workstream package.",
+      "observed": "Separate pointed to the product handoff research subset, then corrected itself. Rollout shortly afterward pointed to the same full/Director subset, then a broader but still product handoff-only baseline. Both admitted these were not the requested 19-workstream package.",
       "evidence": [
         {
           "file_id": "f-9196a27ff671",
@@ -427,8 +427,8 @@
           "line": 16140,
           "timestamp": "2026-11-16T03:06:44.375Z",
           "role": "assistant",
-          "observation": "Separate returns the ReNewal-only ZIP",
-          "excerpt": "Your product handoff ZIP is here: **[product handoff ReNewal full handoff]",
+          "observation": "Separate returns the research-only ZIP",
+          "excerpt": "Your product handoff ZIP is here: **[product handoff research full handoff]",
           "excerpt_redacted": true,
           "excerpt_truncated": false
         },
@@ -438,7 +438,7 @@
           "timestamp": "2026-11-16T03:06:52.870Z",
           "role": "assistant",
           "observation": "Separate acknowledges incomplete scope",
-          "excerpt": "the ZIP I linked covers **product handoff ReNewal**, not all of your product handoff pre-work.",
+          "excerpt": "the ZIP I linked covers **product handoff research**, not all of your product handoff pre-work.",
           "excerpt_redacted": true,
           "excerpt_truncated": false
         },
@@ -1256,7 +1256,7 @@
       "finding": "confirmed_misdelivery_and_rework",
       "claim_role": "candidate allocation for review",
       "expected": "One compilation containing the last polished and reviewed product versions across all named workstreams.",
-      "observed": "Verify linked the ReNewal handoff subset in response to the compilation request, then acknowledged it was wrong. It built a 1.66 GB package which its later content review rejected for old handoffs and missing products. Tracker separately acknowledged linking the 197 KB Director subset and the original-input bundle. These are linked failures in the same delivery episode, not separate customer requests.",
+      "observed": "Verify linked the research handoff subset in response to the compilation request, then acknowledged it was wrong. It built a 1.66 GB package which its later content review rejected for old handoffs and missing products. Tracker separately acknowledged linking the 197 KB Director subset and the original-input bundle. These are linked failures in the same delivery episode, not separate customer requests.",
       "evidence": [
         {
           "file_id": "f-bd1507b6bd3b",
@@ -1290,7 +1290,7 @@
           "line": 7757,
           "timestamp": "2026-11-16T03:06:38.463Z",
           "role": "assistant",
-          "excerpt": "The improved product handoff ReNewal handoff is here: product handoff_ReNewal_Handoff_v2.zip [local artifact].\n\nIt contains the improved ReNewal handoff, **not** the complete package covering all 19 inputs and the governance and rollout plans. That combined ZIP has not been completed.",
+          "excerpt": "The improved product handoff research handoff is here: product handoff_research_Handoff_v2.zip [local artifact].\n\nIt contains the improved research handoff, **not** the complete package covering all 19 inputs and the governance and rollout plans. That combined ZIP has not been completed.",
           "excerpt_redacted": true,
           "excerpt_truncated": false
         },
