@@ -94,13 +94,20 @@ A correction is a new version. It never replaces the old one:
 1. **Keep the original export unchanged.** Don't edit or re-export over `usage.jsonl`. `claim.json` records the SHA-256 of every source file, so a changed export no longer matches the earlier claim.
 2. **Keep the earlier claim directory unchanged.** Leave `claim/`, or `local-claims/claim-v1/`, exactly as generated.
 3. **Edit only the inputs that need it.** That means the scope file you choose (segments, statuses, evidence) or a local rate override file. If you want the earlier scope file preserved too, copy it first (for example `cp scope.toml scope-v2.toml`) and edit the copy.
+
+   Inside a checkout, keep every copy in an excluded path. Only `scope.private.toml`, `local-usage/` and `local-claims/` are excluded, so a `scope-v2.toml` at the checkout root could be committed by accident. Archive the earlier version next to the claim it produced, then keep editing `scope.private.toml`:
+
+   ```sh
+   cp scope.private.toml local-claims/claim-v1/scope.toml
+   ```
+
 4. **Generate into a newly named directory**, from the scope file you edited:
 
    ```sh
    scope-refund claim --scope scope-v2.toml --usage usage.jsonl --format both --out-dir claim-v2/
    ```
 
-   This assumes you made the `scope-v2.toml` copy in step 3. If you edited `scope.toml` in place, pass `--scope scope.toml`. Passing the unedited file produces a new claim without your correction. If you changed rates, add `--rates mycard.json`. Use a directory name that doesn't exist yet: `--out-dir` overwrites an existing `claim.md` or `claim.json` without warning.
+   This assumes you made the `scope-v2.toml` copy in step 3. If you edited `scope.toml` in place, pass `--scope scope.toml`. Inside a checkout, pass `--scope scope.private.toml` and `--out-dir local-claims/claim-v2/`. Passing the unedited file produces a new claim without your correction. If you changed rates, add `--rates mycard.json`. Use a directory name that doesn't exist yet: `--out-dir` overwrites an existing `claim.md` or `claim.json` without warning.
 
 5. **Compare** `claim-v2/` with the earlier directory before you use the new figure anywhere.
 
