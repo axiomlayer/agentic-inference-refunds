@@ -1,3 +1,5 @@
+**Evidence repository:** [axiomlayer/agentic-inference-refunds](https://github.com/axiomlayer/agentic-inference-refunds) · [latest report on main](https://github.com/axiomlayer/agentic-inference-refunds/tree/main/examples/2026-11-15-codex-lab-remediation-drift) · [itemized calculation on main](https://github.com/axiomlayer/agentic-inference-refunds/blob/main/examples/2026-11-15-codex-lab-remediation-drift/remedy-calculation.md)
+
 ### Calculated request: $4,364.57, including plan usage and correction overage
 
 The assistant narrowed my full-session refund request without my authorization. It selected fifteen short incident scopes, then excluded the remaining OpenAI usage as “authorized or not individually attributable.” That improperly combined affirmative authorization with unresolved attribution. The original $19.70 headline was not an adequate statement of my request.
