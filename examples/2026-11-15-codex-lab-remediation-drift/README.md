@@ -2,7 +2,7 @@
 
 This case reviews the locally available JSONL evidence for an eight-hour lab-remediation session on November 15, 2026. Agents repeatedly lost the requested product handoff, execution order and assembly ownership; the eventual coordinator added unwanted archives and HTML pages and then spent further inference repairing those decisions.
 
-**Filed:** [OpenAI Codex #61739](https://github.com/openai/codex/issues/61739). The issue requests reimbursement review; no refund has been approved or processed. [Exact submitted body](filed/issue.md) · [submission receipt](filed/receipt.json).
+**Filed:** [OpenAI Codex #61739](https://github.com/openai/codex/issues/61739). The corrected request is **75,000 ChatGPT usage credits or $3,000**: 75,000 / 1,000 × $40. No refund has been approved or processed. [Corrected submitted body](filed/corrected-issue.md) · [original superseded body](filed/issue.md) · [submission receipt](filed/receipt.json).
 
 The inventory covers **4,133 local JSONL paths**. Globally deduplicated records contain **14,777 OpenAI responses / 2,618,064,476 processed tokens**, including cached input. The full OpenAI population remains within the disputed session for reimbursement review. Its standard API benchmark is **$2,179.01**, plus six unpriced internal responses. Actual credit restoration requires provider billing records.
 
@@ -24,4 +24,4 @@ From the repository root, reproduce the historical subset calculation with the i
 scope-refund claim --scope examples/2026-11-15-codex-lab-remediation-drift/historical-scope.toml --usage examples/2026-11-15-codex-lab-remediation-drift/usage.jsonl --rates examples/2026-11-15-codex-lab-remediation-drift/rates-openai.json --format both --out-dir build/reproduced-historical-subtotal
 ```
 
-The internal `codex-auto-review` model has no verified public price and is explicitly excluded. Strict mode is expected to flag those six unpriced records; it must not be presented as a fully priced dataset.
+The internal `codex-auto-review` model has no verified public price and remains in the disputed review population without a dollar estimate. The historical calculation excluded it; strict mode flags those six unpriced records. The dataset must not be presented as fully priced.

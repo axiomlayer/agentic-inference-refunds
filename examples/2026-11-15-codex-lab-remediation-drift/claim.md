@@ -2,7 +2,9 @@
 
 **The previously filed $19.70 requested remedy is withdrawn.** It was an assistant-selected incident subtotal, not the owner's authorized scope or an adequately established total loss.
 
-The owner requests restoration of the actual plan/extra-usage credits attributable to misaligned work, failed delivery and resulting repair across the full disputed eight-hour session, with OpenAI to reconcile its request-level billing. The owner reported approximately **75,000 credits and three quota resets**. That report is not replaced by an invented dollar conversion.
+The owner requests restoration of **75,000 ChatGPT usage credits, or a $3,000 refund**, for the disputed session, with OpenAI to reconcile its request-level billing and the separately reported three quota resets. The purchase-price calculation is **75,000 / 1,000 × $40 = $3,000**. The requested amount is not reduced to an API-token estimate.
+
+The owner identified this purchase price; a [first-hand purchase report on OpenAI's community](https://community.openai.com/t/1-060-in-prepaid-api-credits-expired-without-a-single-notification/1377889/2) independently describes 1,000 usage credits for $40. That is customer evidence, not an official universal price guarantee. [OpenAI's official documentation](https://help.openai.com/en/articles/12642688-using-credits-for-flexible-usage-in-chatgpt-plus-pro) distinguishes these usage credits from API credits and says purchase prices can vary by account, region and plan. [Official ChatGPT pricing](https://learn.chatgpt.com/docs/pricing#token-rates) separately lists model usage rates in credits per million tokens. The 75,000-credit debit total still requires account reconciliation; this does not invalidate the purchase-price arithmetic or reduce the requested refund.
 
 | Recorded OpenAI activity | Responses | Processed tokens | Standard API benchmark |
 |---|---:|---:|---:|
