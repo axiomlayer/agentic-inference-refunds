@@ -3,3 +3,8 @@ __pycache__/
 build/
 dist/
 .venv/
+
+# Root-local private operator data (see docs/distribution.md)
+/local-usage/
+/local-claims/
+/scope.private.toml
