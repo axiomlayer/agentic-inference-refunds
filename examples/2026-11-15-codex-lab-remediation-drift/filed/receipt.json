@@ -7,5 +7,12 @@
   "submission_route": "GitHub connector; verified through GitHub CLI REST API",
   "report_commit": "b037e4da013c01856f9fd22a2df3cd975ef7e08b",
   "body_file": "issue.md",
+  "corrected_body_file": "corrected-issue.md",
+  "corrected_report_commit": "eebda50bfb12256dcbf251a2757269b5032bb624",
+  "corrected_issue_updated_at": "2026-11-16T04:01:11Z",
+  "corrected_body_verified_against_live_issue": true,
+  "requested_credit_restoration": 75000,
+  "requested_refund_usd_alternative": 3000,
+  "correction_submission_route": "GitHub CLI; verified through GitHub REST API",
   "refund_status": "requested; no approval or payment observed"
 }
