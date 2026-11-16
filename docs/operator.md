@@ -83,7 +83,9 @@ These are the CLI's documented exit codes:
 
 Two refusals currently print a message and exit with status 1 instead: `init` declining to overwrite an existing file, and a run whose sources contain no usage records at all.
 
-Exit codes 1 and 2 mean the run stopped before writing a claim. **Exit code 3 is different:** `claim` writes `claim.md` and `claim.json` first and checks `--strict` afterwards, so a strict failure still leaves claim files in `--out-dir`, and still overwrites any already there. Those files are complete but carry unpriced or unclassified usage; their warnings say which. Use a fresh output directory for strict runs too.
+The input failures and refusals above stop the run before any claim file is written. A failure while writing the output is different. `claim` writes `claim.json` before `claim.md`, so if the second write fails, the run exits non-zero (2, or 1 with a traceback for some file-system errors) with `claim.json` already written, or overwritten. After any non-zero exit from a run with `--out-dir`, check what the directory actually holds before relying on it.
+
+**Exit code 3 is different:** `claim` writes `claim.md` and `claim.json` first and checks `--strict` afterwards, so a strict failure still leaves claim files in `--out-dir`, and still overwrites any already there. Those files are complete but carry unpriced or unclassified usage; their warnings say which. Use a fresh output directory for strict runs too.
 
 ## Correcting a claim
 
@@ -92,13 +94,13 @@ A correction is a new version. It never replaces the old one:
 1. **Keep the original export unchanged.** Don't edit or re-export over `usage.jsonl`. `claim.json` records the SHA-256 of every source file, so a changed export no longer matches the earlier claim.
 2. **Keep the earlier claim directory unchanged.** Leave `claim/`, or `local-claims/claim-v1/`, exactly as generated.
 3. **Edit only the inputs that need it.** That means the scope file you choose (segments, statuses, evidence) or a local rate override file. If you want the earlier scope file preserved too, copy it first (for example `cp scope.toml scope-v2.toml`) and edit the copy.
-4. **Generate into a newly named directory:**
+4. **Generate into a newly named directory**, from the scope file you edited:
 
    ```sh
-   scope-refund claim --scope scope.toml --usage usage.jsonl --format both --out-dir claim-v2/
+   scope-refund claim --scope scope-v2.toml --usage usage.jsonl --format both --out-dir claim-v2/
    ```
 
-   If you changed rates, add `--rates mycard.json`. Use a directory name that doesn't exist yet: `--out-dir` overwrites an existing `claim.md` or `claim.json` without warning.
+   This assumes you made the `scope-v2.toml` copy in step 3. If you edited `scope.toml` in place, pass `--scope scope.toml`. Passing the unedited file produces a new claim without your correction. If you changed rates, add `--rates mycard.json`. Use a directory name that doesn't exist yet: `--out-dir` overwrites an existing `claim.md` or `claim.json` without warning.
 
 5. **Compare** `claim-v2/` with the earlier directory before you use the new figure anywhere.
 
