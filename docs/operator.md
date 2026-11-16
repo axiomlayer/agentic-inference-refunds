@@ -63,11 +63,11 @@ If `claim/` already holds a `claim.md` or `claim.json`, this command **overwrite
 
 ## How usage is classified and priced
 
-**First match wins.** Every usage record goes to the **first** `[[segments]]` entry, in file order, whose `match` rules it satisfies. A record that matches no segment is **unclassified**. Unclassified usage is never refunded, appears only in the `all` total, and causes a warning naming how many requests were left out. Nothing is silently counted either way: to include unclassified usage, add or reorder segments, then generate a new version.
+**First match wins.** Every usage record goes to the **first** `[[segments]]` entry, in file order, whose `match` rules it satisfies. A record that matches no segment is **unclassified**. Unclassified usage is never refunded, and it is left out of the approved, not-approved, refundable and excluded totals. It stays visible everywhere else: in the `all` total, in its own `unclassified` total (an Unclassified row in `claim.md`), and in the per-model breakdown. A warning also says how many requests matched no segment. Nothing is silently counted either way. When you reconcile a claim, compare the refundable amount with the classified totals, not with `all` or the per-model figures. To place unclassified usage, add or reorder segments, then generate a new version.
 
 **Status decides refundability.** By default, `out_of_scope`, `unrequested_change` and `remediation` are refundable; `approved` and `excluded` are not. A segment can override that default with `refundable = true` or `refundable = false`.
 
-**Unpriced and uncertain rates stay visible.** A model that no rate card covers has its tokens counted but is never priced or guessed at. It is listed under `unpriced_models` and raises a warning. The OpenAI and GitHub Copilot cards are marked unverified; claims priced from them say so in their warnings, and you should check them against the provider's rate sheet before relying on the figure. `scope-refund rates` shows every card, its date and whether it is verified. To correct or add a price, pass `--rates mycard.json`. That overrides the bundled entry for that model only, in that run.
+**Unpriced and uncertain rates stay visible.** A model that no rate card covers has its tokens counted but is never priced or guessed at. It is listed under `unpriced_models` and raises a warning. The OpenAI and GitHub Copilot cards are marked unverified; claims priced from them say so in their warnings, and you should check them against the provider's rate sheet before relying on the figure. `scope-refund rates` shows every card, its date and whether it is verified. To correct or add a price, pass `--rates mycard.json`. The file is a whole rate card, loaded after the bundled ones for that run only. Every model and alias it lists replaces the bundled entry with the same normalized name, along with that card's `verified` and `as_of` values. Every unit it lists replaces the bundled unit of the same name. To change one price, write a card that lists only that model. A copy of a bundled card replaces all of that card's models.
 
 **API-equivalent, not a bill.** The amount is an **API-equivalent** figure: the recorded tokens priced at the provider's published per-token list rates. If the usage was drawn from a subscription plan, the figure measures the plan usage consumed, in the provider's own published prices. It isn't what you were billed, and it isn't how the provider accounts for plan usage internally.
 
@@ -81,7 +81,9 @@ These are the CLI's documented exit codes:
 | 2 | Bad input: a missing file, or an invalid scope file (the error lists each problem) |
 | 3 | `--strict` was passed and some usage was unpriced or unclassified |
 
-Two refusals currently print a message and exit with status 1 instead: `init` declining to overwrite an existing file, and a run whose sources contain no usage records at all. Treat any non-zero exit as "no usable output from this run".
+Two refusals currently print a message and exit with status 1 instead: `init` declining to overwrite an existing file, and a run whose sources contain no usage records at all.
+
+Exit codes 1 and 2 mean the run stopped before writing a claim. **Exit code 3 is different:** `claim` writes `claim.md` and `claim.json` first and checks `--strict` afterwards, so a strict failure still leaves claim files in `--out-dir`, and still overwrites any already there. Those files are complete but carry unpriced or unclassified usage; their warnings say which. Use a fresh output directory for strict runs too.
 
 ## Correcting a claim
 
@@ -104,9 +106,21 @@ Reusing the earlier output directory is not a correction path. It destroys the v
 
 ## What a claim contains, and who should see it
 
-`claim.md` and `claim.json` carry what you put in the scope file: the claimant name, the verbatim request quote, the evidence text and the provider addressed. `claim.json` also records each source file's path exactly as you passed it on the command line, with its SHA-256 and size. Token counts, model names, timestamps and IDs are read from the usage; message content never is. If you pass `--redact`, session, agent and request IDs and source file names are replaced with hashes. The scope-file text is still included.
+`claim.md` and `claim.json` carry what you put in the scope file: the claimant name, the verbatim request quote, the evidence text, the labels and the provider addressed.
 
-Treat generated claims as private until you decide to share one.
+**Source paths.** `claim.json` records each source file's path, SHA-256 and size. Paths are recorded as resolved: a leading `~` is expanded to your home directory, and when you pass a directory, each session file found inside it is listed under its own path.
+
+**Message content is read, not kept.** The Claude Code and Codex readers look at message text to tell human messages from tool output and injected context, which is how the claim measures spend between human messages. That text isn't copied into the usage records or the claim. Only token counts, model names, timestamps, IDs and the derived human-message times are kept.
+
+**What `--redact` covers.** It replaces session, agent and request IDs and source file names with hashes. It doesn't redact:
+
+- the scope-file text;
+- group names, such as workflow or thread IDs, or the labels you give them;
+- source warnings, some of which name a session file.
+
+**Redaction changes classification.** Redaction is applied before classification. A segment rule that matches `sessions` or `agents` by their original IDs stops matching under `--redact` (the agent `main` is kept as is). Records can then fall to a later segment or become unclassified, which changes the totals. If your scope file uses those rules, compare the redacted claim's totals with an unredacted run before sharing it.
+
+Treat generated claims as private until you decide to share one. Before sharing, read both `claim.md` and `claim.json`, including the per-segment breakdown and the warnings.
 
 ## Submitting
 
