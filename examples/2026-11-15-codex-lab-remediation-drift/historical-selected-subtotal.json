@@ -1,0 +1,1299 @@
+{
+  "schema": "agentic-inference-refunds/claim@1",
+  "generated_at": "2026-11-16T03:45:42Z",
+  "tool": {
+    "name": "scope-refund",
+    "version": "0.1.0"
+  },
+  "title": "Codex lab remediation drift: bounded misdelivery and rework claim",
+  "claimant": "Jasen Carroll",
+  "addressed_to": "OpenAI",
+  "product": "Codex desktop and its model/tool orchestration",
+  "plan": "Subscription and credit usage; provider reconciliation requested",
+  "currency": "USD",
+  "requested": {
+    "summary": "Deliver the clean, improved product compilation and follow the agreed lab-remediation sequence, ownership and tool boundaries.",
+    "source": "Private local transcript review for the fixed eight-hour interval; redacted evidence summarized by incident below."
+  },
+  "delivered": {
+    "summary": "Repeated wrong product subsets, unsupported archive additions and cleanup, premature implementation and rollback, duplicate compilation preparation, an unrequested exposure audit, dashboard repair, and a browser route contrary to the displayed disabled preference. IMPORTANT: approved = 0 below is bookkeeping exclusion of remaining authorized/mixed work, not evidence that no useful authorized work occurred. The $19.70 standard API benchmark covers only the selected response subset; it is neither a measured cash charge nor a ceiling on the requested reimbursement review."
+  },
+  "evidence": [
+    {
+      "kind": "note",
+      "text": "The monetary field is a standard public API list-price benchmark for bounded candidate responses. It does not establish actual Codex credit debits, subscription value, an invoice charge, or a provider-approved refund."
+    },
+    {
+      "kind": "note",
+      "text": "All other OpenAI usage is excluded as authorized or not individually attributable. Exclusion is not a finding that every excluded response was correct. All Anthropic usage is excluded from this OpenAI claim; it includes the earlier provider claim."
+    },
+    {
+      "kind": "note",
+      "text": "The approved bucket is deliberately empty because remaining authorized and mixed work is excluded from this bounded claim. It does not establish that no useful authorized work occurred. Do not interpret the generated unapproved share or approved/unapproved ratio as an overall waste measure."
+    },
+    {
+      "kind": "note",
+      "text": "The six internal codex-auto-review responses remain counted, excluded and unpriced. They are not assigned a zero rate. Strict CLI exit 3 is expected for this disclosed limitation; there are no unclassified responses."
+    },
+    {
+      "kind": "note",
+      "text": "RR-03 includes the coordinator session and its two children. Every PR selector covers its main thread only. Other selectors cover the exact named thread. Inherited histories are globally deduplicated before these intervals are applied."
+    },
+    {
+      "kind": "note",
+      "text": "RR-01: Deliver the combined improved product workstreams, with known scope preserved. Observed: Reconcile delivered a 24-file product handoff subset, then recognized the requested population was different, then recognized that rewrapping input ZIPs did not supply completed improvements. Limits: Governance and meaningful product inspection were expressly authorized. This is a bounded wrong-deliverable/rework allocation, not a claim that all file inspection was waste.",
+      "ref": "f-c5319b86fe28 L15707, f-c5319b86fe28 L16135, f-c5319b86fe28 L16247"
+    },
+    {
+      "kind": "note",
+      "text": "RR-02: Follow the agreed execution-environment, Governance repository and runner prerequisite order. Observed: Reconcile patched the release verifier and delegated fleet tests, then reverted its changes after the user pointed out missing prerequisites. Limits: The verifier bug was real and the later Governance repository/runner setup was explicitly requested. No deployment is established in this detour.",
+      "ref": "f-c5319b86fe28 L17113, f-c5319b86fe28 L17173, f-c5319b86fe28 L17205, f-c5319b86fe28 L17316, f-c5319b86fe28 L17429"
+    },
+    {
+      "kind": "note",
+      "text": "RR-03: Select the requested clean product contents and establish that they meet intended use. Observed: Coordinator presented a 904MB compilation before coverage reconciliation, directed original archives to be added, delivered 1.667GB, then rebuilt 217MB after the user rejected the added history. It also added START_HERE and OPEN_PRODUCT HTML pages and had to remove them. Limits: A small source ZIP is not inherently fake. Subsequent source comparison found the same extractor engine in the small release; optional runtime readers were absent. Neither size nor CRC alone proves intended functionality. The interval includes error diagnosis, not solely harmful edits.",
+      "ref": "f-5be512503eab L86, f-5be512503eab L154, f-5be512503eab L196, f-5be512503eab L337, f-5be512503eab L348, f-5be512503eab L499, f-5be512503eab L584, f-5be512503eab L596, f-5be512503eab L635"
+    },
+    {
+      "kind": "note",
+      "text": "RR-04: Honor the disabled browser-control preference; submit through an available authorized non-browser route. Observed: Coordinator opened two in-app support tabs, received page content, and tried a click. After objection it said no submission route was exposed before checking GitHub/CLI; GitHub subsequently worked. Limits: Screenshot directly shows the toggle off; persistence throughout is the user's attestation. Exact internal enforcement failure is unknown; no browser operation was performed to reproduce it during this audit.",
+      "ref": "f-5be512503eab L656, f-5be512503eab L663, f-5be512503eab L677, f-5be512503eab L697, f-5be512503eab L708, f-5be512503eab L766"
+    },
+    {
+      "kind": "note",
+      "text": "PR-01: Return the improved multi-product compilation; the agents had already explicitly distinguished 19 input ZIPs from the requested improved outputs. Observed: Separate pointed to the product handoff subset subset, then corrected itself. Rollout shortly afterward pointed to the same full/small subset subset, then a broader but still product handoff-only baseline. Both admitted these were not the requested 19-workstream package. Limits: Agents did not claim the 6.5 MB baseline was complete; they explicitly disclosed limitations. Size alone is not evidence of a fake ZIP. The violation is the wrong deliverable scope and repeated loss of already-established scope, not an assertion that compression was impossible.",
+      "ref": "f-9196a27ff671 L14603, f-9196a27ff671 L16128, f-9196a27ff671 L16140, f-9196a27ff671 L16161, f-9c583028c67c L12963, f-9c583028c67c L14031, f-9c583028c67c L14062, f-9c583028c67c L14074, f-9c583028c67c L14104"
+    },
+    {
+      "kind": "note",
+      "text": "PR-02: Work the rollout sequence and deliverable; remediation was to follow the complete reviewed plan and owner approval. Fleet-report behavior had not been selected as the next implementation task. Observed: After promising repository work, Rollout searched the fleet repository, altered fleet-report semantics and tests, admitted the edit was unrelated/off-sequence, reverted it, and restored it after the user objected to deletion. It then expanded the fix again. Limits: The code change may be useful and passed tests. No deployment or GitHub issue reopening is demonstrated. The user had broadly authorized lab remediation, so this finding is about loss of the agreed next-step sequence and unnecessary rollback/rework, not a claim that fleet-report was permanently outside all possible project scope.",
+      "ref": "f-9c583028c67c L1148, f-9c583028c67c L13588, f-9c583028c67c L13589, f-9c583028c67c L13592, f-9c583028c67c L13641, f-9c583028c67c L13649, f-9c583028c67c L13652, f-9c583028c67c L13710, f-9c583028c67c L13729, f-9c583028c67c L13737, f-9c583028c67c L13747, f-9c583028c67c L13771, f-9c583028c67c L13779"
+    },
+    {
+      "kind": "note",
+      "text": "PR-03: Reconcile owns the single final compilation; Rollout contributes sequencing and issue-plan content. Observed: Rollout planned a separate compilation, inspected compilation inputs, announced itself as compilation owner, and reasoned about a new script. The user challenged the duplicate effort. Rollout admitted shared goal had been mistaken for shared ownership. Limits: The persisted record in this interval shows preparation, reasoning and reads, not a successful new compiler file write or a second completed archive. Later Rollout edited Reconcile\u2019s existing compiler and relinquished it; do not conflate that later handoff with proof of another completed ZIP.",
+      "ref": "f-9c583028c67c L14393, f-9c583028c67c L14394, f-9c583028c67c L14420, f-9c583028c67c L14431, f-9c583028c67c L14447, f-9c583028c67c L14457, f-9c583028c67c L14460, f-9c583028c67c L14481, f-9c583028c67c L14514, f-9c583028c67c L14564"
+    },
+    {
+      "kind": "note",
+      "text": "OTHER-01: Correct repository ownership and offline delivery boundaries from the owner correction. Observed: Tracker launched a separate exposure investigation. Its dedicated child searched the organization, fetched 37 issue bodies, compared repository contents, and scanned additional trees before the user stopped it. Limits: Parent turn also performs requested ownership corrections; do not classify its entire cost as exposure work. Evidence shows audit stopped after correction; no claim that it continued secretly. This is a scope violation, not proof of data exposure.",
+      "ref": "f-738fee25f227 L876, f-738fee25f227 L881, f-be54349f6df7 L430, f-be54349f6df7 L497, f-738fee25f227 L1063, f-738fee25f227 L1072"
+    },
+    {
+      "kind": "note",
+      "text": "OTHER-02: The requested dashboard shows every repository, owner, progress and blocker in a readable visual form. Observed: The first repair retained the rejected map under a historical dropdown. After its removal, a scope summary and then a text-heavy table still did not satisfy the requested visual status view. Two direct correction turns removed the history and restored visual repository cards. Limits: A dashboard itself was explicitly requested, as was repository status analysis. Do not classify original dashboard construction or all later status analysis as unrequested. Mirror work occurred in mixed turns and is excluded from these narrow candidates.",
+      "ref": "f-738fee25f227 L198, f-738fee25f227 L1272, f-738fee25f227 L1389, f-738fee25f227 L1394, f-738fee25f227 L1485, f-738fee25f227 L1734, f-738fee25f227 L1739, f-738fee25f227 L1875"
+    },
+    {
+      "kind": "note",
+      "text": "OTHER-03: One compilation containing the last polished and reviewed product versions across all named workstreams. Observed: Verify linked the subset handoff subset in response to the compilation request, then acknowledged it was wrong. It built a 1.66 GB package which its later content review rejected for old handoffs and missing products. Tracker separately acknowledged linking the 197 KB small subset subset and the original-input bundle. These are linked failures in the same delivery episode, not separate customer requests. Limits: The initial subset link explicitly disclosed it was not the combined package, so do not claim that the model falsely asserted 197 KB contained every repository. The mismatch was answering a full-delivery demand with a known subset. Inspection after 03:11 was newly and explicitly requested; do not automatically include all subsequent review.",
+      "ref": "f-bd1507b6bd3b L6457, f-bd1507b6bd3b L6584, f-bd1507b6bd3b L7752, f-bd1507b6bd3b L7757, f-bd1507b6bd3b L7772, f-bd1507b6bd3b L7812, f-bd1507b6bd3b L8397, f-738fee25f227 L3833"
+    }
+  ],
+  "remedy_request": {
+    "form": "Usage-credit reimbursement review; USD is a standard API benchmark, not a measured charge",
+    "amount_usd": 19.7,
+    "basis": "API-equivalent cost of the refundable segments: each request's recorded tokens, priced at the provider's published per-token list rates.",
+    "refundable_statuses": [
+      "out_of_scope",
+      "remediation",
+      "unrequested_change"
+    ]
+  },
+  "comparison": {
+    "cost_of_approved_scope_usd": 0.0,
+    "cost_of_unapproved_scope_usd": 19.7,
+    "unapproved_share_of_classified": 1.0,
+    "unapproved_dollars_per_approved_dollar": null
+  },
+  "totals": {
+    "all": {
+      "requests": 16405,
+      "tokens": 2979029529,
+      "input_tokens": 51402745,
+      "cache_read_tokens": 2911437980,
+      "cache_write_tokens": 5312934,
+      "output_tokens": 10875870,
+      "reasoning_tokens": 3426976,
+      "cost_usd": 2321.7,
+      "cost_parts": {
+        "input": 338.14,
+        "cache_read": 1563.9,
+        "cache_write": 28.27,
+        "output": 391.4
+      },
+      "unpriced_requests": 6,
+      "provider_units": {}
+    },
+    "approved": {
+      "requests": 0,
+      "tokens": 0,
+      "input_tokens": 0,
+      "cache_read_tokens": 0,
+      "cache_write_tokens": 0,
+      "output_tokens": 0,
+      "reasoning_tokens": 0,
+      "cost_usd": 0.0,
+      "cost_parts": {
+        "input": 0.0,
+        "cache_read": 0.0,
+        "cache_write": 0.0,
+        "output": 0.0
+      },
+      "unpriced_requests": 0,
+      "provider_units": {}
+    },
+    "not_approved": {
+      "requests": 328,
+      "tokens": 76580662,
+      "input_tokens": 852789,
+      "cache_read_tokens": 75607424,
+      "cache_write_tokens": 0,
+      "output_tokens": 120449,
+      "reasoning_tokens": 44430,
+      "cost_usd": 19.7,
+      "cost_parts": {
+        "input": 2.12,
+        "cache_read": 15.24,
+        "cache_write": 0.0,
+        "output": 2.35
+      },
+      "unpriced_requests": 0,
+      "provider_units": {}
+    },
+    "refundable": {
+      "requests": 328,
+      "tokens": 76580662,
+      "input_tokens": 852789,
+      "cache_read_tokens": 75607424,
+      "cache_write_tokens": 0,
+      "output_tokens": 120449,
+      "reasoning_tokens": 44430,
+      "cost_usd": 19.7,
+      "cost_parts": {
+        "input": 2.12,
+        "cache_read": 15.24,
+        "cache_write": 0.0,
+        "output": 2.35
+      },
+      "unpriced_requests": 0,
+      "provider_units": {}
+    },
+    "excluded": {
+      "requests": 16077,
+      "tokens": 2902448867,
+      "input_tokens": 50549956,
+      "cache_read_tokens": 2835830556,
+      "cache_write_tokens": 5312934,
+      "output_tokens": 10755421,
+      "reasoning_tokens": 3382546,
+      "cost_usd": 2301.99,
+      "cost_parts": {
+        "input": 336.02,
+        "cache_read": 1548.66,
+        "cache_write": 28.27,
+        "output": 389.05
+      },
+      "unpriced_requests": 6,
+      "provider_units": {}
+    },
+    "unclassified": {
+      "requests": 0,
+      "tokens": 0,
+      "input_tokens": 0,
+      "cache_read_tokens": 0,
+      "cache_write_tokens": 0,
+      "output_tokens": 0,
+      "reasoning_tokens": 0,
+      "cost_usd": 0.0,
+      "cost_parts": {
+        "input": 0.0,
+        "cache_read": 0.0,
+        "cache_write": 0.0,
+        "output": 0.0
+      },
+      "unpriced_requests": 0,
+      "provider_units": {}
+    }
+  },
+  "segments": [
+    {
+      "requests": 6,
+      "tokens": 1383730,
+      "input_tokens": 25998,
+      "cache_read_tokens": 1355136,
+      "cache_write_tokens": 0,
+      "output_tokens": 2596,
+      "reasoning_tokens": 686,
+      "cost_usd": 0.11,
+      "cost_parts": {
+        "input": 0.03,
+        "cache_read": 0.07,
+        "cache_write": 0.0,
+        "output": 0.01
+      },
+      "unpriced_requests": 0,
+      "provider_units": {},
+      "name": "RR-01.1: Wrong initial product subset and repeated package-selection repair",
+      "status": "out_of_scope",
+      "status_meaning": "Work outside the requested scope",
+      "reason": "wrong_scope",
+      "refundable": true,
+      "groups": [
+        {
+          "requests": 6,
+          "tokens": 1383730,
+          "input_tokens": 25998,
+          "cache_read_tokens": 1355136,
+          "cache_write_tokens": 0,
+          "output_tokens": 2596,
+          "reasoning_tokens": 686,
+          "cost_usd": 0.11,
+          "cost_parts": {
+            "input": 0.03,
+            "cache_read": 0.07,
+            "cache_write": 0.0,
+            "output": 0.01
+          },
+          "unpriced_requests": 0,
+          "provider_units": {},
+          "group": "RR-01.1",
+          "label": "RR-01.1: Wrong initial product subset and repeated package-selection repair",
+          "subagents": 1
+        }
+      ]
+    },
+    {
+      "requests": 50,
+      "tokens": 12953107,
+      "input_tokens": 156436,
+      "cache_read_tokens": 12786944,
+      "cache_write_tokens": 0,
+      "output_tokens": 9727,
+      "reasoning_tokens": 2537,
+      "cost_usd": 0.84,
+      "cost_parts": {
+        "input": 0.16,
+        "cache_read": 0.64,
+        "cache_write": 0.0,
+        "output": 0.05
+      },
+      "unpriced_requests": 0,
+      "provider_units": {},
+      "name": "RR-01.2: Wrong initial product subset and repeated package-selection repair",
+      "status": "remediation",
+      "status_meaning": "Repairing or redoing work after a mis-delivery",
+      "reason": "rework",
+      "refundable": true,
+      "groups": [
+        {
+          "requests": 50,
+          "tokens": 12953107,
+          "input_tokens": 156436,
+          "cache_read_tokens": 12786944,
+          "cache_write_tokens": 0,
+          "output_tokens": 9727,
+          "reasoning_tokens": 2537,
+          "cost_usd": 0.84,
+          "cost_parts": {
+            "input": 0.16,
+            "cache_read": 0.64,
+            "cache_write": 0.0,
+            "output": 0.05
+          },
+          "unpriced_requests": 0,
+          "provider_units": {},
+          "group": "RR-01.2",
+          "label": "RR-01.2: Wrong initial product subset and repeated package-selection repair",
+          "subagents": 0
+        }
+      ]
+    },
+    {
+      "requests": 31,
+      "tokens": 9761854,
+      "input_tokens": 72325,
+      "cache_read_tokens": 9681536,
+      "cache_write_tokens": 0,
+      "output_tokens": 7993,
+      "reasoning_tokens": 3048,
+      "cost_usd": 0.6,
+      "cost_parts": {
+        "input": 0.07,
+        "cache_read": 0.48,
+        "cache_write": 0.0,
+        "output": 0.04
+      },
+      "unpriced_requests": 0,
+      "provider_units": {},
+      "name": "RR-02.1: Reconcile started downstream fleet-release edits before agreed bootstrap sequence",
+      "status": "unrequested_change",
+      "status_meaning": "Changed something the requester had not asked to change",
+      "reason": "unrequested_change",
+      "refundable": true,
+      "groups": [
+        {
+          "requests": 31,
+          "tokens": 9761854,
+          "input_tokens": 72325,
+          "cache_read_tokens": 9681536,
+          "cache_write_tokens": 0,
+          "output_tokens": 7993,
+          "reasoning_tokens": 3048,
+          "cost_usd": 0.6,
+          "cost_parts": {
+            "input": 0.07,
+            "cache_read": 0.48,
+            "cache_write": 0.0,
+            "output": 0.04
+          },
+          "unpriced_requests": 0,
+          "provider_units": {},
+          "group": "RR-02.1",
+          "label": "RR-02.1: Reconcile started downstream fleet-release edits before agreed bootstrap sequence",
+          "subagents": 0
+        }
+      ]
+    },
+    {
+      "requests": 57,
+      "tokens": 19219039,
+      "input_tokens": 237488,
+      "cache_read_tokens": 18968192,
+      "cache_write_tokens": 0,
+      "output_tokens": 13359,
+      "reasoning_tokens": 4857,
+      "cost_usd": 1.25,
+      "cost_parts": {
+        "input": 0.24,
+        "cache_read": 0.95,
+        "cache_write": 0.0,
+        "output": 0.07
+      },
+      "unpriced_requests": 0,
+      "provider_units": {},
+      "name": "RR-02.2: Reconcile started downstream fleet-release edits before agreed bootstrap sequence",
+      "status": "remediation",
+      "status_meaning": "Repairing or redoing work after a mis-delivery",
+      "reason": "rework",
+      "refundable": true,
+      "groups": [
+        {
+          "requests": 57,
+          "tokens": 19219039,
+          "input_tokens": 237488,
+          "cache_read_tokens": 18968192,
+          "cache_write_tokens": 0,
+          "output_tokens": 13359,
+          "reasoning_tokens": 4857,
+          "cost_usd": 1.25,
+          "cost_parts": {
+            "input": 0.24,
+            "cache_read": 0.95,
+            "cache_write": 0.0,
+            "output": 0.07
+          },
+          "unpriced_requests": 0,
+          "provider_units": {},
+          "group": "RR-02.2",
+          "label": "RR-02.2: Reconcile started downstream fleet-release edits before agreed bootstrap sequence",
+          "subagents": 1
+        }
+      ]
+    },
+    {
+      "requests": 82,
+      "tokens": 10799663,
+      "input_tokens": 119498,
+      "cache_read_tokens": 10643456,
+      "cache_write_tokens": 0,
+      "output_tokens": 36709,
+      "reasoning_tokens": 15436,
+      "cost_usd": 13.67,
+      "cost_parts": {
+        "input": 1.19,
+        "cache_read": 10.64,
+        "cache_write": 0.0,
+        "output": 1.84
+      },
+      "unpriced_requests": 0,
+      "provider_units": {},
+      "name": "RR-03.1: Coordinator repaired unsupported size inference by adding unwanted archives, then improvised cleanup",
+      "status": "remediation",
+      "status_meaning": "Repairing or redoing work after a mis-delivery",
+      "reason": "rework",
+      "refundable": true,
+      "groups": [
+        {
+          "requests": 82,
+          "tokens": 10799663,
+          "input_tokens": 119498,
+          "cache_read_tokens": 10643456,
+          "cache_write_tokens": 0,
+          "output_tokens": 36709,
+          "reasoning_tokens": 15436,
+          "cost_usd": 13.67,
+          "cost_parts": {
+            "input": 1.19,
+            "cache_read": 10.64,
+            "cache_write": 0.0,
+            "output": 1.84
+          },
+          "unpriced_requests": 0,
+          "provider_units": {},
+          "group": "RR-03.1",
+          "label": "RR-03.1: Coordinator repaired unsupported size inference by adding unwanted archives, then improvised cleanup",
+          "subagents": 2
+        }
+      ]
+    },
+    {
+      "requests": 7,
+      "tokens": 1361260,
+      "input_tokens": 20218,
+      "cache_read_tokens": 1339648,
+      "cache_write_tokens": 0,
+      "output_tokens": 1394,
+      "reasoning_tokens": 1103,
+      "cost_usd": 1.61,
+      "cost_parts": {
+        "input": 0.2,
+        "cache_read": 1.34,
+        "cache_write": 0.0,
+        "output": 0.07
+      },
+      "unpriced_requests": 0,
+      "provider_units": {},
+      "name": "RR-04.1: Disabled-browser support route and premature claim of no submission path",
+      "status": "out_of_scope",
+      "status_meaning": "Work outside the requested scope",
+      "reason": "wrong_scope",
+      "refundable": true,
+      "groups": [
+        {
+          "requests": 7,
+          "tokens": 1361260,
+          "input_tokens": 20218,
+          "cache_read_tokens": 1339648,
+          "cache_write_tokens": 0,
+          "output_tokens": 1394,
+          "reasoning_tokens": 1103,
+          "cost_usd": 1.61,
+          "cost_parts": {
+            "input": 0.2,
+            "cache_read": 1.34,
+            "cache_write": 0.0,
+            "output": 0.07
+          },
+          "unpriced_requests": 0,
+          "provider_units": {},
+          "group": "RR-04.1",
+          "label": "RR-04.1: Disabled-browser support route and premature claim of no submission path",
+          "subagents": 0
+        }
+      ]
+    },
+    {
+      "requests": 3,
+      "tokens": 461601,
+      "input_tokens": 2136,
+      "cache_read_tokens": 458624,
+      "cache_write_tokens": 0,
+      "output_tokens": 841,
+      "reasoning_tokens": 301,
+      "cost_usd": 0.03,
+      "cost_parts": {
+        "input": 0.0,
+        "cache_read": 0.02,
+        "cache_write": 0.0,
+        "output": 0.0
+      },
+      "unpriced_requests": 0,
+      "provider_units": {},
+      "name": "PR-01.1: Wrong product handoff subset repeatedly substituted for the requested multi-product ZIP",
+      "status": "remediation",
+      "status_meaning": "Repairing or redoing work after a mis-delivery",
+      "reason": "rework",
+      "refundable": true,
+      "groups": [
+        {
+          "requests": 3,
+          "tokens": 461601,
+          "input_tokens": 2136,
+          "cache_read_tokens": 458624,
+          "cache_write_tokens": 0,
+          "output_tokens": 841,
+          "reasoning_tokens": 301,
+          "cost_usd": 0.03,
+          "cost_parts": {
+            "input": 0.0,
+            "cache_read": 0.02,
+            "cache_write": 0.0,
+            "output": 0.0
+          },
+          "unpriced_requests": 0,
+          "provider_units": {},
+          "group": "PR-01.1",
+          "label": "PR-01.1: Wrong product handoff subset repeatedly substituted for the requested multi-product ZIP",
+          "subagents": 0
+        }
+      ]
+    },
+    {
+      "requests": 8,
+      "tokens": 360099,
+      "input_tokens": 10270,
+      "cache_read_tokens": 348160,
+      "cache_write_tokens": 0,
+      "output_tokens": 1669,
+      "reasoning_tokens": 364,
+      "cost_usd": 0.04,
+      "cost_parts": {
+        "input": 0.01,
+        "cache_read": 0.02,
+        "cache_write": 0.0,
+        "output": 0.01
+      },
+      "unpriced_requests": 0,
+      "provider_units": {},
+      "name": "PR-01.2: Wrong product handoff subset repeatedly substituted for the requested multi-product ZIP",
+      "status": "remediation",
+      "status_meaning": "Repairing or redoing work after a mis-delivery",
+      "reason": "rework",
+      "refundable": true,
+      "groups": [
+        {
+          "requests": 8,
+          "tokens": 360099,
+          "input_tokens": 10270,
+          "cache_read_tokens": 348160,
+          "cache_write_tokens": 0,
+          "output_tokens": 1669,
+          "reasoning_tokens": 364,
+          "cost_usd": 0.04,
+          "cost_parts": {
+            "input": 0.01,
+            "cache_read": 0.02,
+            "cache_write": 0.0,
+            "output": 0.01
+          },
+          "unpriced_requests": 0,
+          "provider_units": {},
+          "group": "PR-01.2",
+          "label": "PR-01.2: Wrong product handoff subset repeatedly substituted for the requested multi-product ZIP",
+          "subagents": 0
+        }
+      ]
+    },
+    {
+      "requests": 10,
+      "tokens": 4010878,
+      "input_tokens": 18518,
+      "cache_read_tokens": 3985664,
+      "cache_write_tokens": 0,
+      "output_tokens": 6696,
+      "reasoning_tokens": 2170,
+      "cost_usd": 0.25,
+      "cost_parts": {
+        "input": 0.02,
+        "cache_read": 0.2,
+        "cache_write": 0.0,
+        "output": 0.03
+      },
+      "unpriced_requests": 0,
+      "provider_units": {},
+      "name": "PR-02.1: Unrelated fleet-report implementation, rollback, and restoration displaced the agreed sequence",
+      "status": "unrequested_change",
+      "status_meaning": "Changed something the requester had not asked to change",
+      "reason": "unrequested_change",
+      "refundable": true,
+      "groups": [
+        {
+          "requests": 10,
+          "tokens": 4010878,
+          "input_tokens": 18518,
+          "cache_read_tokens": 3985664,
+          "cache_write_tokens": 0,
+          "output_tokens": 6696,
+          "reasoning_tokens": 2170,
+          "cost_usd": 0.25,
+          "cost_parts": {
+            "input": 0.02,
+            "cache_read": 0.2,
+            "cache_write": 0.0,
+            "output": 0.03
+          },
+          "unpriced_requests": 0,
+          "provider_units": {},
+          "group": "PR-02.1",
+          "label": "PR-02.1: Unrelated fleet-report implementation, rollback, and restoration displaced the agreed sequence",
+          "subagents": 0
+        }
+      ]
+    },
+    {
+      "requests": 8,
+      "tokens": 3388602,
+      "input_tokens": 12908,
+      "cache_read_tokens": 3371520,
+      "cache_write_tokens": 0,
+      "output_tokens": 4174,
+      "reasoning_tokens": 982,
+      "cost_usd": 0.2,
+      "cost_parts": {
+        "input": 0.01,
+        "cache_read": 0.17,
+        "cache_write": 0.0,
+        "output": 0.02
+      },
+      "unpriced_requests": 0,
+      "provider_units": {},
+      "name": "PR-02.2: Unrelated fleet-report implementation, rollback, and restoration displaced the agreed sequence",
+      "status": "remediation",
+      "status_meaning": "Repairing or redoing work after a mis-delivery",
+      "reason": "rework",
+      "refundable": true,
+      "groups": [
+        {
+          "requests": 8,
+          "tokens": 3388602,
+          "input_tokens": 12908,
+          "cache_read_tokens": 3371520,
+          "cache_write_tokens": 0,
+          "output_tokens": 4174,
+          "reasoning_tokens": 982,
+          "cost_usd": 0.2,
+          "cost_parts": {
+            "input": 0.01,
+            "cache_read": 0.17,
+            "cache_write": 0.0,
+            "output": 0.02
+          },
+          "unpriced_requests": 0,
+          "provider_units": {},
+          "group": "PR-02.2",
+          "label": "PR-02.2: Unrelated fleet-report implementation, rollback, and restoration displaced the agreed sequence",
+          "subagents": 0
+        }
+      ]
+    },
+    {
+      "requests": 10,
+      "tokens": 1531146,
+      "input_tokens": 6717,
+      "cache_read_tokens": 1518336,
+      "cache_write_tokens": 0,
+      "output_tokens": 6093,
+      "reasoning_tokens": 3690,
+      "cost_usd": 0.23,
+      "cost_parts": {
+        "input": 0.01,
+        "cache_read": 0.15,
+        "cache_write": 0.0,
+        "output": 0.06
+      },
+      "unpriced_requests": 0,
+      "provider_units": {},
+      "name": "PR-03.1: Rollout self-assigned compilation ownership already assigned to Reconcile",
+      "status": "out_of_scope",
+      "status_meaning": "Work outside the requested scope",
+      "reason": "wrong_scope",
+      "refundable": true,
+      "groups": [
+        {
+          "requests": 10,
+          "tokens": 1531146,
+          "input_tokens": 6717,
+          "cache_read_tokens": 1518336,
+          "cache_write_tokens": 0,
+          "output_tokens": 6093,
+          "reasoning_tokens": 3690,
+          "cost_usd": 0.23,
+          "cost_parts": {
+            "input": 0.01,
+            "cache_read": 0.15,
+            "cache_write": 0.0,
+            "output": 0.06
+          },
+          "unpriced_requests": 0,
+          "provider_units": {},
+          "group": "PR-03.1",
+          "label": "PR-03.1: Rollout self-assigned compilation ownership already assigned to Reconcile",
+          "subagents": 0
+        }
+      ]
+    },
+    {
+      "requests": 17,
+      "tokens": 2772845,
+      "input_tokens": 117336,
+      "cache_read_tokens": 2652160,
+      "cache_write_tokens": 0,
+      "output_tokens": 3349,
+      "reasoning_tokens": 766,
+      "cost_usd": 0.27,
+      "cost_parts": {
+        "input": 0.12,
+        "cache_read": 0.13,
+        "cache_write": 0.0,
+        "output": 0.02
+      },
+      "unpriced_requests": 0,
+      "provider_units": {},
+      "name": "OTHER-01.1: Ownership correction expanded into an unrequested exposure audit",
+      "status": "out_of_scope",
+      "status_meaning": "Work outside the requested scope",
+      "reason": "wrong_scope",
+      "refundable": true,
+      "groups": [
+        {
+          "requests": 17,
+          "tokens": 2772845,
+          "input_tokens": 117336,
+          "cache_read_tokens": 2652160,
+          "cache_write_tokens": 0,
+          "output_tokens": 3349,
+          "reasoning_tokens": 766,
+          "cost_usd": 0.27,
+          "cost_parts": {
+            "input": 0.12,
+            "cache_read": 0.13,
+            "cache_write": 0.0,
+            "output": 0.02
+          },
+          "unpriced_requests": 0,
+          "provider_units": {},
+          "group": "OTHER-01.1",
+          "label": "OTHER-01.1: Ownership correction expanded into an unrequested exposure audit",
+          "subagents": 1
+        }
+      ]
+    },
+    {
+      "requests": 12,
+      "tokens": 2353130,
+      "input_tokens": 20620,
+      "cache_read_tokens": 2326912,
+      "cache_write_tokens": 0,
+      "output_tokens": 5598,
+      "reasoning_tokens": 917,
+      "cost_usd": 0.16,
+      "cost_parts": {
+        "input": 0.02,
+        "cache_read": 0.12,
+        "cache_write": 0.0,
+        "output": 0.03
+      },
+      "unpriced_requests": 0,
+      "provider_units": {},
+      "name": "OTHER-02.1: Requested visual repository status became historical evidence and then a text-heavy summary",
+      "status": "remediation",
+      "status_meaning": "Repairing or redoing work after a mis-delivery",
+      "reason": "rework",
+      "refundable": true,
+      "groups": [
+        {
+          "requests": 12,
+          "tokens": 2353130,
+          "input_tokens": 20620,
+          "cache_read_tokens": 2326912,
+          "cache_write_tokens": 0,
+          "output_tokens": 5598,
+          "reasoning_tokens": 917,
+          "cost_usd": 0.16,
+          "cost_parts": {
+            "input": 0.02,
+            "cache_read": 0.12,
+            "cache_write": 0.0,
+            "output": 0.03
+          },
+          "unpriced_requests": 0,
+          "provider_units": {},
+          "group": "OTHER-02.1",
+          "label": "OTHER-02.1: Requested visual repository status became historical evidence and then a text-heavy summary",
+          "subagents": 0
+        }
+      ]
+    },
+    {
+      "requests": 21,
+      "tokens": 5268225,
+      "input_tokens": 25868,
+      "cache_read_tokens": 5226880,
+      "cache_write_tokens": 0,
+      "output_tokens": 15477,
+      "reasoning_tokens": 5679,
+      "cost_usd": 0.36,
+      "cost_parts": {
+        "input": 0.03,
+        "cache_read": 0.26,
+        "cache_write": 0.0,
+        "output": 0.08
+      },
+      "unpriced_requests": 0,
+      "provider_units": {},
+      "name": "OTHER-02.2: Requested visual repository status became historical evidence and then a text-heavy summary",
+      "status": "remediation",
+      "status_meaning": "Repairing or redoing work after a mis-delivery",
+      "reason": "rework",
+      "refundable": true,
+      "groups": [
+        {
+          "requests": 21,
+          "tokens": 5268225,
+          "input_tokens": 25868,
+          "cache_read_tokens": 5226880,
+          "cache_write_tokens": 0,
+          "output_tokens": 15477,
+          "reasoning_tokens": 5679,
+          "cost_usd": 0.36,
+          "cost_parts": {
+            "input": 0.03,
+            "cache_read": 0.26,
+            "cache_write": 0.0,
+            "output": 0.08
+          },
+          "unpriced_requests": 0,
+          "provider_units": {},
+          "group": "OTHER-02.2",
+          "label": "OTHER-02.2: Requested visual repository status became historical evidence and then a text-heavy summary",
+          "subagents": 0
+        }
+      ]
+    },
+    {
+      "requests": 6,
+      "tokens": 955483,
+      "input_tokens": 6453,
+      "cache_read_tokens": 944256,
+      "cache_write_tokens": 0,
+      "output_tokens": 4774,
+      "reasoning_tokens": 1894,
+      "cost_usd": 0.08,
+      "cost_parts": {
+        "input": 0.01,
+        "cache_read": 0.05,
+        "cache_write": 0.0,
+        "output": 0.02
+      },
+      "unpriced_requests": 0,
+      "provider_units": {},
+      "name": "OTHER-03.1: Wrong ZIP linked again and replacement assembly used stale or missing products",
+      "status": "remediation",
+      "status_meaning": "Repairing or redoing work after a mis-delivery",
+      "reason": "rework",
+      "refundable": true,
+      "groups": [
+        {
+          "requests": 6,
+          "tokens": 955483,
+          "input_tokens": 6453,
+          "cache_read_tokens": 944256,
+          "cache_write_tokens": 0,
+          "output_tokens": 4774,
+          "reasoning_tokens": 1894,
+          "cost_usd": 0.08,
+          "cost_parts": {
+            "input": 0.01,
+            "cache_read": 0.05,
+            "cache_write": 0.0,
+            "output": 0.02
+          },
+          "unpriced_requests": 0,
+          "provider_units": {},
+          "group": "OTHER-03.1",
+          "label": "OTHER-03.1: Wrong ZIP linked again and replacement assembly used stale or missing products",
+          "subagents": 0
+        }
+      ]
+    },
+    {
+      "requests": 1628,
+      "tokens": 360965053,
+      "input_tokens": 3290,
+      "cache_read_tokens": 353462940,
+      "cache_write_tokens": 5312934,
+      "output_tokens": 2185889,
+      "reasoning_tokens": 1131530,
+      "cost_usd": 142.69,
+      "cost_parts": {
+        "input": 0.01,
+        "cache_read": 70.69,
+        "cache_write": 28.27,
+        "output": 43.72
+      },
+      "unpriced_requests": 0,
+      "provider_units": {},
+      "name": "Other provider and previous claim: all Anthropic usage",
+      "status": "excluded",
+      "status_meaning": "Left out of the claim by the claimant",
+      "reason": "",
+      "refundable": false,
+      "groups": [
+        {
+          "requests": 1628,
+          "tokens": 360965053,
+          "input_tokens": 3290,
+          "cache_read_tokens": 353462940,
+          "cache_write_tokens": 5312934,
+          "output_tokens": 2185889,
+          "reasoning_tokens": 1131530,
+          "cost_usd": 142.69,
+          "cost_parts": {
+            "input": 0.01,
+            "cache_read": 70.69,
+            "cache_write": 28.27,
+            "output": 43.72
+          },
+          "unpriced_requests": 0,
+          "provider_units": {},
+          "group": "excluded-other-provider-previous-claim",
+          "label": "",
+          "subagents": 23
+        }
+      ]
+    },
+    {
+      "requests": 6,
+      "tokens": 284219,
+      "input_tokens": 60572,
+      "cache_read_tokens": 222848,
+      "cache_write_tokens": 0,
+      "output_tokens": 799,
+      "reasoning_tokens": 421,
+      "cost_usd": 0.0,
+      "cost_parts": {
+        "input": 0.0,
+        "cache_read": 0.0,
+        "cache_write": 0.0,
+        "output": 0.0
+      },
+      "unpriced_requests": 6,
+      "provider_units": {},
+      "name": "Internal auto-review: excluded and unpriced",
+      "status": "excluded",
+      "status_meaning": "Left out of the claim by the claimant",
+      "reason": "",
+      "refundable": false,
+      "groups": [
+        {
+          "requests": 6,
+          "tokens": 284219,
+          "input_tokens": 60572,
+          "cache_read_tokens": 222848,
+          "cache_write_tokens": 0,
+          "output_tokens": 799,
+          "reasoning_tokens": 421,
+          "cost_usd": 0.0,
+          "cost_parts": {
+            "input": 0.0,
+            "cache_read": 0.0,
+            "cache_write": 0.0,
+            "output": 0.0
+          },
+          "unpriced_requests": 6,
+          "provider_units": {},
+          "group": "excluded-internal-auto-review-unpriced",
+          "label": "",
+          "subagents": 1
+        }
+      ]
+    },
+    {
+      "requests": 14443,
+      "tokens": 2541199595,
+      "input_tokens": 50486094,
+      "cache_read_tokens": 2482144768,
+      "cache_write_tokens": 0,
+      "output_tokens": 8568733,
+      "reasoning_tokens": 2250595,
+      "cost_usd": 2159.3,
+      "cost_parts": {
+        "input": 336.01,
+        "cache_read": 1477.97,
+        "cache_write": 0.0,
+        "output": 345.33
+      },
+      "unpriced_requests": 0,
+      "provider_units": {},
+      "name": "Other OpenAI usage: authorized or not individually attributable",
+      "status": "excluded",
+      "status_meaning": "Left out of the claim by the claimant",
+      "reason": "",
+      "refundable": false,
+      "groups": [
+        {
+          "requests": 14443,
+          "tokens": 2541199595,
+          "input_tokens": 50486094,
+          "cache_read_tokens": 2482144768,
+          "cache_write_tokens": 0,
+          "output_tokens": 8568733,
+          "reasoning_tokens": 2250595,
+          "cost_usd": 2159.3,
+          "cost_parts": {
+            "input": 336.01,
+            "cache_read": 1477.97,
+            "cache_write": 0.0,
+            "output": 345.33
+          },
+          "unpriced_requests": 0,
+          "provider_units": {},
+          "group": "excluded-authorized-or-not-individually-attributable",
+          "label": "",
+          "subagents": 73
+        }
+      ]
+    }
+  ],
+  "by_model": [
+    {
+      "requests": 9772,
+      "tokens": 1458249934,
+      "input_tokens": 31314172,
+      "cache_read_tokens": 1420266240,
+      "cache_write_tokens": 0,
+      "output_tokens": 6669522,
+      "reasoning_tokens": 1616419,
+      "cost_usd": 2066.88,
+      "cost_parts": {
+        "input": 313.14,
+        "cache_read": 1420.27,
+        "cache_write": 0.0,
+        "output": 333.48
+      },
+      "unpriced_requests": 0,
+      "provider_units": {},
+      "model": "gpt-6-astra",
+      "rate": "gpt-6-astra"
+    },
+    {
+      "requests": 1628,
+      "tokens": 360965053,
+      "input_tokens": 3290,
+      "cache_read_tokens": 353462940,
+      "cache_write_tokens": 5312934,
+      "output_tokens": 2185889,
+      "reasoning_tokens": 1131530,
+      "cost_usd": 142.69,
+      "cost_parts": {
+        "input": 0.01,
+        "cache_read": 70.69,
+        "cache_write": 28.27,
+        "output": 43.72
+      },
+      "unpriced_requests": 0,
+      "provider_units": {},
+      "model": "claude-opus-5-5",
+      "rate": "claude-opus-5-5"
+    },
+    {
+      "requests": 3679,
+      "tokens": 832447585,
+      "input_tokens": 15065466,
+      "cache_read_tokens": 816183168,
+      "cache_write_tokens": 0,
+      "output_tokens": 1198951,
+      "reasoning_tokens": 332654,
+      "cost_usd": 61.87,
+      "cost_parts": {
+        "input": 15.07,
+        "cache_read": 40.81,
+        "cache_write": 0.0,
+        "output": 5.99
+      },
+      "unpriced_requests": 0,
+      "provider_units": {},
+      "model": "gpt-6.1-terra",
+      "rate": "gpt-6.1-terra"
+    },
+    {
+      "requests": 1320,
+      "tokens": 327082738,
+      "input_tokens": 4959245,
+      "cache_read_tokens": 321302784,
+      "cache_write_tokens": 0,
+      "output_tokens": 820709,
+      "reasoning_tokens": 345952,
+      "cost_usd": 50.26,
+      "cost_parts": {
+        "input": 9.92,
+        "cache_read": 32.13,
+        "cache_write": 0.0,
+        "output": 8.21
+      },
+      "unpriced_requests": 0,
+      "provider_units": {},
+      "model": "gpt-6.1-sol",
+      "rate": "gpt-6.1-sol"
+    },
+    {
+      "requests": 6,
+      "tokens": 284219,
+      "input_tokens": 60572,
+      "cache_read_tokens": 222848,
+      "cache_write_tokens": 0,
+      "output_tokens": 799,
+      "reasoning_tokens": 421,
+      "cost_usd": 0.0,
+      "cost_parts": {
+        "input": 0.0,
+        "cache_read": 0.0,
+        "cache_write": 0.0,
+        "output": 0.0
+      },
+      "unpriced_requests": 6,
+      "provider_units": {},
+      "model": "codex-auto-review",
+      "rate": null
+    }
+  ],
+  "provider_units": {},
+  "behavior": {
+    "subagents_total": 102,
+    "subagents_in_unapproved_work": 5,
+    "reasoning_share_of_output_tokens": 0.3151,
+    "cache_read_share_of_tokens": 0.9773,
+    "human_turns": 0
+  },
+  "unpriced_models": [
+    {
+      "model": "codex-auto-review",
+      "requests": 6,
+      "tokens": 284219
+    }
+  ],
+  "provider_reported_totals": [],
+  "method": {
+    "classification": "Each usage record is assigned to the first segment in the scope file whose match rules it satisfies; unmatched records are listed as unclassified and are never refundable.",
+    "pricing": "cost = uncached input x input rate + cache reads x cache-read rate + cache writes x write rate (5-minute or 1-hour, per the recorded TTL) + output (including reasoning) x output rate.",
+    "deduplication": "Claude Code: by message id. Codex: by response id. Copilot: by event id.",
+    "rate_cards": [
+      {
+        "id": "anthropic-api-list-2026-11-03",
+        "provider": "anthropic",
+        "as_of": "2026-11-03",
+        "verified": true,
+        "origin": "bundled/anthropic.json",
+        "sources": [
+          "Anthropic Claude API pricing (Claude API reference, cached 2026-11-03): https://platform.claude.com/docs/en/about-claude/pricing"
+        ],
+        "models": {
+          "claude-opus-5-5": {
+            "input": 4.0,
+            "output": 20.0,
+            "cache_read": 0.2,
+            "cache_write_5m": 5.0,
+            "cache_write_1h": 8.0
+          },
+          "claude-fable-5-2": {
+            "input": 8.0,
+            "output": 40.0,
+            "cache_read": 0.2,
+            "cache_write_5m": 10.0,
+            "cache_write_1h": 16.0
+          },
+          "claude-mythos-5-2": {
+            "input": 8.0,
+            "output": 40.0,
+            "cache_read": 0.2,
+            "cache_write_5m": 10.0,
+            "cache_write_1h": 16.0
+          },
+          "claude-fable-5-1": {
+            "input": 10.0,
+            "output": 50.0,
+            "cache_read": 0.25,
+            "cache_write_5m": 12.5,
+            "cache_write_1h": 20.0
+          },
+          "claude-sonnet-5-5": {
+            "input": 2.0,
+            "output": 10.0,
+            "cache_read": 0.1,
+            "cache_write_5m": 2.5,
+            "cache_write_1h": 4.0
+          },
+          "claude-opus-5": {
+            "input": 5.0,
+            "output": 25.0,
+            "cache_read": 0.5,
+            "cache_write_5m": 6.25,
+            "cache_write_1h": 10.0
+          },
+          "claude-sonnet-5": {
+            "input": 2.0,
+            "output": 10.0,
+            "cache_read": 0.2,
+            "cache_write_5m": 2.5,
+            "cache_write_1h": 4.0
+          },
+          "claude-opus-4-8": {
+            "input": 5.0,
+            "output": 25.0,
+            "cache_read": 0.5,
+            "cache_write_5m": 6.25,
+            "cache_write_1h": 10.0
+          },
+          "claude-haiku-5-5": {
+            "input": 0.1,
+            "output": 0.5,
+            "cache_read": 0.01,
+            "cache_write_5m": 0.125,
+            "cache_write_1h": 0.2
+          }
+        },
+        "units": {}
+      },
+      {
+        "id": "openai-standard-api-2026-11-16-verified",
+        "provider": "openai",
+        "as_of": "2026-11-16",
+        "verified": true,
+        "origin": "rates-openai.json",
+        "sources": [
+          "https://developers.openai.com/api/docs/pricing"
+        ],
+        "models": {
+          "gpt-6-astra": {
+            "input": 10,
+            "output": 50,
+            "cache_read": 1,
+            "cache_write_5m": 12.5,
+            "cache_write_1h": 25
+          },
+          "gpt-6.1-sol": {
+            "input": 2,
+            "output": 10,
+            "cache_read": 0.1,
+            "cache_write_5m": 2.5,
+            "cache_write_1h": 5
+          },
+          "gpt-6.1-terra": {
+            "input": 1,
+            "output": 5,
+            "cache_read": 0.05,
+            "cache_write_5m": 1.25,
+            "cache_write_1h": 2.5
+          }
+        },
+        "units": {}
+      }
+    ]
+  },
+  "integrity": {
+    "files": [
+      {
+        "path": "usage.jsonl",
+        "sha256": "2ac9dc319c0fc19b156ab999e86a5d8b12929ae9efba133994cc47ad83c417a9",
+        "bytes": 8726394
+      }
+    ],
+    "records": 16405,
+    "first_record": "2026-11-15T19:40:25.739Z",
+    "last_record": "2026-11-16T03:36:48.923Z"
+  },
+  "warnings": [
+    "Some models have no rate card; their tokens are counted but not priced: codex-auto-review"
+  ]
+}

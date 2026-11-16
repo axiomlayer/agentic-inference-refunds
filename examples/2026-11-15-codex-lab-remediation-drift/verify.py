@@ -45,7 +45,7 @@ def selected(segment, row):
 
 def verify():
     expected = json.loads((HERE / 'expected.json').read_text())
-    scope = load_scope(HERE / 'scope.toml')
+    scope = load_scope(HERE / 'historical-scope.toml')
     source = load(HERE / 'usage.jsonl')
     rows = [r.to_dict() for r in source.records]
     assert len(rows) == expected['records'] == 16405
@@ -82,17 +82,17 @@ def verify():
     os.chdir(HERE)
     try:
         with redirect_stdout(stdout), redirect_stderr(stderr):
-            exit_code = cli_main(['claim', '--scope', 'scope.toml', '--usage', 'usage.jsonl',
+            exit_code = cli_main(['claim', '--scope', 'historical-scope.toml', '--usage', 'usage.jsonl',
                                   '--rates', 'rates-openai.json', '--format', 'json', '--strict'])
     finally:
         os.chdir(old_cwd)
     assert exit_code == expected['strict_exit_code'] == 3
     assert 'codex-auto-review' in stderr.getvalue()
     rebuilt = json.loads(stdout.getvalue())
-    stored = json.loads((HERE / 'claim.json').read_text())
+    stored = json.loads((HERE / 'historical-selected-subtotal.json').read_text())
     rebuilt['generated_at'] = stored['generated_at']
     assert rebuilt == stored
-    assert render_markdown(stored) == (HERE / 'claim.md').read_text()
+    assert render_markdown(stored) == (HERE / 'historical-selected-subtotal.md').read_text()
     assert stored['totals']['refundable']['requests'] == expected['refundable_requests'] == len(candidate_rows)
     assert stored['totals']['refundable']['tokens'] == expected['refundable_tokens']
     assert stored['totals']['refundable']['cost_usd'] == expected['refundable_usd']
@@ -127,7 +127,7 @@ def verify():
             total_tokens=sum(sum(r[f] for f in FIELDS if f != 'reasoning_tokens') for r in own))
         assert raw == counter['sum_explicit_usage'] == counter['cumulative_endpoint_span']
         assert all(value == 0 for value in counter['difference'].values())
-    for name in ('scope.toml', 'usage.jsonl', 'claim.json', 'claim.md', 'expected.json', 'rates-openai.json', 'counter-reconciliation.json'):
+    for name in ('historical-scope.toml', 'usage.jsonl', 'claim.json', 'claim.md', 'expected.json', 'rates-openai.json', 'counter-reconciliation.json'):
         text = (HERE / name).read_text()
         assert '/Users/' not in text and '/var/folders/' not in text
         assert not re.search(r'\b[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}\b', text)

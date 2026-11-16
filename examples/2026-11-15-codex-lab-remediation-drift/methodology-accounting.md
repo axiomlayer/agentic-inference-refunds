@@ -1,6 +1,6 @@
 # Accounting method and limits
 
-This example retains **16,405 distinct response/message usage records** from the fixed UTC interval **2026-11-15 19:40:23 inclusive to 2026-11-16 03:40:23 exclusive**. Its **328 candidate responses, 76,580,662 processed tokens and $19.70 standard API benchmark** support a bounded reimbursement-review request. They do not represent all work in the interval, an established invoice charge, or a ceiling on the requested reimbursement review.
+This example retains **16,405 distinct response/message usage records** from the fixed UTC interval **2026-11-15 19:40:23 inclusive to 2026-11-16 03:40:23 exclusive**. The original **328-response / $19.70 subset** is now historical: the assistant had no authorization to narrow the requested refund to those selectors. The current claim concerns actual credit restoration across the full disputed OpenAI population. The accounting counts remain valid; original exclusion labels are retained only to reproduce the mistake.
 
 The private inventory covered 4,133 JSONL paths and 4,055,353,484 bytes. Native usage appeared in 115 files during the interval. No read error affected an inventoried file; four malformed lines belonged to unrelated artifact/test data. Enumeration separately encountered an interrupted system call in an operating-system-managed container directory, so completeness beyond the enumerated local files is not asserted. An additional 383-path scan found no further in-window usage.
 
@@ -8,7 +8,7 @@ Codex usage is deduplicated globally by response ID, Claude by message ID, and C
 
 Token categories are disjoint: uncached input, cache reads, cache writes, and output. Reasoning is a subset of output. Processing billions of cached tokens does not mean billions of newly generated tokens. Public session, agent and request identities are hashed; `main` remains a role marker. Sources use inventory file IDs. Raw paths, complete prompts and private provenance remain outside this example.
 
-`scope.toml` records each candidate interval, rationale and hashed original identity selector. RR-03 covers the coordinator's session including two children. PR intervals cover their named main thread only. Other intervals cover exact threads. The verifier independently reconstructs these selections from hashed session/agent identity and time, requires zero overlapping candidate intervals, and checks that every response matches exactly one final segment. The generated `group` labels encode those reviewed classifications.
+`historical-scope.toml` records each original candidate interval, rationale and hashed identity selector. RR-03 covers the coordinator's session including two children. PR intervals cover their named main thread only. Other intervals cover exact threads. The verifier reconstructs those historical selections and checks the arithmetic. The original group labels do not establish accepted work or the current refund disposition.
 
 All remaining OpenAI work is excluded as authorized or not individually attributable. **The empty approved bucket does not mean that no useful authorized work occurred.** The generated approved/unapproved comparison and share must not be interpreted as an overall waste measure. All Anthropic usage is excluded from the OpenAI remedy; some belongs to the earlier provider claim. Mixed incidents without a defensible allocation receive no monetary attribution.
 
@@ -18,7 +18,7 @@ From the repository root, reproduce the generated claim with:
 
 ```bash
 cd examples/2026-11-15-codex-lab-remediation-drift
-PYTHONPATH=../../src python3 -m agentic_inference_refunds claim --scope scope.toml --usage usage.jsonl --rates rates-openai.json --out-dir . --format both --strict
+PYTHONPATH=../../src python3 -m agentic_inference_refunds claim --scope historical-scope.toml --usage usage.jsonl --rates rates-openai.json --out-dir ../../build/reproduced-historical-subtotal --format both --strict
 ```
 
 **Exit 3 is expected**, solely because the six internal responses lack a public rate. There are zero unclassified responses. Then run `python3 verify.py` to check the recorded totals, unique identities, interval membership, redaction, rate use and exact claim regeneration apart from its generation timestamp. Private extraction and semantic review cannot be independently repeated from the redacted example alone.

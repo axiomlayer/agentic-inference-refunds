@@ -1,4 +1,4 @@
-# Redacted response-level selection; first matching segment wins.
+# Historical assistant-selected subset; superseded as the requested remedy. Retained to reproduce the error.
 # All timestamps are UTC. Start is inclusive; end is exclusive.
 title = "Codex lab remediation drift: bounded misdelivery and rework claim"
 claimant = "Jasen Carroll"
