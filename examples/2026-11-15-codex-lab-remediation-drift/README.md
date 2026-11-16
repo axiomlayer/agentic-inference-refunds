@@ -2,6 +2,8 @@
 
 This case reviews the locally available JSONL evidence for an eight-hour lab-remediation session on November 15, 2026. Agents repeatedly lost the requested product handoff, execution order and assembly ownership; the eventual coordinator added unwanted archives and HTML pages and then spent further inference repairing those decisions.
 
+**Filed:** [OpenAI Codex #61739](https://github.com/openai/codex/issues/61739). The issue requests reimbursement review; no refund has been approved or processed. [Exact submitted body](filed/issue.md) · [submission receipt](filed/receipt.json).
+
 The inventory covers **4,133 local JSONL paths**. Globally deduplicated records contain **14,777 OpenAI responses / 2,618,064,476 processed tokens**, including cached input. Those are the full observed totals, **not the claimed refundable total**. Bounded failures and repair work are selected separately in the claim. Substantial authorized governance and inspection work, mixed work without reliable attribution, and all Anthropic usage are excluded from the OpenAI request.
 
 The selected claim covers **328 responses, 76,580,662 processed tokens and a $19.70 standard API-equivalent benchmark**. This measured subset is not a ceiling on credit restoration determined from OpenAI's billing records. The broader report asks OpenAI to investigate the owner's reported 75,000-credit loss; local snapshots cannot establish a request-level credit refund.

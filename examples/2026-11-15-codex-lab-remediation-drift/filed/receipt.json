@@ -1,0 +1,11 @@
+{
+  "repository": "openai/codex",
+  "issue_number": 61739,
+  "url": "https://github.com/openai/codex/issues/61739",
+  "state_at_verification": "open",
+  "created_at": "2026-11-16T03:46:33Z",
+  "submission_route": "GitHub connector; verified through GitHub CLI REST API",
+  "report_commit": "b037e4da013c01856f9fd22a2df3cd975ef7e08b",
+  "body_file": "issue.md",
+  "refund_status": "requested; no approval or payment observed"
+}
