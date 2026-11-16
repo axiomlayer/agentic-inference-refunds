@@ -1,0 +1,195 @@
+{
+  "status": "itemized_requested_compensation_estimate_not_verified_bill",
+  "requested_refund_usd": "4364.57",
+  "requested_unrounded_usd": "4364.565666980",
+  "purchased_credit_component": {
+    "observed_decrease_credits": "67520.9760395000",
+    "observed_replacement_usd": "2700.839041580000",
+    "unreconciled_reported_remainder_credits": "0E-10",
+    "unreconciled_reported_remainder_usd": "0E-12",
+    "requested_credits": "67520.9760395",
+    "requested_usd": "2700.839041580"
+  },
+  "allowance_replacement_estimate_usd": "1663.7266254",
+  "allowance_capacity": {
+    "original_promax_percentage_points": 315,
+    "increase_since_last_original_snapshot_percentage_points": 30.0,
+    "through_snapshot_promax_percentage_points": 345.0,
+    "prior_pro_percentage_points": 5,
+    "observed_reset_transitions": 3
+  },
+  "allowance_intervals": [
+    {
+      "name": "Prior pro allowance",
+      "start": "2026-11-15T19:57:40.505Z",
+      "end": "2026-11-15T21:10:01.019Z",
+      "plan": "pro",
+      "percentage_points": 5,
+      "responses": 222,
+      "input_tokens": 1698372,
+      "cache_read_tokens": 37812992,
+      "output_tokens": 141630,
+      "processed_tokens": 39652994,
+      "unpriced_responses": 0,
+      "standard_api_usd": "18.4647282"
+    },
+    {
+      "name": "Initial promax allowance",
+      "start": "2026-11-15T23:02:36.742Z",
+      "end": "2026-11-15T23:33:35.377Z",
+      "plan": "promax",
+      "percentage_points": 100,
+      "responses": 1832,
+      "input_tokens": 5761082,
+      "cache_read_tokens": 269276672,
+      "output_tokens": 1108858,
+      "processed_tokens": 276146612,
+      "unpriced_responses": 0,
+      "standard_api_usd": "381.7314512"
+    },
+    {
+      "name": "After reset 1",
+      "start": "2026-11-15T23:54:25.134Z",
+      "end": "2026-11-16T00:11:04.572Z",
+      "plan": "promax",
+      "percentage_points": 100,
+      "responses": 2165,
+      "input_tokens": 8153936,
+      "cache_read_tokens": 322349824,
+      "output_tokens": 1625917,
+      "processed_tokens": 332129677,
+      "unpriced_responses": 5,
+      "standard_api_usd": "478.7773488"
+    },
+    {
+      "name": "After reset 2",
+      "start": "2026-11-16T00:12:49.909Z",
+      "end": "2026-11-16T00:48:08.034Z",
+      "plan": "promax",
+      "percentage_points": 100,
+      "responses": 2932,
+      "input_tokens": 7087500,
+      "cache_read_tokens": 437850240,
+      "output_tokens": 2023275,
+      "processed_tokens": 446961015,
+      "unpriced_responses": 0,
+      "standard_api_usd": "594.2548300"
+    },
+    {
+      "name": "After reset 3, original window",
+      "start": "2026-11-16T02:19:32.410Z",
+      "end": "2026-11-16T03:40:23.000Z",
+      "plan": "promax",
+      "percentage_points": 15,
+      "responses": 4393,
+      "input_tokens": 17386526,
+      "cache_read_tokens": 969745536,
+      "output_tokens": 1534550,
+      "processed_tokens": 988666612,
+      "unpriced_responses": 0,
+      "standard_api_usd": "122.8663604"
+    },
+    {
+      "name": "Supplement after original cutoff",
+      "start": "2026-11-16T03:40:23.000Z",
+      "end": "2026-11-16T04:05:16.874Z",
+      "plan": "promax",
+      "percentage_points": null,
+      "responses": 426,
+      "input_tokens": 2108823,
+      "cache_read_tokens": 76662272,
+      "output_tokens": 376196,
+      "processed_tokens": 79147291,
+      "unpriced_responses": 0,
+      "standard_api_usd": "67.6319068"
+    }
+  ],
+  "recorded_credit_decrease_plus_allowance_estimate_usd": "4364.565666980000",
+  "full_original_openai": {
+    "responses": 14777,
+    "input_tokens": 51399455,
+    "cache_read_tokens": 2557975040,
+    "output_tokens": 8689981,
+    "processed_tokens": 2618064476,
+    "unpriced_responses": 6,
+    "standard_api_usd": "2179.0092978"
+  },
+  "supplement": {
+    "responses": 426,
+    "input_tokens": 2108823,
+    "cache_read_tokens": 76662272,
+    "output_tokens": 376196,
+    "processed_tokens": 79147291,
+    "unpriced_responses": 0,
+    "standard_api_usd": "67.6319068"
+  },
+  "models": {
+    "codex-auto-review": {
+      "responses": 6,
+      "input_tokens": 60572,
+      "cache_read_tokens": 222848,
+      "output_tokens": 799,
+      "processed_tokens": 284219,
+      "unpriced_responses": 6,
+      "standard_api_usd": "0"
+    },
+    "gpt-6-astra": {
+      "responses": 10067,
+      "input_tokens": 32198471,
+      "cache_read_tokens": 1461188864,
+      "output_tokens": 6871555,
+      "processed_tokens": 1500258890,
+      "unpriced_responses": 0,
+      "standard_api_usd": "2126.751324"
+    },
+    "gpt-6.1-sol": {
+      "responses": 1451,
+      "input_tokens": 6183769,
+      "cache_read_tokens": 357042432,
+      "output_tokens": 994872,
+      "processed_tokens": 364221073,
+      "unpriced_responses": 0,
+      "standard_api_usd": "58.0205012"
+    },
+    "gpt-6.1-terra": {
+      "responses": 3679,
+      "input_tokens": 15065466,
+      "cache_read_tokens": 816183168,
+      "output_tokens": 1198951,
+      "processed_tokens": 832447585,
+      "unpriced_responses": 0,
+      "standard_api_usd": "61.8693794"
+    }
+  },
+  "reporting_and_correction_overage": {
+    "responses": 295,
+    "input_tokens": 884299,
+    "cache_read_tokens": 40922624,
+    "output_tokens": 202033,
+    "processed_tokens": 42008956,
+    "unpriced_responses": 0,
+    "standard_api_usd": "59.867264"
+  },
+  "other_supplement": {
+    "responses": 131,
+    "input_tokens": 1224524,
+    "cache_read_tokens": 35739648,
+    "output_tokens": 174163,
+    "processed_tokens": 37138335,
+    "unpriced_responses": 0,
+    "standard_api_usd": "7.7646428"
+  },
+  "funding_allocation_verified": false,
+  "speed_tiers_verified": false,
+  "refund_approved": false,
+  "non_additivity": "The full token-price total is an alternate cross-check, not added to purchased credits. Restore plan/reset entitlements OR pay their replacement estimate; do not add both.",
+  "limits": [
+    "Allowance intervals identify usage observed during active plan periods; they are a timestamp-based funding estimate, not a request-level billing allocation.",
+    "The first four interval end boundaries are inclusive; original-window and supplement boundaries are end-exclusive.",
+    "Minor end-time jitter is grouped within three seconds. Percentages are rounded observations.",
+    "The same native chat independently records all three reset transitions; reset purchase/redemption mechanism is not in the snapshots.",
+    "A 52.2395-credit balance change occurs around reset 2. Its cause and request allocation are unknown; overlap between timestamp-attributed plan usage and credit deductions cannot be ruled out.",
+    "All 1268 recovered original turn contexts omit speed/service-tier settings. Standard API prices are a stated replacement-value convention, not proof of actual billing speed.",
+    "Supplement covers recorded post-cutoff usage from the originally audited root chats and descendants through a fixed endpoint; its content was not separately reviewed response-by-response."
+  ]
+}

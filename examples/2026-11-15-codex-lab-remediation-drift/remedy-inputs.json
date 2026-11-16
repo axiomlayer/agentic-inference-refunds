@@ -1,0 +1,203 @@
+{
+  "original_window_end": "2026-11-16T03:40:23.000Z",
+  "supplement_end_exclusive": "2026-11-16T04:05:16.874Z",
+  "requested_credit_loss": "67520.9760395",
+  "user_confirmed_credit_loss": true,
+  "earlier_superseded_estimate": "75000",
+  "usd_per_credit": "0.04",
+  "observed_credit_start": "76766.7492500000",
+  "observed_credit_end": "9245.7732105000",
+  "balance_plateaus": [
+    "76766.7492500000",
+    "24773.5088475000",
+    "20933.4168475000",
+    "9245.7732105000"
+  ],
+  "snapshots": [
+    {
+      "timestamp": "2026-11-15T19:57:40.505Z",
+      "plan": "pro",
+      "primary": {
+        "resets_at": 1795303201,
+        "used_percent": 67.0,
+        "window_minutes": 10080
+      },
+      "credit_balance": "76766.7492500000",
+      "source": "f-e2adccd2ee3f",
+      "source_line": 2349
+    },
+    {
+      "timestamp": "2026-11-15T23:02:36.742Z",
+      "plan": "promax",
+      "primary": {
+        "resets_at": 1795388171,
+        "used_percent": 0.0,
+        "window_minutes": 10080
+      },
+      "credit_balance": "76766.7492500000",
+      "source": "f-4c80e51ddc8b",
+      "source_line": 8995
+    },
+    {
+      "timestamp": "2026-11-15T23:33:35.377Z",
+      "plan": "promax",
+      "primary": {
+        "resets_at": 1795388171,
+        "used_percent": 100.0,
+        "window_minutes": 10080
+      },
+      "credit_balance": "76766.7492500000",
+      "source": "f-c5e3ce7f830d",
+      "source_line": 812
+    },
+    {
+      "timestamp": "2026-11-15T23:54:25.134Z",
+      "plan": "promax",
+      "primary": {
+        "resets_at": 1795391661,
+        "used_percent": 0.0,
+        "window_minutes": 10080
+      },
+      "credit_balance": "24773.5088475000",
+      "source": "f-da098db978cb",
+      "source_line": 1454
+    },
+    {
+      "timestamp": "2026-11-16T00:11:04.572Z",
+      "plan": "promax",
+      "primary": {
+        "resets_at": 1795391661,
+        "used_percent": 100.0,
+        "window_minutes": 10080
+      },
+      "credit_balance": "24773.5088475000",
+      "source": "f-d45f53de0854",
+      "source_line": 22989
+    },
+    {
+      "timestamp": "2026-11-16T00:12:49.909Z",
+      "plan": "promax",
+      "primary": {
+        "resets_at": 1795392767,
+        "used_percent": 0.0,
+        "window_minutes": 10080
+      },
+      "credit_balance": "20985.6563475000",
+      "source": "f-9196a27ff671",
+      "source_line": 5613
+    },
+    {
+      "timestamp": "2026-11-16T00:48:08.034Z",
+      "plan": "promax",
+      "primary": {
+        "resets_at": 1795392767,
+        "used_percent": 100.0,
+        "window_minutes": 10080
+      },
+      "credit_balance": "20933.4168475000",
+      "source": "f-9196a27ff671",
+      "source_line": 9614
+    },
+    {
+      "timestamp": "2026-11-16T02:19:32.410Z",
+      "plan": "promax",
+      "primary": {
+        "resets_at": 1795400355,
+        "used_percent": 0.0,
+        "window_minutes": 10080
+      },
+      "credit_balance": "9245.7732105000",
+      "source": "f-bd1507b6bd3b",
+      "source_line": 3683
+    },
+    {
+      "timestamp": "2026-11-16T03:36:48.923Z",
+      "plan": "promax",
+      "primary": {
+        "resets_at": 1795400355,
+        "used_percent": 15.0,
+        "window_minutes": 10080
+      },
+      "credit_balance": "9245.7732105000",
+      "source": "f-5be512503eab",
+      "source_line": 768
+    },
+    {
+      "timestamp": "2026-11-15T21:10:01.019Z",
+      "plan": "pro",
+      "primary": {
+        "resets_at": 1795303201,
+        "used_percent": 72.0,
+        "window_minutes": 10080
+      },
+      "credit_balance": "76766.7492500000",
+      "source": "f-4c80e51ddc8b",
+      "source_line": 8969
+    },
+    {
+      "timestamp": "2026-11-16T04:05:06.499Z",
+      "plan": "promax",
+      "primary": {
+        "used_percent": 45.0,
+        "window_minutes": 10080,
+        "resets_at": 1795400355
+      },
+      "credit_balance": "9245.7732105000",
+      "source": "f-5be512503eab",
+      "source_line": 2004
+    }
+  ],
+  "allowance_intervals": [
+    {
+      "name": "Prior pro allowance",
+      "start": "2026-11-15T19:57:40.505Z",
+      "end": "2026-11-15T21:10:01.019Z",
+      "plan": "pro",
+      "percentage_points": 5
+    },
+    {
+      "name": "Initial promax allowance",
+      "start": "2026-11-15T23:02:36.742Z",
+      "end": "2026-11-15T23:33:35.377Z",
+      "plan": "promax",
+      "percentage_points": 100
+    },
+    {
+      "name": "After reset 1",
+      "start": "2026-11-15T23:54:25.134Z",
+      "end": "2026-11-16T00:11:04.572Z",
+      "plan": "promax",
+      "percentage_points": 100
+    },
+    {
+      "name": "After reset 2",
+      "start": "2026-11-16T00:12:49.909Z",
+      "end": "2026-11-16T00:48:08.034Z",
+      "plan": "promax",
+      "percentage_points": 100
+    },
+    {
+      "name": "After reset 3, original window",
+      "start": "2026-11-16T02:19:32.410Z",
+      "end": "2026-11-16T03:40:23.000Z",
+      "plan": "promax",
+      "percentage_points": 15
+    },
+    {
+      "name": "Supplement after original cutoff",
+      "start": "2026-11-16T03:40:23.000Z",
+      "end": "2026-11-16T04:05:16.874Z",
+      "plan": "promax",
+      "percentage_points": null
+    }
+  ],
+  "limits": [
+    "Allowance intervals identify usage observed during active plan periods; they are a timestamp-based funding estimate, not a request-level billing allocation.",
+    "The first four interval end boundaries are inclusive; original-window and supplement boundaries are end-exclusive.",
+    "Minor end-time jitter is grouped within three seconds. Percentages are rounded observations.",
+    "The same native chat independently records all three reset transitions; reset purchase/redemption mechanism is not in the snapshots.",
+    "A 52.2395-credit balance change occurs around reset 2. Its cause and request allocation are unknown; overlap between timestamp-attributed plan usage and credit deductions cannot be ruled out.",
+    "All 1268 recovered original turn contexts omit speed/service-tier settings. Standard API prices are a stated replacement-value convention, not proof of actual billing speed.",
+    "Supplement covers recorded post-cutoff usage from the originally audited root chats and descendants through a fixed endpoint; its content was not separately reviewed response-by-response."
+  ]
+}
